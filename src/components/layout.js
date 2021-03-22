@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 // import { Link } from "gatsby";
-// import Header from "../components/header";
+import Header from "../components/header";
 import Footer from "../components/footer";
 
 import styled from "styled-components";
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
   return (
     <Container>
       <GlobalStyles />
-      {/* <Header /> */}
+      <Header />
       <main>{children}</main>
       <Footer />
     </Container>

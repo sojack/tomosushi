@@ -42,6 +42,9 @@ const MenuContainer = styled.div`
   .menuOptionThree {
     grid-template-columns: 4fr 1fr 1fr;
   }
+  .menuOptionTwo {
+    grid-template-columns: 4fr 1fr;
+  }
 
   .menuTitle {
     font-family: var(--titleFont);
@@ -68,15 +71,80 @@ const MenuContainer = styled.div`
   }
 `;
 
+const MenuNav = styled.div`
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  li {
+    font-family: var(--titleFont);
+    padding: 0.5rem 1rem;
+  }
+  a {
+    color: var(--primary);
+  }
+
+  a:hover {
+    color: var(--primary-dark);
+  }
+`;
+
 const IndexPage = () => {
   return (
     <Layout>
       <SEO title="menu" />
       <h1>Menu</h1>
+      <MenuNav>
+        <ul>
+          <li>
+            <a href="#partyTray">PARTY TRAY</a>
+          </li>
+          <li>
+            <a href="#rollCombo">ROLL COMBINATION</a>
+          </li>
+          <li>
+            <a href="#appetizers">APPETIZERS</a>
+          </li>
+          <li>
+            <a href="">SOUP</a>
+          </li>
+          <li>
+            <a href="">SALAD</a>
+          </li>
+          <li>
+            <a href="">NOODLE</a>
+          </li>
+          <li>
+            <a href="">LUNCH</a>
+          </li>
+          <li>
+            <a href="">ROLLS</a>
+          </li>
+          <li>
+            <a href="">DINNER</a>
+          </li>
+          <li>
+            <a href="">A LA CARTE</a>
+          </li>
+          <li>
+            <a href="">DRINKS</a>
+          </li>
+          <li>
+            <a href="">DESSERTS</a>
+          </li>
+        </ul>
+      </MenuNav>
       <MenuContainer>
         {/* –––––––––––––––– Party Tray –––––––––––––––– */}
         <div className="menuSection">
-          <h2 className="sectionTitle">Party Tray</h2>
+          <h2 className="sectionTitle" id="partyTray">
+            Party Tray
+          </h2>
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -192,7 +260,9 @@ const IndexPage = () => {
         </div>{" "}
         {/* –––––––––––––––– Roll Combination –––––––––––––––– */}
         <div className="menuSection">
-          <h2 className="sectionTitle">Roll Combination</h2>
+          <h2 className="sectionTitle" id="rollCombo">
+            Roll Combination
+          </h2>
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -341,8 +411,157 @@ const IndexPage = () => {
               <span className="optionPrice">$66</span>
             </div>
           </div>
-        </div>{" "}
-        {/* –––––––––––––––– Roll Combination –––––––––––––––– */}
+        </div>
+        {/* –––––––––––––––– Appetizers –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="appetizers">
+            Appetizers
+          </h2>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/003-AgedashiTofu-.jpg"
+                alt="Agedashi Tofu"
+              />
+            </div>
+            <div className="menuTitle">Agedashi Tofu</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                4 pcs Deep-fried tofu, teriyaki sauce
+              </span>
+              <span className="optionPrice">$7</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/003-AgedashiTofu-.jpg"
+                alt="app"
+              />
+            </div>
+            <div className="menuTitle">app</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">desc</span>
+              <span className="optionPrice">$66</span>
+            </div>
+          </div>
+        </div>
+        {/* 
+        
+        
+$7
+
+tofu
+Edamame
+$7
+Japanese soy bean
+tofu
+Gyoza
+$8
+6 pcs Deep-fried vegetable or beef dumpling
+tofu
+Harumaki
+$8
+5 pcs Deep-fried vegetable spring roll
+tofu
+Ebi Shumai
+$7
+6 pcs Steamed shrimp dumpling
+tofu
+Beef Sashimi
+$14
+Sliced raw beef, ponzu sauce
+tofu
+Sashimi Appetizer
+$11
+6 pcs Chef choice assorted sashimi
+tofu
+Salmon Sashimi Appetizer
+$12
+6 pcs Salmon sashimi
+tofu
+Sushi Appetizer
+$8
+4 pcs Chef choice assorted sushi
+tofu
+Sushi Pizza 
+$Salmon 10
+ Tuna 11
+ Avocado 10
+ Crab Salad 12
+4 pcs Chef choice assorted sushi
+* spicy pizza add $1
+tofu
+Oyster Shot
+$8
+Oyster, uni, ikura, scallion, quail egg, ponzu jello
+tofu
+Tuna Tartare
+$13
+Tuna, avocado, tatare sauce
+tofu
+Aburi Hakko
+$12
+8 pcs Kansai style box sushi with seared assorted fish
+tofu
+Aburi Sushi
+$13
+8 pcs Kansai style box sushi with seared fish with garlic sauce
+tofu
+Shime Saba
+$12
+Seared mackerel, tataki sauce
+tofu
+Tuna Tataki
+$13
+Seared tuna, garden salad, tataki sauce
+tofu
+Vegetable Tempura
+$10
+7 pieces assorted vegetable
+tofu
+Shrimp Tempura With Vegetables
+$12
+2 pieces shrimp, 5 pieces vegetable
+tofu
+Shrimp Tempura
+$15
+6 pcs shrimp
+tofu
+Lobster Tempura
+$17
+2 pcs 4oz lobster, 5 pieces vegetable
+tofu
+Fried Calamari
+$11
+Deep-fried squid-rings
+tofu
+Beef Enoki Mushroom
+$11
+Deep-fried enoki mushroom rolled with rib eye beef, teriyaki sauce
+tofu
+Chicken Katsu
+$13
+Deep-fried breaded chicken, katsu sauce
+tofu
+L.A. Kalbi
+$17
+Marinated beef short ribs
+tofu
+Black Cod Miso Yaki
+$22
+Grilled black cod with miso base sauce
+tofu
+Salmon Kama
+$9
+Grilled salmon neck
+tofu
+Hamachi Kama
+$14
+Grilled hamachi neck
+        
+        
+        */}
       </MenuContainer>
     </Layout>
   );

@@ -209,9 +209,11 @@ function renderSublinks(x) {
             to={sublink.slug}
             title={sublink.name}
             className={
-              window.location.pathname.replace(/\/$/, "") === sublink.slug
-                ? "currentPage"
-                : ""
+              typeof window !== `undefined`
+                ? window.location.pathname.replace(/\/$/, "") === sublink.slug
+                  ? "currentPage"
+                  : ""
+                : null
             }
           >
             {sublink.name}
@@ -245,9 +247,12 @@ const Header = () => {
           <li
             key={i}
             className={
-              window.location.pathname.replace(/\/$/, "") === navlinks[i].slug
-                ? "currentPage"
-                : ""
+              typeof window !== `undefined`
+                ? window.location.pathname.replace(/\/$/, "") ===
+                  navlinks[i].slug
+                  ? "currentPage"
+                  : ""
+                : null
             }
           >
             <Link to={navlinks[i].slug}>{navlinks[i].name}</Link>

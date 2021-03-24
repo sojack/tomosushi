@@ -435,127 +435,221 @@ const IndexPage = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/app/003-AgedashiTofu-.jpg"
-                alt="app"
+                src="../images/menu/app/002-Edamame.jpg"
+                alt="Edamame"
               />
             </div>
-            <div className="menuTitle">app</div>
+            <div className="menuTitle">Edamame</div>
             <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">desc</span>
-              <span className="optionPrice">$66</span>
+              <span className="optionDesc">Japanese soy bean</span>
+              <span className="optionPrice">$7</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/004-VeggieGyoza.jpg"
+                alt="Gyoza"
+              />
+            </div>
+            <div className="menuTitle">Gyoza</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                6 pcs Deep-fried vegetable or beef dumpling
+              </span>
+              <span className="optionPrice">$8</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/005-Harumaki.jpg"
+                alt="Harumaki"
+              />
+            </div>
+            <div className="menuTitle">Harumaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                5 pcs Deep-fried vegetable spring roll
+              </span>
+              <span className="optionPrice">$8</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/006-EbiShumai.jpg"
+                alt="Ebi Shumai"
+              />
+            </div>
+            <div className="menuTitle">Ebi Shumai</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs Steamed shrimp dumpling</span>
+              <span className="optionPrice">$6</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/Beef-Sashimi-App-BIMG3575.jpg"
+                alt="Beef Sashimi"
+              />
+            </div>
+            <div className="menuTitle">Beef Sashimi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Sliced raw beef, ponzu sauce</span>
+              <span className="optionPrice">$14</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/019-SashimiAppetizer.jpg"
+                alt="Sashimi Appetizer"
+              />
+            </div>
+            <div className="menuTitle">Sashimi Appetizer</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                6 pcs Chef choice assorted sashimi
+              </span>
+              <span className="optionPrice">$11</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/018-SalmonSashimiAppetizer.jpg"
+                alt="Salmon Sashimi Appetizer"
+              />
+            </div>
+            <div className="menuTitle">Salmon Sashimi Appetizer</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs Salmon sashimi</span>
+              <span className="optionPrice">$12</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/017-SushiAppetizer.jpg"
+                alt="Sushi Appetizer"
+              />
+            </div>
+            <div className="menuTitle">Sushi Appetizer</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                4 pcs Chef choice assorted sushi
+              </span>
+              <span className="optionPrice">$8</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/020-TunaSushiPizza.jpg"
+                alt="Sushi Pizza "
+              />
+            </div>
+            <div className="menuTitle">Sushi Pizza </div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+                4 pcs Chef choice assorted sushi
+              </span>
+              <span className="optionPrice">Salmon</span>
+              <span className="optionPrice">$10</span>
+              <span></span>
+              <span className="optionPrice">Avocado</span>
+              <span className="optionPrice">$10</span>
+              <span></span>
+              <span className="optionPrice">Tuna</span>
+              <span className="optionPrice">$11</span>
+              <span></span>
+              <span className="optionPrice">Crab Salad</span>
+              <span className="optionPrice">$12</span>
             </div>
           </div>
         </div>
         {/* 
-        
-        
-$7
 
-tofu
-Edamame
-$7
-Japanese soy bean
-tofu
-Gyoza
+
+
+
 $8
-6 pcs Deep-fried vegetable or beef dumpling
-tofu
-Harumaki
-$8
-5 pcs Deep-fried vegetable spring roll
-tofu
-Ebi Shumai
-$7
-6 pcs Steamed shrimp dumpling
-tofu
-Beef Sashimi
-$14
-Sliced raw beef, ponzu sauce
-tofu
-Sashimi Appetizer
-$11
-6 pcs Chef choice assorted sashimi
-tofu
-Salmon Sashimi Appetizer
-$12
-6 pcs Salmon sashimi
-tofu
-Sushi Appetizer
-$8
-4 pcs Chef choice assorted sushi
-tofu
-Sushi Pizza 
+
+
+
 $Salmon 10
  Tuna 11
  Avocado 10
  Crab Salad 12
 4 pcs Chef choice assorted sushi
 * spicy pizza add $1
-tofu
+
 Oyster Shot
 $8
 Oyster, uni, ikura, scallion, quail egg, ponzu jello
-tofu
+
 Tuna Tartare
 $13
 Tuna, avocado, tatare sauce
-tofu
+
 Aburi Hakko
 $12
 8 pcs Kansai style box sushi with seared assorted fish
-tofu
+
 Aburi Sushi
 $13
 8 pcs Kansai style box sushi with seared fish with garlic sauce
-tofu
+
 Shime Saba
 $12
 Seared mackerel, tataki sauce
-tofu
+
 Tuna Tataki
 $13
 Seared tuna, garden salad, tataki sauce
-tofu
+
 Vegetable Tempura
 $10
 7 pieces assorted vegetable
-tofu
+
 Shrimp Tempura With Vegetables
 $12
 2 pieces shrimp, 5 pieces vegetable
-tofu
+
 Shrimp Tempura
 $15
 6 pcs shrimp
-tofu
+
 Lobster Tempura
 $17
 2 pcs 4oz lobster, 5 pieces vegetable
-tofu
+
 Fried Calamari
 $11
 Deep-fried squid-rings
-tofu
+
 Beef Enoki Mushroom
 $11
 Deep-fried enoki mushroom rolled with rib eye beef, teriyaki sauce
-tofu
+
 Chicken Katsu
 $13
 Deep-fried breaded chicken, katsu sauce
-tofu
+
 L.A. Kalbi
 $17
 Marinated beef short ribs
-tofu
+
 Black Cod Miso Yaki
 $22
 Grilled black cod with miso base sauce
-tofu
+
 Salmon Kama
 $9
 Grilled salmon neck
-tofu
+
 Hamachi Kama
 $14
 Grilled hamachi neck

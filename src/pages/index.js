@@ -3,6 +3,7 @@ import SEO from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import styled from "styled-components";
+// import MenuItem from "../components/menuItem";
 
 const MenuContainer = styled.div`
   .menuSection {
@@ -145,6 +146,12 @@ const IndexPage = () => {
           <h2 className="sectionTitle" id="partyTray">
             Party Tray
           </h2>
+          {/* <MenuItem
+            title="SSSim"
+            description="asdf"
+            price="22"
+            imageUrl="../images/menu/partyTray/partyTray-1.jpg"
+          ></MenuItem> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -567,93 +574,294 @@ const IndexPage = () => {
               <span></span>
               <span className="optionPrice">Crab Salad</span>
               <span className="optionPrice">$12</span>
+              <span>* spicy pizza add $1</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/oyster-shot-BIMG3614.jpg"
+                alt="Oyster Shot"
+              />
+            </div>
+            <div className="menuTitle">Oyster Shot</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Oyster, uni, ikura, scallion, quail egg, ponzu jello
+              </span>
+              <span className="optionPrice">$8</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/001-Tuna-tartare.jpg"
+                alt="Tuna Tartare"
+              />
+            </div>
+            <div className="menuTitle">Tuna Tartare</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Tuna, avocado, tatare sauce</span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/Aburi-Hakko-BIMG3583.jpg"
+                alt="Aburi Hakko"
+              />
+            </div>
+            <div className="menuTitle">Aburi Hakko</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Kansai style box sushi with seared assorted fish
+              </span>
+              <span className="optionPrice">$12</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/021-Aburisushi.jpg"
+                alt="Aburi Sushi"
+              />
+            </div>
+            <div className="menuTitle">Aburi Sushi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Kansai style box sushi with seared fish with garlic sauce
+              </span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/Shime-saba-app-BIMG3664.jpg"
+                alt="Shime Saba"
+              />
+            </div>
+            <div className="menuTitle">Shime Saba</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Seared mackerel, tataki sauce</span>
+              <span className="optionPrice">$12</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/TunaTataki-BIMG3824.jpg"
+                alt="Tuna Tataki"
+              />
+            </div>
+            <div className="menuTitle">Tuna Tataki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Seared tuna, garden salad, tataki sauce
+              </span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/007-VeggieTempuraAppetizer.jpg"
+                alt="Vegetable Tempura"
+              />
+            </div>
+            <div className="menuTitle">Vegetable Tempura</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">7 pieces assorted vegetable</span>
+              <span className="optionPrice">$10</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/008-ShrimpwithVegetableTempuraAppetizer.jpg"
+                alt="Shrimp Tempura With Vegetables"
+              />
+            </div>
+            <div className="menuTitle">Shrimp Tempura With Vegetables</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                2 pieces shrimp, 5 pieces vegetable
+              </span>
+              <span className="optionPrice">$12</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/001-ShrimpTempuraAppetizer.jpg"
+                alt="Shrimp Tempura"
+              />
+            </div>
+            <div className="menuTitle">Shrimp Tempura</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs shrimp</span>
+              <span className="optionPrice">$15</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/009-LobsterTempuraAppetizer.jpg"
+                alt="Lobster Tempura"
+              />
+            </div>
+            <div className="menuTitle">Lobster Tempura</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                2 pcs 4oz lobster, 5 pieces vegetable
+              </span>
+              <span className="optionPrice">$17</span>
+            </div>
+          </div>
+
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/010-FriedCalamari.jpg"
+                alt="Fried Calamari"
+              />
+            </div>
+            <div className="menuTitle">Fried Calamari</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Deep-fried squid-rings</span>
+              <span className="optionPrice">$11</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/011-BeefEnoki.jpg"
+                alt="Beef Enoki Mushroom"
+              />
+            </div>
+            <div className="menuTitle">Beef Enoki Mushroom</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Deep-fried enoki mushroom rolled with rib eye beef, teriyaki
+                sauce
+              </span>
+              <span className="optionPrice">$11</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/012-ChickenKatsuAppetizer.jpg"
+                alt="Chicken Katsu"
+              />
+            </div>
+            <div className="menuTitle">
+              Deep-fried breaded chicken, katsu sauce
+            </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">desc</span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/013-LAKalbiAppetizer.jpg"
+                alt="L.A. Kalbi"
+              />
+            </div>
+            <div className="menuTitle">L.A. Kalbi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Marinated beef short ribs</span>
+              <span className="optionPrice">$17</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/014-BlackCodMisoyaki.jpg"
+                alt="Black Cod Miso Yaki"
+              />
+            </div>
+            <div className="menuTitle">Black Cod Miso Yaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Grilled black cod with miso base sauce
+              </span>
+              <span className="optionPrice">$22</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/015-SalmonKama.jpg"
+                alt="Salmon Kama"
+              />
+            </div>
+            <div className="menuTitle">Salmon Kama</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Grilled salmon neck</span>
+              <span className="optionPrice">$9</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/016-HamachiKama.jpg"
+                alt="Hamachi Kama"
+              />
+            </div>
+            <div className="menuTitle">Hamachi Kama</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Grilled hamachi neck</span>
+              <span className="optionPrice">$14</span>
+            </div>
+          </div>
+        </div>
+        {/* –––––––––––––––– Appetizers –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="soup">
+            Soup
+          </h2>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage src="../images/menu/app/" alt="app" />
+            </div>
+            <div className="menuTitle">app</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">desc</span>
+              <span className="optionPrice">$6</span>
             </div>
           </div>
         </div>
         {/* 
+Miso Soup
+$3
+Healthy soy bean paste soup
 
+Wonton Soup
+$5
+Vegetable dumpling soup with egg
 
+Shiitake Mushroom Soup
+$6
+Assorted mushroom, vegetable in miso base soup
 
+Seafood Soup
+$7
+Assorted seafood in miso base soup
 
-$8
-
-
-
-$Salmon 10
- Tuna 11
- Avocado 10
- Crab Salad 12
-4 pcs Chef choice assorted sushi
-* spicy pizza add $1
-
-Oyster Shot
-$8
-Oyster, uni, ikura, scallion, quail egg, ponzu jello
-
-Tuna Tartare
-$13
-Tuna, avocado, tatare sauce
-
-Aburi Hakko
-$12
-8 pcs Kansai style box sushi with seared assorted fish
-
-Aburi Sushi
-$13
-8 pcs Kansai style box sushi with seared fish with garlic sauce
-
-Shime Saba
-$12
-Seared mackerel, tataki sauce
-
-Tuna Tataki
-$13
-Seared tuna, garden salad, tataki sauce
-
-Vegetable Tempura
-$10
-7 pieces assorted vegetable
-
-Shrimp Tempura With Vegetables
-$12
-2 pieces shrimp, 5 pieces vegetable
-
-Shrimp Tempura
-$15
-6 pcs shrimp
-
-Lobster Tempura
-$17
-2 pcs 4oz lobster, 5 pieces vegetable
-
-Fried Calamari
-$11
-Deep-fried squid-rings
-
-Beef Enoki Mushroom
-$11
-Deep-fried enoki mushroom rolled with rib eye beef, teriyaki sauce
-
-Chicken Katsu
-$13
-Deep-fried breaded chicken, katsu sauce
-
-L.A. Kalbi
-$17
-Marinated beef short ribs
-
-Black Cod Miso Yaki
-$22
-Grilled black cod with miso base sauce
-
-Salmon Kama
+Lobster Soup
 $9
-Grilled salmon neck
+2oz lobster in miso base soup
 
-Hamachi Kama
-$14
-Grilled hamachi neck
-        
+Steamed Rice
+$2
+
+Brown Rice
+$3
+ 
         
         */}
       </MenuContainer>
@@ -662,3 +870,17 @@ Grilled hamachi neck
 };
 
 export default IndexPage;
+
+// export const pageQuery = graphql`
+//   query MyQuery {
+//     allImageSharp {
+//       edges {
+//         node {
+//           fluid {
+//             src
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;

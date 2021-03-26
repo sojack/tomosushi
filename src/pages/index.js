@@ -111,8 +111,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="menu" />
-      <h1>Menu</h1>
-      <MenuNav id="top">
+      <h1 id="top">Menu</h1>
+      <MenuNav>
         <ul>
           <li>
             <a href="#partyTray">PARTY TRAY</a>

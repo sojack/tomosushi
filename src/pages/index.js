@@ -826,40 +826,111 @@ const IndexPage = () => {
           </h2>
           <div className="menuItem">
             <div className="menuImage">
-              <StaticImage src="../images/menu/app/" alt="app" />
+              <StaticImage
+                src="../images/menu/soup/001-MisoSoup.jpg"
+                alt="Miso Soup"
+              />
             </div>
-            <div className="menuTitle">app</div>
+            <div className="menuTitle">Miso Soup</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Healthy soy bean paste soup</span>
+              <span className="optionPrice">$3</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/soup/002-WontonSoup.jpg"
+                alt="Wonton Soup"
+              />
+            </div>
+            <div className="menuTitle">Wonton Soup</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Vegetable dumpling soup with egg
+              </span>
+              <span className="optionPrice">$5</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/soup/003-ShiitakeMushroomSoup.jpg"
+                alt="Shiitake Mushroom Soup"
+              />
+            </div>
+            <div className="menuTitle">Shiitake Mushroom Soup</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Assorted mushroom, vegetable in miso base soup
+              </span>
+              <span className="optionPrice">$6</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/soup/005-SeafoodSoup.jpg"
+                alt="Seafood Soup"
+              />
+            </div>
+            <div className="menuTitle">Seafood Soup</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Assorted seafood in miso base soup
+              </span>
+              <span className="optionPrice">$7</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/soup/004-LobsterSoup.jpg"
+                alt="Lobster Soup"
+              />
+            </div>
+            <div className="menuTitle">Lobster Soup</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">2oz lobster in miso base soup</span>
+              <span className="optionPrice">$9</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/soup/006-SteamedRice.jpg"
+                alt="Steamed Rice"
+              />
+            </div>
+            <div className="menuTitle">Steamed Rice</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">desc</span>
-              <span className="optionPrice">$6</span>
+              <span className="optionPrice">$2</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/soup/007-BrownRice.jpg"
+                alt="Brown Rice"
+              />
+            </div>
+            <div className="menuTitle">Brown Rice</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">desc</span>
+              <span className="optionPrice">$3</span>
             </div>
           </div>
         </div>
         {/* 
-Miso Soup
-$3
-Healthy soy bean paste soup
 
-Wonton Soup
-$5
-Vegetable dumpling soup with egg
-
-Shiitake Mushroom Soup
-$6
-Assorted mushroom, vegetable in miso base soup
-
-Seafood Soup
-$7
-Assorted seafood in miso base soup
-
-Lobster Soup
 $9
-2oz lobster in miso base soup
 
-Steamed Rice
+
+
 $2
 
-Brown Rice
+
 $3
  
         

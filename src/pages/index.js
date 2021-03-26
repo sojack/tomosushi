@@ -95,12 +95,24 @@ const MenuNav = styled.div`
   }
 `;
 
+const TopButton = styled.a`
+  background-color: var(--primary-dark);
+  color: white;
+  display: block;
+  position: fixed;
+  right: 1em;
+  bottom: 10px;
+  text-align: center;
+  padding: 1em;
+  border-radius: 6px;
+`;
+
 const IndexPage = () => {
   return (
     <Layout>
       <SEO title="menu" />
       <h1>Menu</h1>
-      <MenuNav>
+      <MenuNav id="top">
         <ul>
           <li>
             <a href="#partyTray">PARTY TRAY</a>
@@ -112,31 +124,31 @@ const IndexPage = () => {
             <a href="#appetizers">APPETIZERS</a>
           </li>
           <li>
-            <a href="">SOUP</a>
+            <a href="#soup">SOUP</a>
           </li>
           <li>
-            <a href="">SALAD</a>
+            <a href="/">SALAD</a>
           </li>
           <li>
-            <a href="">NOODLE</a>
+            <a href="/">NOODLE</a>
           </li>
           <li>
-            <a href="">LUNCH</a>
+            <a href="/">LUNCH</a>
           </li>
           <li>
-            <a href="">ROLLS</a>
+            <a href="/">ROLLS</a>
           </li>
           <li>
-            <a href="">DINNER</a>
+            <a href="/">DINNER</a>
           </li>
           <li>
-            <a href="">A LA CARTE</a>
+            <a href="/">A LA CARTE</a>
           </li>
           <li>
-            <a href="">DRINKS</a>
+            <a href="/">DRINKS</a>
           </li>
           <li>
-            <a href="">DESSERTS</a>
+            <a href="/">DESSERTS</a>
           </li>
         </ul>
       </MenuNav>
@@ -936,6 +948,7 @@ $3
         
         */}
       </MenuContainer>
+      <TopButton href="#top">top</TopButton>
     </Layout>
   );
 };

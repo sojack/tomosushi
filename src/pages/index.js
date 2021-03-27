@@ -62,11 +62,26 @@ const MenuContainer = styled.div`
   .optionQuant {
     text-align: right;
   }
+  h3,
+  p {
+    text-align: center;
+    grid-column: 1/3;
+  }
+  p {
+    margin: -20px 0;
+  }
+  h3 {
+    background-color: var(--primary);
+    color: white;
+    padding: 5px;
+  }
   @media (max-width: 768px) {
     .menuSection {
       grid-template-columns: 1fr;
     }
-    .sectionTitle {
+    .sectionTitle,
+    h3,
+    p {
       grid-column: 1/2;
     }
   }
@@ -127,13 +142,13 @@ const IndexPage = () => {
             <a href="#soup">SOUP</a>
           </li>
           <li>
-            <a href="/">SALAD</a>
+            <a href="#salad">SALAD</a>
+          </li>
+          <li>
+            <a href="#lunch">LUNCH</a>
           </li>
           <li>
             <a href="/">NOODLE</a>
-          </li>
-          <li>
-            <a href="/">LUNCH</a>
           </li>
           <li>
             <a href="/">ROLLS</a>
@@ -831,7 +846,7 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        {/* –––––––––––––––– Appetizers –––––––––––––––– */}
+        {/* –––––––––––––––– Soup –––––––––––––––– */}
         <div className="menuSection">
           <h2 className="sectionTitle" id="soup">
             Soup
@@ -934,19 +949,350 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        {/* 
-
-$9
-
-
-
-$2
-
-
-$3
- 
-        
-        */}
+        {/* –––––––––––––––– Salad –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="salad">
+            Salad
+          </h2>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/salad/001-GardenSalad.jpg"
+                alt="Garden Salad"
+              />
+            </div>
+            <div className="menuTitle">Garden Salad</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">House green salad</span>
+              <span className="optionPrice">$5</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/salad/002-KaisoSalad.jpg"
+                alt="Kaiso Salad"
+              />
+            </div>
+            <div className="menuTitle">Kaiso Salad</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Seasoned seaweed salad</span>
+              <span className="optionPrice">$7</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/salad/003-AvocadoSalad.jpg"
+                alt="Avocado Salad"
+              />
+            </div>
+            <div className="menuTitle">Avocado Salad</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Avocado slices on garden salad</span>
+              <span className="optionPrice">$7</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/salad/004-SunomonoSalad.jpg"
+                alt="Sunomono Salad"
+              />
+            </div>
+            <div className="menuTitle">
+              Shrimp, tako, crab meat, seaweed, cucumber, sunomono su
+            </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">desc</span>
+              <span className="optionPrice">$8</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/salad/005-KaniSalad.jpg"
+                alt="Kani Salad"
+              />
+            </div>
+            <div className="menuTitle">Kani Salad</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Crab meat, Japanese mayo, masago, cucumber
+              </span>
+              <span className="optionPrice">$8</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/salad/001-Spicy-Sashimi-salad.jpg"
+                alt="Spicy Sashimi Salad"
+              />
+            </div>
+            <div className="menuTitle">Spicy Sashimi Salad</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Assorted sashimi, garden salad, spicy sauce
+              </span>
+              <span className="optionPrice">$12</span>
+            </div>
+          </div>
+        </div>
+        {/* –––––––––––––––– Lunch –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="lunch">
+            Lunch Menu
+          </h2>
+          <p>
+            Weekday: 11:30 am to 3 pm
+            <br />
+            Weekend: 12 pm to 3 pm
+          </p>
+          <h3>Donburi Lunch</h3>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/002-ChickenDonburi.jpg"
+                alt="Chicken Donburi"
+              />
+            </div>
+            <div className="menuTitle">Chicken Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chicken, egg &amp; vegetables on a bowl of rice
+              </span>
+              <span className="optionPrice">$15</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/001-ChickenKatsuDonburi.jpg"
+                alt="Chicken Katsu Donburi"
+              />
+            </div>
+            <div className="menuTitle">Chicken Katsu Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Deep fried chicken, egg &amp; vegetables on a bowl of rice
+              </span>
+              <span className="optionPrice">$17</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/003-BeefDonburi.jpg"
+                alt="Beef Donburi"
+              />
+            </div>
+            <div className="menuTitle">Beef Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Beef, egg &amp; vegetables on a bowl of rice
+              </span>
+              <span className="optionPrice">$17</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/004-UnagiDonburi.jpg"
+                alt="Unagi Donburi"
+              />
+            </div>
+            <div className="menuTitle">Unagi Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                B.B.Q fresh water eel on a bowl of rice
+              </span>
+              <span className="optionPrice">$20</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/001-HaeDupPap.jpg"
+                alt="Hae Dup Bap"
+              />
+            </div>
+            <div className="menuTitle">Hae Dup Bap</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Assorted chopped raw fish &amp; vegetables, hot sauce
+              </span>
+              <span className="optionPrice">$18</span>
+            </div>
+          </div>
+          <h3>Sashimi &amp; Sushi Lunch</h3>
+          <p>Served with miso soup and salad</p>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/002-Sashimilunchregular.jpg"
+                alt="Sashimi Lunch Regular"
+              />
+            </div>
+            <div className="menuTitle">Sashimi Lunch Regular</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">15 pcs assorted raw fish</span>
+              <span className="optionPrice">$19</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-SashimiLunchDelux.jpg"
+                alt="Sashimi Lunch Deluxe"
+              />
+            </div>
+            <div className="menuTitle">Sashimi Lunch Deluxe</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef's selection 20 pcs raw fish
+              </span>
+              <span className="optionPrice">$32</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-SushiregulaA.jpg"
+                alt="Sushi Lunch Regular A"
+              />
+            </div>
+            <div className="menuTitle">Sushi Lunch Regular A</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs sushi, 6 pcs California roll
+              </span>
+              <span className="optionPrice">$17</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/002-SushiregulaB.jpg"
+                alt="Sushi Lunch Regular B"
+              />
+            </div>
+            <div className="menuTitle">Sushi Lunch Regular B</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                10 pcs sushi, 8 pcs shrimp kappa roll
+              </span>
+              <span className="optionPrice">$22</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-SushiLunchDelux.jpg"
+                alt="Sushi Lunch Deluxe"
+              />
+            </div>
+            <div className="menuTitle">Sushi Lunch Deluxe</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef's selection 12 pcs sushi, 6 pcs roll
+              </span>
+              <span className="optionPrice">$30</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-Salmonsushilunch.jpg"
+                alt="Salmon Sushi Lunch"
+              />
+            </div>
+            <div className="menuTitle">Salmon Sushi Lunch</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                9 pcs salmon sushi &amp; 6 pcs salmon roll
+              </span>
+              <span className="optionPrice">$19</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/003-SalmonsashimisushiRolllunch.jpg"
+                alt="Salmon Sashimi, Sushi &amp; Roll Lunch"
+              />
+            </div>
+            <div className="menuTitle">
+              Salmon Sashimi, Sushi &amp; Roll Lunch
+            </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                5 pcs sashimi, 7 pcs sushi, 6 pcs roll
+              </span>
+              <span className="optionPrice">$22</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/004-SashimiSushilunchregular.jpg"
+                alt="Sashimi &amp; Sushi Lunch Regular"
+              />
+            </div>
+            <div className="menuTitle">Sashimi &amp; Sushi Lunch Regular</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">8 pcs sashimi, 6 pcs sushi</span>
+              <span className="optionPrice">$19</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-SashimiSushiDeluxe.jpg"
+                alt="Sashimi &amp; Sushi Lunch Deluxe"
+              />
+            </div>
+            <div className="menuTitle">Sashimi &amp; Sushi Lunch Deluxe</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef's selection 10 pcs sashimi, 8 pcs sushi
+              </span>
+              <span className="optionPrice">$32</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-Chirashi-LunchReg.jpg"
+                alt="Chirashi Lunch Regular"
+              />
+            </div>
+            <div className="menuTitle">Chirashi Lunch Regular</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                15 pcs assorted raw fish on sushi rice
+              </span>
+              <span className="optionPrice">$19</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-Chirashi-LunchDelux.jpg"
+                alt="Chirashi Lunch Deluxe"
+              />
+            </div>
+            <div className="menuTitle">Chirashi Lunch Deluxe</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef's selection assorted raw fish on sushi rice
+              </span>
+              <span className="optionPrice">$32</span>
+            </div>
+          </div>
+        </div>
+        {/*
+         */}
       </MenuContainer>
       <TopButton href="#top">top</TopButton>
     </Layout>

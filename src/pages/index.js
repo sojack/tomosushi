@@ -32,6 +32,7 @@ const MenuContainer = styled.div`
     padding-top: 1rem;
     border-radius: 1rem;
     box-shadow: 2px 2px 5px gray;
+    overflow: hidden;
   }
   .menuOption {
     display: grid;
@@ -46,7 +47,10 @@ const MenuContainer = styled.div`
   .menuOptionTwo {
     grid-template-columns: 4fr 1fr;
   }
-
+  .menuImage {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
   .menuTitle {
     font-family: var(--titleFont);
     font-size: 1.4rem;

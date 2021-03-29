@@ -152,10 +152,10 @@ const IndexPage = () => {
             <a href="#lunch">LUNCH</a>
           </li>
           <li>
-            <a href="/">NOODLE</a>
+            <a href="#rolls">ROLLS</a>
           </li>
           <li>
-            <a href="/">ROLLS</a>
+            <a href="/">NOODLE</a>
           </li>
           <li>
             <a href="/">DINNER</a>
@@ -1004,11 +1004,11 @@ const IndexPage = () => {
                 alt="Sunomono Salad"
               />
             </div>
-            <div className="menuTitle">
-              Shrimp, tako, crab meat, seaweed, cucumber, sunomono su
-            </div>
+            <div className="menuTitle">Sunomono Salad</div>
             <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">desc</span>
+              <span className="optionDesc">
+                Shrimp, tako, crab meat, seaweed, cucumber, sunomono su
+              </span>
               <span className="optionPrice">$8</span>
             </div>
           </div>
@@ -1587,7 +1587,7 @@ const IndexPage = () => {
         </div>
         {/* –––––––––––––––– Rolls –––––––––––––––– */}
         <div className="menuSection">
-          <h2 className="sectionTitle" id="lunch">
+          <h2 className="sectionTitle" id="rolls">
             Rolls
           </h2>
           <h3>Basic Rolls</h3>
@@ -1849,18 +1849,314 @@ const IndexPage = () => {
               <span className="optionPrice">$14</span>
             </div>
           </div>
+          {/* ––––––– Veggie Roll  ––––––––– */}
+          <h3>Veggie Rolls</h3>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-Avocadoroll.jpg"
+                alt="Avocado Roll "
+              />
+            </div>
+            <div className="menuTitle">Avocado Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs</span>
+              <span className="optionPrice">$6</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/002-Kapparoll.jpg"
+                alt="Kappa Roll "
+              />
+            </div>
+            <div className="menuTitle">Kappa Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs Cucumber</span>
+              <span className="optionPrice">$5</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-Asparagusroll.jpg"
+                alt="Asparagus Roll "
+              />
+            </div>
+            <div className="menuTitle">Asparagus Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs</span>
+              <span className="optionPrice">$5</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-Yamtempuraroll.jpg"
+                alt="Yam Tempura Roll "
+              />
+            </div>
+            <div className="menuTitle">Yam Tempura Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs</span>
+              <span className="optionPrice">$7</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-AvoKapparoll.jpg"
+                alt="Avo Kappa Roll "
+              />
+            </div>
+            <div className="menuTitle">Avo Kappa Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">6 pcs Avocado, cucumber</span>
+              <span className="optionPrice">$7</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-AACroll.jpg"
+                alt="AAC Roll "
+              />
+            </div>
+            <div className="menuTitle">AAC Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                6 pcs Asparagus, avocado, cucumber
+              </span>
+              <span className="optionPrice">$8</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-Avocadocrunchroll.jpg"
+                alt="Avocado Crunch Roll "
+              />
+            </div>
+            <div className="menuTitle">Avocado Crunch Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Tempura bits, mayo, avocado
+              </span>
+              <span className="optionPrice">$9</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-GreenFieldroll.jpg"
+                alt="Green Field Roll "
+              />
+            </div>
+            <div className="menuTitle">Green Field Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Lettuce, avocado, cucumber, shiitake mushroom, kampyo
+              </span>
+              <span className="optionPrice">$10</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollVeg/001-VeggieDragonroll.jpg"
+                alt="Veggie Dragon Roll "
+              />
+            </div>
+            <div className="menuTitle">Veggie Dragon Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Deep fried yam on avocado, cucumber, asparagus, deep fried
+                butter squash
+              </span>
+              <span className="optionPrice">$12</span>
+            </div>
+          </div>
+          {/* ––––––– Contemporary Rolls  ––––––––– */}
+          <h3>Contemporary Rolls</h3>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/001-Fireroll.jpg"
+                alt="Fire Roll "
+              />
+            </div>
+            <div className="menuTitle">Fire Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                6 pcs Deep fried roll with crab meat, avocado, cucumber, masago,
+                ebi, cream cheese
+              </span>
+              <span className="optionPrice">$10</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/001-Spicybeefroll.jpg"
+                alt="Spicy Beef Roll "
+              />
+            </div>
+            <div className="menuTitle">Spicy Beef Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                6 pcs Rib-eye beef, spicy mayo, tempura bits
+              </span>
+              <span className="optionPrice">$11</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/001-ParadiseinTorontoroll.jpg"
+                alt="Paradise In Toronto "
+              />
+            </div>
+            <div className="menuTitle">Paradise In Toronto </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                6 pcs Salmon, crab meat, avocado, cream cheese, tobiko, rice
+                wrapped with cucumber
+              </span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/Gotrainroll.jpg"
+                alt="Go Train Roll "
+              />
+            </div>
+            <div className="menuTitle">Go Train Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Deep fried salmon-topped avocado roll, unagi sauce
+              </span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/CrunchSpicySalmonroll.jpg"
+                alt="Crunch Spicy Salmon Roll "
+              />
+            </div>
+            <div className="menuTitle">Crunch Spicy Salmon Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Chunk Salmon, cucumber, lettuce, tempura bits and spicy
+                sauce.
+              </span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/AngrySalmonroll.jpg"
+                alt="Angry Salmon Roll "
+              />
+            </div>
+            <div className="menuTitle">Angry Salmon Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Deep fried roll with spicy salmon, avocado and banana
+                pepper
+              </span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/BakeScalloproll.jpg"
+                alt="Baked Scallop Roll "
+              />
+            </div>
+            <div className="menuTitle">Baked Scallop Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                6 pcs Scallop, mushroom, scallion on top of California roll with
+                special sauce
+              </span>
+              <span className="optionPrice">$14</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/WOWroll.jpg"
+                alt="WOW Roll "
+              />
+            </div>
+            <div className="menuTitle">WOW Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Seared fish mixed with wasabi sauce on top of shrimp kappa
+                roll
+              </span>
+              <span className="optionPrice">$14</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/TTroll.jpg"
+                alt="T.T Roll "
+              />
+            </div>
+            <div className="menuTitle">T.T Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Shrimp tempura, cucumber, avocado, tuna, tomato, masago,
+                garlic sauce
+              </span>
+              <span className="optionPrice">$16</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/Seanpongroll.jpg"
+                alt="app"
+              />
+            </div>
+            <div className="menuTitle">Sean Pong Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                (No Rice) 8 pcs Rice paper roll with spicy tuna, unagi, avocado,
+                cucumber, masago, radish
+              </span>
+              <span className="optionPrice">$16</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollCont/PEIroll.jpg"
+                alt="P.E.I Roll "
+              />
+            </div>
+            <div className="menuTitle">P.E.I Roll </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs Lobster tempura, avocado, cucumber, masago
+              </span>
+              <span className="optionPrice">$18</span>
+            </div>
+          </div>
         </div>
         {/*
 
 
-$14
-
-
-
-$14
-
-
-
+$18
 
 
          */}

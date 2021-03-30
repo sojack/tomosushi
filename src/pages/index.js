@@ -158,7 +158,7 @@ const IndexPage = () => {
             <a href="#noodle">NOODLE</a>
           </li>
           <li>
-            <a href="/">DINNER</a>
+            <a href="#dinner">DINNER</a>
           </li>
           <li>
             <a href="/">A LA CARTE</a>
@@ -2435,6 +2435,7 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
+        {/* –––––––––––––––– Noodle –––––––––––––––– */}
         <div className="menuSection">
           <h2 className="sectionTitle" id="noodle">
             Noodle
@@ -2574,11 +2575,405 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
+        {/* –––––––––––––––– Dinner –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="dinner">
+            Dinner
+          </h2>
+          {/* ––––––– Sushi & Sashimi  ––––––––– */}
+          <h3>Sushi &amp; Sashimi</h3>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/Sashimiregular.jpg"
+                alt="Sashimi Regular"
+              />
+            </div>
+            <div className="menuTitle">Sashimi Regular (18 pcs)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">18 pcs assorted raw fish</span>
+              <span className="optionPrice">$25</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/SashimiLunchDelux.jpg"
+                alt="Sashimi Deluxe"
+              />
+            </div>
+            <div className="menuTitle">Sashimi Deluxe (20 pcs)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef’s selection 20 pcs assorted raw fish
+              </span>
+              <span className="optionPrice">$38</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/SushiregulaA.jpg"
+                alt="Sushi Regular A (16 pcs)"
+              />
+            </div>
+            <div className="menuTitle">Sushi Regular A (16 pcs)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">10 pcs sushi, 6 pcs California</span>
+              <span className="optionPrice">$22</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/SushiregulaB.jpg"
+                alt="Sushi Regular B (20 pcs)"
+              />
+            </div>
+            <div className="menuTitle">Sushi Regular B (20 pcs)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                12 pcs sushi, 8 pcs shrimp kappa
+              </span>
+              <span className="optionPrice">$27</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/SushiLunchDelux.jpg"
+                alt="Sushi Deluxe (18 pcs)"
+              />
+            </div>
+            <div className="menuTitle">Sushi Deluxe (18 pcs)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef’s selection 12 pcs sushi, 6 pcs maki
+              </span>
+              <span className="optionPrice">$36</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/Sashimisushiregular.jpg"
+                alt="Sashimi &amp; Sushi Regular (16 pcs)"
+              />
+            </div>
+            <div className="menuTitle">
+              Sashimi &amp; Sushi Regular (16 pcs)
+            </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">10 pcs sashimi, 6 pcs sushi</span>
+              <span className="optionPrice">$24</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/Sashimisushideluxe.jpg"
+                alt="Sashimi &amp; Sushi Deluxe (18 pcs)"
+              />
+            </div>
+            <div className="menuTitle">Sashimi &amp; Sushi Deluxe (18 pcs)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef’s selection 10 pcs sashimi, 8 pcs sushi
+              </span>
+              <span className="optionPrice">$38</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/Chirashi-LunchReg.jpg"
+                alt="Chirashi Regular"
+              />
+            </div>
+            <div className="menuTitle">Chirashi Regular</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Assorted raw fish on sushi rice
+              </span>
+              <span className="optionPrice">$26</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/sushiSash/Chirashi-LunchDelux.jpg"
+                alt="Chirashi Deluxe"
+              />
+            </div>
+            <div className="menuTitle">Chirashi Deluxe</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chef’s selection assorted raw fish on sushi rice
+              </span>
+              <span className="optionPrice">$39</span>
+            </div>
+          </div>
+          {/* ––––––– Donburi  ––––––––– */}
+          <h3>Donburi</h3>
+          <p>Served with miso soup, garden salad</p>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/002-ChickenDonburi.jpg"
+                alt="Chicken Donburi"
+              />
+            </div>
+            <div className="menuTitle">Chicken Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Chicken, egg &amp; vegetables on a bowl of rice
+              </span>
+              <span className="optionPrice">$16</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/001-ChickenKatsuDonburi.jpg"
+                alt="Chicken Katsu Donburi"
+              />
+            </div>
+            <div className="menuTitle">Chicken Katsu Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Deep fried chicken, egg &amp; vegetables on a bowl of rice
+              </span>
+              <span className="optionPrice">$18</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/003-BeefDonburi.jpg"
+                alt="Beef Donburi"
+              />
+            </div>
+            <div className="menuTitle">Beef Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Beef, egg &amp; vegetables on a bowl of rice
+              </span>
+              <span className="optionPrice">$19</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/004-UnagiDonburi.jpg"
+                alt="Unagi Donburi"
+              />
+            </div>
+            <div className="menuTitle">Unagi Donburi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                B.B.Q fresh water eel on a bowl of rice
+              </span>
+              <span className="optionPrice">$23</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/donburi/001-HaeDupPap.jpg"
+                alt="Hae Dup Bap"
+              />
+            </div>
+            <div className="menuTitle">Hae Dup Bap</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Assorted chopped raw fish &amp; vegetables, hot sauce
+              </span>
+              <span className="optionPrice">$19</span>
+            </div>
+          </div>
+          {/* ––––––– Dinner  ––––––––– */}
+          <h3>Dinner</h3>
+          <p>Served with miso soup, garden salad</p>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/TofuTeriyakiDinner.jpg"
+                alt="Tofu Teriyaki"
+              />
+            </div>
+            <div className="menuTitle">Tofu Teriyaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Fried tofu with teriyaki sauce</span>
+              <span className="optionPrice">$16</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/ChickenTeriyakiDinner.jpg"
+                alt="Chicken Teriyaki"
+              />
+            </div>
+            <div className="menuTitle">Chicken Teriyaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Grilled chicken breast, teriyaki sauce
+              </span>
+              <span className="optionPrice">$20</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/SalmonTeriyakiDinner.jpg"
+                alt="Salmon Teriyaki"
+              />
+            </div>
+            <div className="menuTitle">Salmon Teriyaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Grilled salmon, teriyaki sauce</span>
+              <span className="optionPrice">$22</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/BeefTeriyakiDinner.jpg"
+                alt="Beef Teriyaki"
+              />
+            </div>
+            <div className="menuTitle">Beef Teriyaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Grilled beef, teriyaki sauce</span>
+              <span className="optionPrice">$25</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/TeriyakiSetDinner.jpg"
+                alt="Teriyaki Set"
+              />
+            </div>
+            <div className="menuTitle">Teriyaki Set</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Your choice of two from chicken, salmon or beef
+              </span>
+              <span className="optionPrice">$24</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/ShrimpTeriyakiDinner.jpg"
+                alt="Shrimp Teriyaki"
+              />
+            </div>
+            <div className="menuTitle">Shrimp Teriyaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                12 pieces of shrimp, vegetable, teriyaki sauce
+              </span>
+              <span className="optionPrice">$23</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/ShrimpTempuraDinner.jpg"
+                alt="Shrimp Tempura Moriawase"
+              />
+            </div>
+            <div className="menuTitle">Shrimp Tempura Moriawase</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                4 pcs of deep-fried shrimps &amp; vegetable
+              </span>
+              <span className="optionPrice">$21</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/LobsterTempuraDinner.jpg"
+                alt="Lobster Tempura Moriawase"
+              />
+            </div>
+            <div className="menuTitle">Lobster Tempura Moriawase</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Deep fried lobster tail, vegetables
+              </span>
+              <span className="optionPrice">$27</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/ChickenKatsuDinner.jpg"
+                alt="Chicken Katsu Dinner"
+              />
+            </div>
+            <div className="menuTitle">Chicken Katsu Dinner</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Breaded chicken breast, katsu sauce
+              </span>
+              <span className="optionPrice">$21</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/BulgogiDinner.jpg"
+                alt="Bul-Go-Gi Dinner"
+              />
+            </div>
+            <div className="menuTitle">Bul-Go-Gi Dinner</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Stir fried sliced beef marinated in Tomo special sauce
+              </span>
+              <span className="optionPrice">$20</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/LAKalbiDinner.jpg"
+                alt="Kalbi Dinner"
+              />
+            </div>
+            <div className="menuTitle">Kalbi Dinner</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                B.B.Q marinated short ribs of beef
+              </span>
+              <span className="optionPrice">$28</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/dinner/UnagiKabayaki.jpg"
+                alt="Unagi Kabayaki"
+              />
+            </div>
+            <div className="menuTitle">Unagi Kabayaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                B.B.Q fresh water eel with onion
+              </span>
+              <span className="optionPrice">$28</span>
+            </div>
+          </div>
+        </div>
         {/*
 
 
 
-         */}
+*/}
       </MenuContainer>
       <TopButton href="#top">top</TopButton>
     </Layout>

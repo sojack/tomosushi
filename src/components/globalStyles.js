@@ -28,6 +28,7 @@ const GlobalStyles = createGlobalStyle`
 		font-family: 'Open Sans', sans-serif;
 		font-weight:400;
 		font-style:normal;
+		scroll-behavior: smooth;
 
 	}
 	img{

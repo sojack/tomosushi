@@ -79,14 +79,87 @@ const MenuContainer = styled.div`
     color: white;
     padding: 5px;
   }
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    row-gap: 1rem;
+    align-items: flex-start;
+    /* max-width: 60em; */
+    /* margin: 0 auto; */
+    grid-column: 1 / span 2;
+    padding: 0;
+  }
+  .price {
+    text-align: right;
+    em {
+      margin-right: 1rem;
+    }
+  }
+  .menu > li {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 0.7em 0;
+    /* align-items: flex-end; */
+  }
+  ul.drinks {
+    grid-template-columns: 1fr;
+  }
+  .menu > li.drink-01 {
+    grid-template-columns: 20% 20% repeat(6, auto);
+  }
+  .menu > li.drink-02 {
+    grid-template-columns: 60% repeat(2, 1fr);
+  }
+  .menu > li.drink-03 {
+    grid-template-columns: 30% 30% repeat(2, 1fr);
+  }
+  .menu > li.drink-04 {
+    grid-template-columns: 60% repeat(3, 1fr);
+  }
+  .menu > li.drink-05 {
+    grid-template-columns: 60% 1fr;
+  }
+
+  li.drink-01 span:first-child {
+    font-family: var(--titleFont);
+  }
+  li.drink-02 span:first-child {
+    font-family: var(--titleFont);
+  }
+  li.drink-03 span:first-child {
+    font-family: var(--titleFont);
+  }
+  li.drink-04 span:first-child {
+    font-family: var(--titleFont);
+  }
+  li.drink-05 span:first-child {
+    font-family: var(--titleFont);
+  }
+  .item-title {
+    font-family: var(--titleFont);
+    font-size: 1.4rem;
+    grid-row: 1/2;
+    text-transform: capitalize;
+  }
   @media (max-width: 768px) {
     .menuSection {
       grid-template-columns: 1fr;
+    }
+    .menu {
+      grid-template-columns: 1fr;
+      grid-column: 1 / 2;
+      margin: 0 auto;
     }
     .sectionTitle,
     h3,
     p {
       grid-column: 1/2;
+    }
+    .drinks {
+      margin: 0;
+      font-size: 10px;
     }
   }
 `;
@@ -161,13 +234,13 @@ const IndexPage = () => {
             <a href="#dinner">DINNER</a>
           </li>
           <li>
-            <a href="/">A LA CARTE</a>
+            <a href="#alacarte">A LA CARTE</a>
           </li>
           <li>
-            <a href="/">DRINKS</a>
+            <a href="#drinks">DRINKS</a>
           </li>
           <li>
-            <a href="/">DESSERTS</a>
+            <a href="#desserts">DESSERTS</a>
           </li>
         </ul>
       </MenuNav>
@@ -517,7 +590,7 @@ const IndexPage = () => {
             <div className="menuTitle">Ebi Shumai</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs Steamed shrimp dumpling</span>
-              <span className="optionPrice">$6</span>
+              <span className="optionPrice">$7</span>
             </div>
           </div>
           <div className="menuItem">
@@ -781,11 +854,11 @@ const IndexPage = () => {
                 alt="Chicken Katsu"
               />
             </div>
-            <div className="menuTitle">
-              Deep-fried breaded chicken, katsu sauce
-            </div>
+            <div className="menuTitle">Chicken Katsu</div>
             <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">desc</span>
+              <span className="optionDesc">
+                Deep-fried breaded chicken, katsu sauce
+              </span>
               <span className="optionPrice">$13</span>
             </div>
           </div>
@@ -929,7 +1002,7 @@ const IndexPage = () => {
             </div>
             <div className="menuTitle">Steamed Rice</div>
             <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">desc</span>
+              <span className="optionDesc"></span>
               <span className="optionPrice">$2</span>
             </div>
           </div>
@@ -942,7 +1015,7 @@ const IndexPage = () => {
             </div>
             <div className="menuTitle">Brown Rice</div>
             <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">desc</span>
+              <span className="optionDesc"></span>
               <span className="optionPrice">$3</span>
             </div>
           </div>
@@ -2968,10 +3041,641 @@ const IndexPage = () => {
               <span className="optionPrice">$28</span>
             </div>
           </div>
+          {/* ––––––– Dinner Combo  ––––––––– */}
+          <h3>Dinner Combo</h3>
+          <p>Served with miso soup, garden salad &amp; rice</p>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/combo/TofuTeriyakiComboDinner.jpg"
+                alt="Tofu Combo"
+              />
+            </div>
+            <div className="menuTitle">Tofu Combo</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                Tofu teriyaki, avo kappa roll, veggie tempura
+              </span>
+              <span className="optionPrice">$23</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/combo/ChickenTeriyakiDinnerCombo.jpg"
+                alt="Teriyaki Combo"
+              />
+            </div>
+            <div className="menuTitle">Teriyaki Combo</div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+                6 pcs California roll with shrimp &amp; veggie tempura
+              </span>
+              <span className="optionQuant">chicken</span>
+              <span className="optionPrice">$24</span>
+              <span></span>
+              <span className="optionQuant">salmon</span>
+              <span className="optionPrice">$26</span>
+              <span></span>
+              <span className="optionQuant">beef</span>
+              <span className="optionPrice">$29</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/combo/KalbiDinnerCombo.jpg"
+                alt="Bul-Go-Gi Or Kalbi Combo"
+              />
+            </div>
+            <div className="menuTitle">Bul-Go-Gi Or Kalbi Combo</div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+                6 pcs California roll with shrimp &amp; veggie tempura
+              </span>
+              <span className="optionQuant">bul-go-gi</span>
+              <span className="optionPrice">$24</span>
+              <span></span>
+              <span className="optionQuant">kalbi</span>
+              <span className="optionPrice">$31</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/combo/SashimiComboDinner.jpg"
+                alt="Sashimi Combo"
+              />
+            </div>
+            <div className="menuTitle">Sashimi Combo</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                (no rice) 5 pcs salmon sashimi, 4 pcs sushi, 6 pcs California
+                roll with shrimp &amp; veggie tempura
+              </span>
+              <span className="optionPrice">$27</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/combo/UdonComboDinner.jpg"
+                alt="Udon Combo"
+              />
+            </div>
+            <div className="menuTitle">Udon Combo</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                (no miso, no rice) 6 pcs California roll with shrimp &amp;
+                veggie tempura
+              </span>
+              <span className="optionPrice">$22</span>
+            </div>
+          </div>
+        </div>
+        {/* –––––––––––––––– A LA CARTE –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="alacarte">
+            A LA CARTE
+          </h2>
+          <p>Sushi 2 pcs, Sashimi 3 pcs</p>
+          <ul className="menu">
+            <li>
+              <span className="item-title">Hon maguro</span>
+              <span className="price">
+                <em>sushi</em> $10
+                <br />
+                <em>sashimi</em> $12
+              </span>
+              <span className="description">bluefin tuna</span>
+            </li>
+            <li>
+              <span className="item-title">Otoro</span>
+              <span className="price">
+                <em>sushi</em> $25
+                <br />
+                <em>sashimi</em> $25
+              </span>
+              <span className="description">fatty bluefin tuna</span>
+            </li>
+            <li>
+              <span className="item-title">Chutoro</span>
+              <span className="price">
+                <em>sushi</em> $12
+                <br />
+                <em>sashimi</em> $15
+              </span>
+              <span className="description">medium fatty blue fin tuna</span>
+            </li>
+            <li>
+              <span className="item-title">Maguro</span>
+              <span className="price">
+                <em>sushi</em> $9
+                <br />
+                <em>sashimi</em> $10
+              </span>
+              <span className="description">tuna</span>
+            </li>
+            <li>
+              <span className="item-title">Bincho maguro</span>
+              <span className="price">
+                <em>sushi</em> $8
+                <br />
+                <em>sashimi</em> $9
+              </span>
+              <span className="description">albacore tuna</span>
+            </li>
+            <li>
+              <span className="item-title">Sake</span>
+              <span className="price">
+                <em>sushi</em> $7
+                <br />
+                <em>sashimi</em> $8
+              </span>
+              <span className="description">altlantic salmon</span>
+            </li>
+            <li>
+              <span className="item-title">King salmon</span>
+              <span className="price">
+                <em>sushi</em> $10
+                <br />
+                <em>sashimi</em> $12
+              </span>
+              <span className="description">pacific salmon</span>
+            </li>
+            <li>
+              <span className="item-title">Hamachi</span>
+              <span className="price">
+                <em>sushi</em> $9
+                <br />
+                <em>sashimi</em> $10
+              </span>
+              <span className="description">yellow tail</span>
+            </li>
+            <li>
+              <span className="item-title">Kurodai</span>
+              <span className="price">
+                <em>sushi</em> $8
+                <br />
+                <em>sashimi</em> $10
+              </span>
+              <span className="description">black sea-bream</span>
+            </li>
+            <li>
+              <span className="item-title">Madai</span>
+              <span className="price">
+                <em>sushi</em> $10
+                <br />
+                <em>sashimi</em> $12
+              </span>
+              <span className="description">red sea-bream</span>
+            </li>
+            <li>
+              <span className="item-title">Aji</span>
+              <span className="price">
+                <em>sushi</em> $10
+                <br />
+                <em>sashimi</em> $12
+              </span>
+              <span className="description">jack mackerel</span>
+            </li>
+            <li>
+              <span className="item-title">Kampachi</span>
+              <span className="price">
+                <em>sushi</em> $10
+                <br />
+                <em>sashimi</em> $12
+              </span>
+              <span className="description">amber jack</span>
+            </li>
+            <li>
+              <span className="item-title">Suzuki</span>
+              <span className="price">
+                <em>sushi</em> $8
+                <br />
+                <em>sashimi</em> $10
+              </span>
+              <span className="description">sea-bass</span>
+            </li>
+            <li>
+              <span className="item-title">Shime saba</span>
+              <span className="price">
+                <em>sushi</em> $7
+                <br />
+                <em>sashimi</em> $8
+              </span>
+              <span className="description">marinated mackerel</span>
+            </li>
+            <li>
+              <span className="item-title">Escolar</span>
+              <span className="price">
+                <em>sushi</em> $7
+                <br />
+                <em>sashimi</em> $8
+              </span>
+              <span className="description">oil fish</span>
+            </li>
+            <li>
+              <span className="item-title">Unagi</span>
+              <span className="price">
+                <em>sushi</em> $9
+                <br />
+                <em>sashimi</em> $11
+              </span>
+              <span className="description">fresh water eel</span>
+            </li>
+            <li>
+              <span className="item-title">Hotategai</span>
+              <span className="price">
+                <em>sushi</em> $7
+                <br />
+                <em>sashimi</em> $9
+              </span>
+              <span className="description">scallop</span>
+            </li>
+            <li>
+              <span className="item-title">Uni</span>
+              <span className="price">
+                <em>sushi</em> $10
+                <br />
+                <em>sashimi</em> $13
+              </span>
+              <span className="description">sea urchin</span>
+            </li>
+            <li>
+              <span className="item-title">Botan Ebi</span>
+              <span className="price">
+                <em>sushi</em> $10
+                <br />
+                <em>sashimi</em> $12
+              </span>
+              <span className="description">spot shrimp</span>
+            </li>
+            <li>
+              <span className="item-title">Ebi</span>
+              <span className="price">
+                <em>sushi</em> $7
+                <br />
+                <em>sashimi</em> $8
+              </span>
+              <span className="description">boiled black tiger shrimp</span>
+            </li>
+            <li>
+              <span className="item-title">Ama ebi</span>
+              <span className="price">
+                <em>sushi</em> $8
+                <br />
+                <em>sashimi</em> $10
+              </span>
+              <span className="description">sweet shrimp</span>
+            </li>
+            <li>
+              <span className="item-title">Tako</span>
+              <span className="price">
+                <em>sushi</em> $7
+                <br />
+                <em>sashimi</em> $8
+              </span>
+              <span className="description">steamed octopus</span>
+            </li>
+            <li>
+              <span className="item-title">Mongo ika</span>
+              <span className="price">
+                <em>sushi</em> $6
+                <br />
+                <em>sashimi</em> $7
+              </span>
+              <span className="description">squid</span>
+            </li>
+            <li>
+              <span className="item-title">Ikura</span>
+              <span className="price">
+                <em>sushi</em> $7
+                <br />
+                <em>sashimi</em> $8
+              </span>
+              <span className="description">marinated salmon roe</span>
+            </li>
+            <li>
+              <span className="item-title">Tobiko</span>
+              <span className="price">
+                <em>sushi</em> $6
+                <br />
+                <em>sashimi</em> $7
+              </span>
+              <span className="description">flying fish roe</span>
+            </li>
+            <li>
+              <span className="item-title">Hokigai</span>
+              <span className="price">
+                <em>sushi</em> $5
+                <br />
+                <em>sashimi</em> $6
+              </span>
+              <span className="description">surf clam</span>
+            </li>
+            <li>
+              <span className="item-title">Tamago</span>
+              <span className="price">
+                <em>sushi</em> $5
+                <br />
+                <em>sashimi</em> $6
+              </span>
+              <span className="description">egg omelette</span>
+            </li>
+          </ul>
+        </div>
+        {/* –––––––––––––––– Drinks –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="drinks">
+            Drinks
+          </h2>
+          <h3>White Wine</h3>
+          <ul className="menu drinks">
+            <li className="drink-01">
+              <span>Woodbridge</span> <span>Sauvignon Blanc (USA)</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
+              <span>9</span>
+              <span className="xsmall">1∕2&nbsp;L</span>
+              <span>25</span>
+              <span className="xsmall">Bottle</span>
+              <span>37</span>
+            </li>
+            <li className="drink-01">
+              <span>Lindenmans Bin 65</span>{" "}
+              <span>Chardonnay (Austrailia)</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
+              <span>8</span>
+              <span className="xsmall">1∕2&nbsp;L</span>
+              <span>24</span>
+              <span className="xsmall">Bottle</span>
+              <span>35</span>
+            </li>
+            <li className="drink-01">
+              <span>Trius</span> <span>Pinot Grigio (Niagara)</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
+              <span>11</span>
+              <span className="xsmall">1∕2&nbsp;L</span>
+              <span>29</span>
+              <span className="xsmall">Bottle</span>
+              <span>42</span>
+            </li>
+            <li className="drink-01">
+              <span>Oyster Bay</span> <span>Chardonnay (New Zealand)</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span className="xsmall">Bottle</span>
+              <span>48</span>
+            </li>
+            <li className="drink-01">
+              <span>Villa Maria</span>{" "}
+              <span>Sauvignon Blanc (New Zealand)</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span className="xsmall">Bottle</span>
+              <span>50</span>
+            </li>
+          </ul>
+
+          <h3>Red Wine</h3>
+          <ul className="menu drinks">
+            <li className="drink-01">
+              <span>Woodbridge</span>
+              <span>Cabernet Sauvignon (USA)</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
+              <span>9</span>
+              <span className="xsmall">1/2&nbsp;L</span>
+              <span>25</span>
+              <span className="xsmall">Bottle</span>
+              <span>37</span>
+            </li>
+            <li className="drink-01">
+              <span>George Wyndham Bin 555</span>
+              <span>Shiraz (Austrailia)</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
+              <span>10</span>
+              <span className="xsmall">1/2&nbsp;L</span>
+              <span>28</span>
+              <span className="xsmall">Bottle</span>
+              <span>40</span>
+            </li>
+            <li className="drink-01">
+              <span>Josh Cellars</span>
+              <span>Merlot (USA)</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span className="xsmall">Bottle</span>
+              <span>50</span>
+            </li>
+            <li className="drink-01">
+              <span>J. Lohr</span>
+              <span>Cabernet Sauvignon (USA)</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span className="xsmall">Bottle</span>
+              <span>60</span>
+            </li>
+          </ul>
+
+          <h3>Plum Wine</h3>
+          <ul className="menu drinks">
+            <li className="drink-02">
+              <span>Gekkeikan</span>
+              <span className="xsmall">5oz. Glass</span>
+              <span>9 </span>
+            </li>
+            <li className="drink-02">
+              <span>Takara</span>
+              <span className="xsmall">5oz. Glass</span>
+              <span>10</span>
+            </li>
+          </ul>
+          <h3>Beer</h3>
+          <ul className="menu drinks">
+            <li className="drink-02">
+              <span>Sapporo </span>
+              <span className="xsmall">341ml</span>
+              <span>7</span>
+            </li>
+            <li className="drink-02">
+              <span>Sapporo (Can) </span>
+              <span className="xsmall">650 ml</span>
+              <span>11</span>
+            </li>
+            <li className="drink-02">
+              <span>Asahi </span>
+              <span className="xsmall">330 ml</span>
+              <span>7</span>
+            </li>
+            <li className="drink-02">
+              <span>Asahi (Can) </span>
+              <span className="xsmall">500 ml</span>
+              <span>9</span>
+            </li>
+            <li className="drink-02">
+              <span>Asahi Black </span>
+              <span className="xsmall">334 ml</span>
+              <span>9</span>
+            </li>
+            <li className="drink-02">
+              <span>Kirin </span>
+              <span className="xsmall">500 ml</span>
+              <span>9</span>
+            </li>
+            <li className="drink-02">
+              <span>Stella </span>
+              <span className="xsmall">330 ml</span>
+              <span>7</span>{" "}
+            </li>
+            <li className="drink-02">
+              <span>Corona </span>
+              <span className="xsmall">330 ml</span>
+              <span>7</span>{" "}
+            </li>
+            <li className="drink-02">
+              <span>Canadian </span>
+              <span className="xsmall">341 ml</span>
+              <span>6</span>{" "}
+            </li>
+            <li className="drink-02">
+              <span>Coors Light </span>
+              <span className="xsmall">341 ml</span>
+              <span>6</span>
+            </li>
+          </ul>
+
+          <h3>Cold Sake</h3>
+          <ul className="menu drinks">
+            <li className="drink-03">
+              <span>Hakutsuru</span>
+              <span>Junmai, Draft</span>
+              <span className="xsmall">300 ml bottle</span>
+              <span>17</span>
+            </li>
+            <li className="drink-03">
+              <span>Sayuri</span>
+              <span>Nigori</span>
+              <span className="xsmall">300 ml bottle</span>
+              <span>20</span>
+            </li>
+            <li className="drink-03">
+              <span>Sho Chiku Bai</span>
+              <span>Ginjo</span>
+              <span className="xsmall">300 ml bottle</span>
+              <span>35</span>
+            </li>
+            <li className="drink-03">
+              <span>Tamanohikari</span>
+              <span>Junmai Dai Ginjo</span>
+              <span className="xsmall">300 ml bottle</span>
+              <span>46</span>
+            </li>
+            <li className="drink-03">
+              <span>Otokoyama</span>
+              <span>Tokubetsu Junmai</span>
+              <span className="xsmall">500 ml bottle</span>
+              <span>70</span>
+            </li>
+            <li className="drink-03">
+              <span>Soju</span>
+              <span></span>
+              <span className="xsmall">375 ml bottle</span>
+              <span>18 </span>
+            </li>
+          </ul>
+          <h3>Hot Sake</h3>
+          <ul className="menu drinks">
+            <li className="drink-04">
+              <span></span>
+              <span className="xsmall">
+                Small
+                <br />4 oz
+              </span>
+              <span className="xsmall">
+                Medium
+                <br />
+                10 oz
+              </span>
+              <span className="xsmall">
+                Pot
+                <br />
+                720 ml
+              </span>
+            </li>
+
+            <li className="drink-04">
+              <span>Sho Chiku Bai</span>
+              <span>6</span>
+              <span>12</span>
+              <span>28</span>
+            </li>
+          </ul>
+
+          <h3>Beverages Non-Alcohol</h3>
+          <ul className="menu drinks">
+            <li className="drink-05">
+              <span>Evian Water</span>
+              <span>3.50</span>
+            </li>
+            <li className="drink-05">
+              <span>Perrier Small</span>
+              <span>3.50</span>
+            </li>
+            <li className="drink-05">
+              <span>Coke, Diet Coke </span>
+              <span>2</span>
+            </li>
+            <li className="drink-05">
+              <span>Ginger Ale, Sprite </span>
+              <span>2</span>
+            </li>
+            <li className="drink-05">
+              <span>C+, Root Beer </span>
+              <span>2</span>
+            </li>
+            <li className="drink-05">
+              <span>Nestea</span>
+              <span>3</span>
+            </li>
+            <li className="drink-05">
+              <span>Orange Juice </span>
+              <span>3.50</span>
+            </li>
+            <li className="drink-05">
+              <span>Apple Juice</span>
+              <span>3.50</span>
+            </li>
+          </ul>
+        </div>
+        {/* –––––––––––––––– Drinks –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="desserts">
+            DESSERTS
+          </h2>
+          <ul className="menu drinks">
+            <li className="drink-05">
+              <span>Green Tea, Mango, Vanilla Ice Cream </span>
+              <span>3</span>
+            </li>
+            <li className="drink-05">
+              <span>Mochi Ice Cream (2 pcs) </span>
+              <span>5</span>
+            </li>
+            <li className="drink-05">
+              <span>Tempura Ice Cream </span>
+              <span>5</span>
+            </li>
+          </ul>
         </div>
         {/*
-
-
 
 */}
       </MenuContainer>

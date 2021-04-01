@@ -201,7 +201,7 @@ const TopButton = styled.a`
   z-index: 100;
 `;
 
-const Menu = () => {
+const MenuMg = () => {
   return (
     <Layout>
       <SEO title="menu" />
@@ -679,21 +679,6 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/app/oyster-shot-BIMG3614.jpg"
-                alt="Oyster Shot"
-              />
-            </div>
-            <div className="menuTitle">Oyster Shot</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                Oyster, uni, ikura, scallion, quail egg, ponzu jello
-              </span>
-              <span className="optionPrice">$8</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
                 src="../images/menu/app/001-Tuna-tartare.jpg"
                 alt="Tuna Tartare"
               />
@@ -701,36 +686,6 @@ const Menu = () => {
             <div className="menuTitle">Tuna Tartare</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Tuna, avocado, tatare sauce</span>
-              <span className="optionPrice">$13</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/app/Aburi-Hakko-BIMG3583.jpg"
-                alt="Aburi Hakko"
-              />
-            </div>
-            <div className="menuTitle">Aburi Hakko</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                8 pcs Kansai style box sushi with seared assorted fish
-              </span>
-              <span className="optionPrice">$12</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/app/021-Aburisushi.jpg"
-                alt="Aburi Sushi"
-              />
-            </div>
-            <div className="menuTitle">Aburi Sushi</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                8 pcs Kansai style box sushi with seared fish with garlic sauce
-              </span>
               <span className="optionPrice">$13</span>
             </div>
           </div>
@@ -889,6 +844,19 @@ const Menu = () => {
                 Grilled black cod with miso base sauce
               </span>
               <span className="optionPrice">$22</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/SabaShioyaki.jpg"
+                alt="Saba Shio Yaki"
+              />
+            </div>
+            <div className="menuTitle">Saba Shio Yaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Grilled mackeral</span>
+              <span className="optionPrice">$10</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1215,21 +1183,6 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/lunchSashSush/001-SashimiLunchDelux.jpg"
-                alt="Sashimi Lunch Deluxe"
-              />
-            </div>
-            <div className="menuTitle">Sashimi Lunch Deluxe</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                Chef's selection 20 pcs raw fish
-              </span>
-              <span className="optionPrice">$32</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
                 src="../images/menu/lunchSashSush/001-SushiregulaA.jpg"
                 alt="Sushi Lunch Regular A"
               />
@@ -1255,21 +1208,6 @@ const Menu = () => {
                 10 pcs sushi, 8 pcs shrimp kappa roll
               </span>
               <span className="optionPrice">$22</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/lunchSashSush/001-SushiLunchDelux.jpg"
-                alt="Sushi Lunch Deluxe"
-              />
-            </div>
-            <div className="menuTitle">Sushi Lunch Deluxe</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                Chef's selection 12 pcs sushi, 6 pcs roll
-              </span>
-              <span className="optionPrice">$30</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1308,7 +1246,7 @@ const Menu = () => {
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/lunchSashSush/004-SashimiSushilunchregular.jpg"
-                alt="Sashimi &amp; Sushi Lunch Regular"
+                alt="Sashimi &amp; Sushi Lunch"
               />
             </div>
             <div className="menuTitle">Sashimi &amp; Sushi Lunch Regular</div>
@@ -1317,26 +1255,12 @@ const Menu = () => {
               <span className="optionPrice">$19</span>
             </div>
           </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/lunchSashSush/001-SashimiSushiDeluxe.jpg"
-                alt="Sashimi &amp; Sushi Lunch Deluxe"
-              />
-            </div>
-            <div className="menuTitle">Sashimi &amp; Sushi Lunch Deluxe</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                Chef's selection 10 pcs sashimi, 8 pcs sushi
-              </span>
-              <span className="optionPrice">$32</span>
-            </div>
-          </div>
+
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/lunchSashSush/001-Chirashi-LunchReg.jpg"
-                alt="Chirashi Lunch Regular"
+                alt="Chirashi Lunch"
               />
             </div>
             <div className="menuTitle">Chirashi Lunch Regular</div>
@@ -1347,21 +1271,7 @@ const Menu = () => {
               <span className="optionPrice">$19</span>
             </div>
           </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/lunchSashSush/001-Chirashi-LunchDelux.jpg"
-                alt="Chirashi Lunch Deluxe"
-              />
-            </div>
-            <div className="menuTitle">Chirashi Lunch Deluxe</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                Chef's selection assorted raw fish on sushi rice
-              </span>
-              <span className="optionPrice">$32</span>
-            </div>
-          </div>
+
           {/* ––––––– Roll Set  ––––––––– */}
           <h3>Roll Set Lunch</h3>
           <p>Served with miso soup and salad</p>
@@ -1705,11 +1615,11 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/rollBasic/001-BlueFintunaroll.jpg"
-                alt="Blue Fin Tuna Roll "
+                src="../images/menu/rollBasic/Tunaroll.jpg"
+                alt="Tuna Roll "
               />
             </div>
-            <div className="menuTitle">Blue Fin Tuna Roll </div>
+            <div className="menuTitle">Tuna Roll </div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">(6 pcs)</span>
               <span className="optionPrice">$10</span>
@@ -2492,6 +2402,22 @@ const Menu = () => {
               <span className="optionPrice">$18</span>
             </div>
           </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollSig/MississaugaSalmonRoll.jpg"
+                alt="Mississauga Roll"
+              />
+            </div>
+            <div className="menuTitle">Mississauga Roll  </div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                8 pcs (no rice) Rice paper with salmon or tuna, avocado,
+                cucumber, lettuce, crab meat, tataki sauce
+              </span>
+              <span className="optionPrice">$13</span>
+            </div>
+          </div>{" "}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -3685,7 +3611,7 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuMg;
 
 // export const pageQuery = graphql`
 //   query MyQuery {

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import SEO from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
@@ -14,7 +14,7 @@ const MenuContainer = styled.div`
     margin-bottom: 3rem;
   }
   .sectionTitle {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 5;
     background-color: var(--grey-dark);
@@ -162,6 +162,59 @@ const MenuContainer = styled.div`
       font-size: 10px;
     }
   }
+
+  .active {
+    display: block;
+  }
+
+  .inactive {
+    display: none;
+  }
+`;
+
+const FlyingMenuContainer = styled.div`
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  height: 70%;
+  padding: 0 8px 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+  z-index: 200;
+  overflow: auto;
+  background-color: gray;
+
+  ul {
+    width: 100%;
+    height: 100%;
+    margin-block-start: 0;
+    padding: 8px 0 8px;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    font-family: var(--titleFont);
+    margin-bottom: 8px;
+    :hover {
+      background-color: var(--primary-light);
+      a {
+        color: white;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    padding: 23px 0;
+    height: 100%;
+    color: var(--primary-dark);
+  }
 `;
 
 const MenuNav = styled.div`
@@ -188,13 +241,13 @@ const MenuNav = styled.div`
   }
 `;
 
-const TopButton = styled.a`
+const TopButton = styled.div`
   background-color: var(--primary-dark);
   color: white;
   display: block;
   position: fixed;
-  right: 1em;
-  bottom: 10px;
+  right: 20px;
+  bottom: 20px;
   text-align: center;
   padding: 1em 2em;
   border-radius: 6px;
@@ -202,6 +255,12 @@ const TopButton = styled.a`
 `;
 
 const Menu = () => {
+  const [menuState, setMenuState] = useState(false);
+
+  function clickHandler() {
+    setMenuState(!menuState);
+  }
+
   return (
     <Layout>
       <SEO title="menu" />
@@ -246,6 +305,46 @@ const Menu = () => {
         </ul>
       </MenuNav>
       <MenuContainer>
+        <FlyingMenuContainer className={menuState ? "active" : "inactive"}>
+          <ul onClick={clickHandler} onKeyDown={clickHandler}>
+            <li>
+              <a href="#partyTray">PARTY TRAY</a>
+            </li>
+            <li>
+              <a href="#rollCombo">ROLL COMBINATION</a>
+            </li>
+            <li>
+              <a href="#appetizers">APPETIZERS</a>
+            </li>
+            <li>
+              <a href="#soup">SOUP</a>
+            </li>
+            <li>
+              <a href="#salad">SALAD</a>
+            </li>
+            <li>
+              <a href="#lunch">LUNCH</a>
+            </li>
+            <li>
+              <a href="#rolls">ROLLS</a>
+            </li>
+            <li>
+              <a href="#noodle">NOODLE</a>
+            </li>
+            <li>
+              <a href="#dinner">DINNER</a>
+            </li>
+            <li>
+              <a href="#alacarte">A LA CARTE</a>
+            </li>
+            <li>
+              <a href="#drinks">DRINKS</a>
+            </li>
+            <li>
+              <a href="#desserts">DESSERTS</a>
+            </li>
+          </ul>
+        </FlyingMenuContainer>
         {/* –––––––––––––––– Party Tray –––––––––––––––– */}
         <div className="menuSection">
           <h2 className="sectionTitle" id="partyTray">
@@ -3680,7 +3779,9 @@ const Menu = () => {
 
 */}
       </MenuContainer>
-      <TopButton href="#top">top</TopButton>
+      <TopButton onClick={clickHandler} onKeyDown={clickHandler}>
+        menu
+      </TopButton>
     </Layout>
   );
 };

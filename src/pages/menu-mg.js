@@ -187,7 +187,7 @@ const FlyingMenuContainer = styled.div`
   box-shadow: 0 0 20px rgb(0 0 0 / 15%);
   z-index: 200;
   overflow: auto;
-  background-color: gray;
+  background-color: var(--primary-dark);
 
   ul {
     width: 100%;
@@ -203,7 +203,7 @@ const FlyingMenuContainer = styled.div`
     font-family: var(--titleFont);
     margin-bottom: 8px;
     :hover {
-      background-color: var(--primary-light);
+      background-color: var(--grey-dark);
       a {
         color: white;
       }
@@ -252,8 +252,8 @@ const TopButton = styled.div`
   padding: 1em 2em;
   border-radius: 6px;
   z-index: 100;
+  cursor: pointer;
 `;
-
 const MenuMg = () => {
   const [menuState, setMenuState] = useState(false);
 

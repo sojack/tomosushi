@@ -307,42 +307,86 @@ const Menu = () => {
       </MenuNav>
       <MenuContainer>
         <FlyingMenuContainer className={menuState ? "active" : "inactive"}>
-          <ul onClick={clickHandler} onKeyDown={clickHandler}>
+          <ul>
             <li>
-              <a href="#partyTray">PARTY TRAY</a>
+              <a
+                onClick={clickHandler}
+                onKeyDown={clickHandler}
+                href="#partyTray"
+              >
+                PARTY TRAY
+              </a>
             </li>
             <li>
-              <a href="#rollCombo">ROLL COMBINATION</a>
+              <a
+                onClick={clickHandler}
+                onKeyDown={clickHandler}
+                href="#rollCombo"
+              >
+                ROLL COMBINATION
+              </a>
             </li>
             <li>
-              <a href="#appetizers">APPETIZERS</a>
+              <a
+                onClick={clickHandler}
+                onKeyDown={clickHandler}
+                href="#appetizers"
+              >
+                APPETIZERS
+              </a>
             </li>
             <li>
-              <a href="#soup">SOUP</a>
+              <a onClick={clickHandler} onKeyDown={clickHandler} href="#soup">
+                SOUP
+              </a>
             </li>
             <li>
-              <a href="#salad">SALAD</a>
+              <a onClick={clickHandler} onKeyDown={clickHandler} href="#salad">
+                SALAD
+              </a>
             </li>
             <li>
-              <a href="#lunch">LUNCH</a>
+              <a onClick={clickHandler} onKeyDown={clickHandler} href="#lunch">
+                LUNCH
+              </a>
             </li>
             <li>
-              <a href="#rolls">ROLLS</a>
+              <a onClick={clickHandler} onKeyDown={clickHandler} href="#rolls">
+                ROLLS
+              </a>
             </li>
             <li>
-              <a href="#noodle">NOODLE</a>
+              <a onClick={clickHandler} onKeyDown={clickHandler} href="#noodle">
+                NOODLE
+              </a>
             </li>
             <li>
-              <a href="#dinner">DINNER</a>
+              <a onClick={clickHandler} onKeyDown={clickHandler} href="#dinner">
+                DINNER
+              </a>
             </li>
             <li>
-              <a href="#alacarte">A LA CARTE</a>
+              <a
+                onClick={clickHandler}
+                onKeyDown={clickHandler}
+                href="#alacarte"
+              >
+                A LA CARTE
+              </a>
             </li>
             <li>
-              <a href="#drinks">DRINKS</a>
+              <a onClick={clickHandler} onKeyDown={clickHandler} href="#drinks">
+                DRINKS
+              </a>
             </li>
             <li>
-              <a href="#desserts">DESSERTS</a>
+              <a
+                onClick={clickHandler}
+                onKeyDown={clickHandler}
+                href="#desserts"
+              >
+                DESSERTS
+              </a>
             </li>
           </ul>
         </FlyingMenuContainer>

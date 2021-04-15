@@ -255,6 +255,28 @@ const TopButton = styled.div`
   cursor: pointer;
 `;
 
+const TomoMenu = styled.div`
+  text-transform: uppercase;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+    padding: 2rem 1rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+`;
+
 const Menu = () => {
   const [menuState, setMenuState] = useState(false);
 
@@ -265,6 +287,31 @@ const Menu = () => {
   return (
     <Layout>
       <SEO title="menu" />
+      <TomoMenu>
+        <ul>
+          <li>
+            <a href="https://designcloud.ca/tomo-update/">home</a>
+          </li>
+          <li>
+            <a href="https://designcloud.ca/tomo-update/menu.html">menu</a>
+          </li>
+          <li>
+            <a href="https://designcloud.ca/tomo-update/gallery.html">
+              gallery
+            </a>
+          </li>
+          <li>
+            <a href="https://designcloud.ca/tomo-update/contacts.html">
+              contact
+            </a>
+          </li>
+          <li>
+            <a href="https://designcloud.ca/tomo-update/richmondhill-online.html">
+              order online
+            </a>
+          </li>
+        </ul>
+      </TomoMenu>
       <MenuNav id="top">
         <ul>
           <li>

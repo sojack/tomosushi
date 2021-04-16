@@ -290,23 +290,19 @@ const Menu = () => {
       <TomoMenu>
         <ul>
           <li>
-            <a href="https://designcloud.ca/tomo-update/">home</a>
+            <a href="https://www.tomosushi.ca/richmond.html">home</a>
           </li>
           <li>
             <a href="https://designcloud.ca/tomo-update/menu.html">menu</a>
           </li>
           <li>
-            <a href="https://designcloud.ca/tomo-update/gallery.html">
-              gallery
-            </a>
+            <a href="https://www.tomosushi.ca/gallery.html">gallery</a>
           </li>
           <li>
-            <a href="https://designcloud.ca/tomo-update/contacts.html">
-              contact
-            </a>
+            <a href="https://www.tomosushi.ca/contacts.html">contact</a>
           </li>
           <li>
-            <a href="https://designcloud.ca/tomo-update/richmondhill-online.html">
+            <a href="https://www.tomosushi.ca/richmondhill-online.html">
               order online
             </a>
           </li>
@@ -850,9 +846,7 @@ const Menu = () => {
             </div>
             <div className="menuTitle">Sushi Pizza </div>
             <div className="menuOption menuOptionThree">
-              <span className="optionDesc">
-                4 pcs Chef choice assorted sushi
-              </span>
+              <span className="optionDesc"></span>
               <span className="optionPrice">Salmon</span>
               <span className="optionPrice">$10</span>
               <span></span>
@@ -1077,7 +1071,8 @@ const Menu = () => {
             <div className="menuTitle">Black Cod Miso Yaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                Grilled black cod with miso base sauce
+                Grilled black cod marinated with miso base sauce with unagi
+                sauce on top
               </span>
               <span className="optionPrice">$22</span>
             </div>
@@ -1626,7 +1621,7 @@ const Menu = () => {
             <div className="menuTitle">Maki Set Lunch D</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                6 pcs California, 8 pcs any dragon roll
+                6 pcs California, 8 pcs Green, Red or Black dragon roll
               </span>
               <span className="optionPrice">$19</span>
             </div>
@@ -1799,7 +1794,7 @@ const Menu = () => {
                 3 pcs California roll with shrimp &amp; veggie tempura
               </span>
               <span className="optionQuant">Bul-go-gi</span>
-              <span className="optionPrice">$21</span>
+              <span className="optionPrice">$17</span>
               <span></span>
               <span className="optionQuant">Kalbi</span>
               <span className="optionPrice">$21</span>
@@ -2648,7 +2643,7 @@ const Menu = () => {
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 8 pcs Sirloin beef, crispy leek on avocado, lettuce, cucumber,
-                stir-fried mushroom roll, tataki sauce
+                deep-fried mushroom roll, tataki sauce
               </span>
               <span className="optionPrice">$17</span>
             </div>
@@ -2663,7 +2658,8 @@ const Menu = () => {
             <div className="menuTitle">Hawaiian Volcano </div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                8 pcs Smoked salmon on dynamite, garlic sauce, scallion
+                8 pcs Smoked salmon on dynamite, garlic sauce, scallion with
+                spicy mayo
               </span>
               <span className="optionPrice">$19</span>
             </div>
@@ -3346,7 +3342,7 @@ const Menu = () => {
               <span className="price">
                 <em>sushi</em> $25
                 <br />
-                <em>sashimi</em> $25
+                <em>sashimi</em> $35
               </span>
               <span className="description">fatty bluefin tuna</span>
             </li>

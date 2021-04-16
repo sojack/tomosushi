@@ -241,27 +241,27 @@ const MenuNav = styled.div`
   }
 `;
 
-const TomoMenu = styled.div`
-  text-transform: uppercase;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.2) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  width: 100%;
-  ul {
-    list-style: none;
-  }
-  li {
-    display: inline-block;
-  }
-  a {
-    text-decoration: none;
-    padding: 2rem 1rem;
-    color: white;
-    font-size: 1.2rem;
-  }
-`;
+// const TomoMenu = styled.div`
+//   text-transform: uppercase;
+//   background: linear-gradient(
+//     to bottom,
+//     rgba(0, 0, 0, 0.2) 0%,
+//     rgba(0, 0, 0, 0) 100%
+//   );
+//   width: 100%;
+//   ul {
+//     list-style: none;
+//   }
+//   li {
+//     display: inline-block;
+//   }
+//   a {
+//     text-decoration: none;
+//     padding: 2rem 1rem;
+//     color: white;
+//     font-size: 1.2rem;
+//   }
+// `;
 
 const TopButton = styled.div`
   background-color: var(--primary-dark);
@@ -286,7 +286,7 @@ const MenuMg = () => {
   return (
     <Layout>
       <SEO title="menu" />
-      <TomoMenu>
+      {/* <TomoMenu>
         <ul>
           <li>
             <a href="https://www.tomosushi.ca/mississauga.html">home</a>
@@ -306,7 +306,7 @@ const MenuMg = () => {
             </a>
           </li>
         </ul>
-      </TomoMenu>
+      </TomoMenu> */}
 
       <MenuNav id="top">
         <ul>

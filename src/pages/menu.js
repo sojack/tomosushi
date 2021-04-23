@@ -3,6 +3,7 @@ import SEO from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 // import MenuItem from "../components/menuItem";
 
 const MenuContainer = styled.div`
@@ -255,27 +256,27 @@ const TopButton = styled.div`
   cursor: pointer;
 `;
 
-// const TomoMenu = styled.div`
-//   text-transform: uppercase;
-//   background: linear-gradient(
-//     to bottom,
-//     rgba(0, 0, 0, 0.2) 0%,
-//     rgba(0, 0, 0, 0) 100%
-//   );
-//   width: 100%;
-//   ul {
-//     list-style: none;
-//   }
-//   li {
-//     display: inline-block;
-//   }
-//   a {
-//     text-decoration: none;
-//     padding: 2rem 1rem;
-//     color: white;
-//     font-size: 1.2rem;
-//   }
-// `;
+const TomoMenu = styled.div`
+  text-transform: uppercase;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+    padding: 2rem 1rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+`;
 
 const Menu = () => {
   const [menuState, setMenuState] = useState(false);
@@ -286,15 +287,16 @@ const Menu = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <base target="_parent" />
+      </Helmet>
       <SEO title="menu" />
-      {/* <TomoMenu>
+      <TomoMenu>
         <ul>
           <li>
             <a href="https://www.tomosushi.ca/richmond.html">home</a>
           </li>
-          <li>
-            <a href="https://designcloud.ca/tomo-update/menu.html">menu</a>
-          </li>
+          <li>menu</li>
           <li>
             <a href="https://www.tomosushi.ca/gallery.html">gallery</a>
           </li>
@@ -307,7 +309,7 @@ const Menu = () => {
             </a>
           </li>
         </ul>
-      </TomoMenu> */}
+      </TomoMenu>
       <MenuNav id="top">
         <ul>
           <li>

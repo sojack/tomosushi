@@ -285,15 +285,16 @@ const MenuMg = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <base target="_parent" />
+      </Helmet>
       <SEO title="menu" />
-      {/* <TomoMenu>
+      <TomoMenu>
         <ul>
           <li>
-            <a href="https://www.tomosushi.ca/mississauga.html">home</a>
+            <a href="https://www.tomosushi.ca">home</a>
           </li>
-          <li>
-            <a href="https://designcloud.ca/tomo-update/mg_menu.html">menu</a>
-          </li>
+          <li>menu</li>
           <li>
             <a href="https://www.tomosushi.ca/gallery.html">gallery</a>
           </li>
@@ -306,7 +307,7 @@ const MenuMg = () => {
             </a>
           </li>
         </ul>
-      </TomoMenu> */}
+      </TomoMenu>
 
       <MenuNav id="top">
         <ul>

@@ -294,7 +294,7 @@ const Menu = () => {
       <TomoMenu>
         <ul>
           <li>
-            <a href="https://www.tomosushi.ca/richmond.html">home</a>
+            <a href="https://www.tomosushi.ca">home</a>
           </li>
           <li>menu</li>
           <li>

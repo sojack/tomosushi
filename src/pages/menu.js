@@ -3,7 +3,6 @@ import SEO from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import styled from "styled-components";
-import { Helmet } from "react-helmet";
 // import MenuItem from "../components/menuItem";
 
 const MenuContainer = styled.div`
@@ -287,9 +286,6 @@ const Menu = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <base target="_parent" />
-      </Helmet>
       <SEO title="menu" />
       <TomoMenu>
         <ul>

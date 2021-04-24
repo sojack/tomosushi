@@ -265,13 +265,19 @@ const TomoMenu = styled.div`
   width: 100%;
   ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    padding-top: 1rem;
   }
   li {
     display: inline-block;
   }
   a {
     text-decoration: none;
-    padding: 2rem 1rem;
+    padding: 5rem 0.7rem;
     color: white;
     font-size: 1.2rem;
   }

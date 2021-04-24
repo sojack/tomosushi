@@ -293,7 +293,6 @@ const MenuMg = () => {
               home
             </a>
           </li>
-          <li>menu</li>
           <li>
             <a target="_parent" href="https://www.tomosushi.ca/gallery.html">
               gallery

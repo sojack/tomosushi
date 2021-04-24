@@ -307,7 +307,7 @@ const MenuMg = () => {
           <li>
             <a
               target="_parent"
-              href="https://www.tomosushi.ca/richmondhill-online.html"
+              href="https://onlineordering.mealsy.ca/en/#/Tomo-Sushi-Mississauga/online/menus"
             >
               order online
             </a>

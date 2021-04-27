@@ -152,6 +152,11 @@ const MenuContainer = styled.div`
       grid-column: 1 / 2;
       margin: 0 auto;
     }
+    .alacarte .price {
+      min-width: 10em;
+      grid-row: 1 / span2;
+      white-space: nowrap;
+    }
     .sectionTitle,
     h3,
     p {
@@ -3339,7 +3344,7 @@ const Menu = () => {
             A LA CARTE
           </h2>
           <p>Sushi 2 pcs, Sashimi 3 pcs</p>
-          <ul className="menu">
+          <ul className="menu alacarte">
             <li>
               <span className="item-title">Hon maguro</span>
               <span className="price">

@@ -3274,15 +3274,6 @@ const MenuMg = () => {
           <p>Sushi 2 pcs, Sashimi 3 pcs</p>
           <ul className="menu alacarte">
             <li>
-              <span className="item-title">Hon maguro</span>
-              <span className="price">
-                <em>sushi</em> $10
-                <br />
-                <em>sashimi</em> $12
-              </span>
-              <span className="description">bluefin tuna</span>
-            </li>
-            <li>
               <span className="item-title">Otoro</span>
               <span className="price">
                 <em>sushi</em> $25
@@ -3290,15 +3281,6 @@ const MenuMg = () => {
                 <em>sashimi</em> $35
               </span>
               <span className="description">fatty bluefin tuna</span>
-            </li>
-            <li>
-              <span className="item-title">Chutoro</span>
-              <span className="price">
-                <em>sushi</em> $12
-                <br />
-                <em>sashimi</em> $15
-              </span>
-              <span className="description">medium fatty blue fin tuna</span>
             </li>
             <li>
               <span className="item-title">Maguro</span>

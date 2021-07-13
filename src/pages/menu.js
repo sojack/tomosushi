@@ -2770,7 +2770,7 @@ const Menu = () => {
               <span className="optionPrice">$15</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/noodle/SpicySeafoodUdon.jpg"
@@ -2782,7 +2782,7 @@ const Menu = () => {
               <span className="optionDesc">Spicy seafood noodle soup</span>
               <span className="optionPrice">$17</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -2913,7 +2913,7 @@ const Menu = () => {
               <span className="optionDesc">
                 12 pcs sushi, 8 pcs shrimp kappa
               </span>
-              <span className="optionPrice">$28</span>
+              <span className="optionPrice">$29</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3006,7 +3006,7 @@ const Menu = () => {
               <span className="optionDesc">
                 Chicken, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3021,7 +3021,7 @@ const Menu = () => {
               <span className="optionDesc">
                 Deep fried chicken, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$19</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3315,7 +3315,7 @@ const Menu = () => {
             <div className="menuTitle">Sashimi Combo</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                (no rice) 6 pcs salmon sashimi, 6 pcs sushi, 6 pcs California
+                (no rice) 6 pcs salmon sashimi, 5 pcs sushi, 6 pcs California
                 roll with shrimp &amp; veggie tempura
               </span>
               <span className="optionPrice">$30</span>

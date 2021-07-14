@@ -2841,7 +2841,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 12 pcs sushi, 8 pcs shrimp kappa
               </span>
-              <span className="optionPrice">$28</span>
+              <span className="optionPrice">$29</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3243,7 +3243,7 @@ const MenuMg = () => {
             <div className="menuTitle">Sashimi Combo</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                (no rice) 6 pcs salmon sashimi, 6 pcs sushi, 6 pcs California
+                (no rice) 6 pcs salmon sashimi, 5 pcs sushi, 6 pcs California
                 roll with shrimp &amp; veggie tempura
               </span>
               <span className="optionPrice">$30</span>

@@ -553,17 +553,17 @@ const Menu = () => {
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Small</span>
               <span className="optionDesc">
-                16 pcs sashimi, 12 pcs sushi, 8 pcs roll
+                18 pcs sashimi, 14 pcs sushi, 8 pcs roll
               </span>
-              <span className="optionQuant">36 pcs</span>
+              <span className="optionQuant">40 pcs</span>
               <span className="optionPrice">$80</span>
             </div>
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Large</span>
               <span className="optionDesc">
-                28 pcs sashimi, 18 pcs sushi, 14 pcs roll
+                30 pcs sashimi, 20 pcs sushi, 14 pcs roll
               </span>
-              <span className="optionQuant">60 pcs</span>
+              <span className="optionQuant">64 pcs</span>
               <span className="optionPrice">$120</span>
             </div>
           </div>

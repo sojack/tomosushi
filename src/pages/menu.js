@@ -3712,8 +3712,8 @@ const Menu = () => {
             </li>
             <li className="drink-02">
               <span>Sapporo (Can) </span>
-              <span className="xsmall">650 ml</span>
-              <span>11</span>
+              <span className="xsmall">500 ml</span>
+              <span>10</span>
             </li>
             <li className="drink-02">
               <span>Asahi </span>
@@ -3723,7 +3723,7 @@ const Menu = () => {
             <li className="drink-02">
               <span>Asahi (Can) </span>
               <span className="xsmall">500 ml</span>
-              <span>9</span>
+              <span>10</span>
             </li>
             <li className="drink-02">
               <span>Asahi Black </span>

@@ -33,5 +33,13 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve:"gatsby-plugin-gatsby-cloud",
+      options:{
+        allPageHeaders:[
+          "X-Frame-Options: SAMEORIGIN",
+        ],
+      }
+    }
   ],
 };

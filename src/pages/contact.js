@@ -2,11 +2,11 @@ import React from "react";
 // import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact Us" />
+    <Seo title="Contact Us" />
     <h1>Contact</h1>
   </Layout>
 );

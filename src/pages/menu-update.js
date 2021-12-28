@@ -3,7 +3,6 @@ import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import styled from "styled-components";
-// import MenuItem from "../components/menuItem";
 
 const MenuContainer = styled.div`
   .menuSection {
@@ -3892,17 +3891,3 @@ const Menu = () => {
 };
 
 export default Menu;
-
-// export const pageQuery = graphql`
-//   query MyQuery {
-//     allImageSharp {
-//       edges {
-//         node {
-//           fluid {
-//             src
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;

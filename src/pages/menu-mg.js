@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import styled from "styled-components";
@@ -296,7 +296,7 @@ const MenuMg = () => {
 
   return (
     <Layout>
-      <SEO title="menu" />
+      <Seo title="menu" />
       <TomoMenu>
         <ul>
           <li>

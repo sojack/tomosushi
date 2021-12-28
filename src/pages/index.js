@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Header from "../components/header";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import Layout from "../components/layout";
 import styled from "styled-components";
 
@@ -15,7 +15,7 @@ const IndexPage = () => {
     <Layout>
       <MyLayout>
         <Header />
-        <SEO title="menu" />
+        <Seo title="menu" />
         <ul>
           <li>
             <Link to="/menu">Richmond Hill menu</Link>

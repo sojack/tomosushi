@@ -2059,7 +2059,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/logo-imageToCome.png"
+                src="../images/menu/rollBasic/NegiOtoroRoll.jpg"
                 alt="Negi bluefin tuna roll"
               />
             </div>

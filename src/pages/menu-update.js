@@ -1388,8 +1388,7 @@ const Menu = () => {
           <h2 className="sectionTitle" id="lunch">
             Lunch Menu
           </h2>
-          <p>Not available on holidays</p>
-          <p>
+          <p>Not available on holidays<br />
             Weekday: 11:30 am to 3 pm
             <br />
             Weekend: 12 pm to 3 pm

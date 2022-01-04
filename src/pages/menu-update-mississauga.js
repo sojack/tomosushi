@@ -1389,8 +1389,7 @@ const MenuMg = () => {
           <h2 className="sectionTitle" id="lunch">
             Lunch Menu
           </h2>
-          <p>Not available on holidays</p>
-          <p>
+          <p>Not available on holidays<br />
             11:30 am to 3 pm
           </p>
           <h3>Donburi Lunch</h3>

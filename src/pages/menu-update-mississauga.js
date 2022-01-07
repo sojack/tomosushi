@@ -363,6 +363,9 @@ const MenuMg = () => {
           <li>
             <a href="#desserts">DESSERTS</a>
           </li>
+          <li>
+            <a href="#extras">EXTRAS</a>
+          </li>
         </ul>
       </MenuNav>
       <MenuContainer>
@@ -446,6 +449,15 @@ const MenuMg = () => {
                 href="#desserts"
               >
                 DESSERTS
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={clickHandler}
+                onKeyDown={clickHandler}
+                href="#extras"
+              >
+                EXTRAS
               </a>
             </li>
           </ul>
@@ -3921,8 +3933,8 @@ const MenuMg = () => {
         </div>
         {/* –––––––––––––––– Extras –––––––––––––––– */}
         <div className="menuSection">
-          <h2 className="sectionTitle" id="desserts">
-            Extras
+          <h2 className="sectionTitle" id="extras">
+          EXTRAS
           </h2>
           <ul className="menu drinks">
             <li className="drink-03">

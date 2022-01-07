@@ -3919,9 +3919,30 @@ const MenuMg = () => {
             </li>
           </ul>
         </div>
-        {/*
+        {/* –––––––––––––––– Extras –––––––––––––––– */}
+        <div className="menuSection">
+          <h2 className="sectionTitle" id="desserts">
+            Extras
+          </h2>
+          <ul className="menu drinks">
+            <li className="drink-03">
+              <span>Extra Sauce  (2oz)</span>
+              <span>Spicy Mayo, Hot Sauce, Teriyaki Sauce, Tempura Sauce</span>
+              <span>0.50</span>
+            </li>
+            <li className="drink-03">
+              <span>DragonSauce  (2oz)</span>
+              <span></span>
+              <span>1</span>
+            </li>
+            <li className="drink-03">
+              <span>Ginger  (2oz)</span>
+              <span></span>
+              <span>1</span>
+            </li>
+          </ul>
+        </div>
 
-*/}
       </MenuContainer>
       <TopButton onClick={clickHandler} onKeyDown={clickHandler}>
         menu

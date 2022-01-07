@@ -879,10 +879,15 @@ const Menu = () => {
           </div>
           <div className="menuItem">
             <div className="menuImage">
-              <StaticImage
+            <StaticImage
+                src="../images/menu/app/001-Tuna-tartare.jpg"
+                alt="Tuna Tartare"
+              />
+              {/* <StaticImage
                 src="../images/menu/app/2021-12-16-Tomo-036.jpg"
                 alt="Tomo Tartare"
-              />
+              /> */}
+
             </div>
             <div className="menuTitle">Tomo Tartare</div>
             <div className="menuOption menuOptionThree">
@@ -3266,7 +3271,7 @@ const Menu = () => {
               <span className="optionDesc">
                 B.B.Q marinated short ribs of beef
               </span>
-              <span className="optionPrice">$30</span>
+              <span className="optionPrice">$33</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3281,7 +3286,7 @@ const Menu = () => {
               <span className="optionDesc">
                 B.B.Q fresh water eel with onion
               </span>
-              <span className="optionPrice">$30</span>
+              <span className="optionPrice">$33</span>
             </div>
           </div>
           {/* ––––––– Dinner Combo  ––––––––– */}
@@ -3636,25 +3641,25 @@ const Menu = () => {
           <h3>White Wine</h3>
           <ul className="menu drinks">
             <li className="drink-01">
-              <span>Woodbridge</span> <span>Sauvignon Blanc (USA)</span>
+              <span>Oyster Bay</span> <span>Sauvignon Blanc (New Zealand)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>9</span>
+              <span>10</span>
               <span className="xsmall">1∕2&nbsp;L</span>
               <span>25</span>
               <span className="xsmall">Bottle</span>
-              <span>37</span>
+              <span>40</span>
             </li>
             <li className="drink-01">
-              <span>Lindenmans Bin 65</span>{" "}
-              <span>Chardonnay (Austrailia)</span>
+              <span>Josh Cellars</span>{" "}
+              <span>Chardonnay (USA)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>8</span>
+              <span>10</span>
               <span className="xsmall">1∕2&nbsp;L</span>
-              <span>24</span>
+              <span>25</span>
               <span className="xsmall">Bottle</span>
-              <span>35</span>
+              <span>40</span>
             </li>
-            <li className="drink-01">
+            {/* <li className="drink-01">
               <span>Trius</span> <span>Pinot Grigio (Niagara)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
               <span>11</span>
@@ -3681,32 +3686,42 @@ const Menu = () => {
               <span>&nbsp;</span>
               <span className="xsmall">Bottle</span>
               <span>50</span>
-            </li>
+            </li> */}
           </ul>
 
           <h3>Red Wine</h3>
           <ul className="menu drinks">
             <li className="drink-01">
-              <span>Woodbridge</span>
+              <span>Robert Mondavi</span>
               <span>Cabernet Sauvignon (USA)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>9</span>
+              <span>11</span>
               <span className="xsmall">1/2&nbsp;L</span>
-              <span>25</span>
+              <span>26</span>
               <span className="xsmall">Bottle</span>
-              <span>37</span>
+              <span>42</span>
             </li>
             <li className="drink-01">
-              <span>George Wyndham Bin 555</span>
+              <span>Wakefield</span>
               <span>Shiraz (Austrailia)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
               <span>10</span>
               <span className="xsmall">1/2&nbsp;L</span>
-              <span>28</span>
+              <span>25</span>
               <span className="xsmall">Bottle</span>
               <span>40</span>
             </li>
             <li className="drink-01">
+              <span>Josh Cellars5</span>
+              <span>Merlot (USA)</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
+              <span>10</span>
+              <span className="xsmall">1/2&nbsp;L</span>
+              <span>25</span>
+              <span className="xsmall">Bottle</span>
+              <span>40</span>
+            </li>
+            {/* <li className="drink-01">
               <span>Josh Cellars</span>
               <span>Merlot (USA)</span>
               <span>&nbsp;</span>
@@ -3725,38 +3740,47 @@ const Menu = () => {
               <span>&nbsp;</span>
               <span className="xsmall">Bottle</span>
               <span>60</span>
-            </li>
+            </li> */}
           </ul>
 
           <h3>Plum Wine</h3>
           <ul className="menu drinks">
-            <li className="drink-02">
+            <li className="drink-01">
               <span>Gekkeikan</span>
-              <span className="xsmall">5oz. Glass</span>
-              <span>9 </span>
-            </li>
-            <li className="drink-02">
-              <span>Takara</span>
-              <span className="xsmall">5oz. Glass</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
               <span>10</span>
+              <span className="xsmall">1/2&nbsp;L</span>
+              <span>25</span>
+              <span className="xsmall">Bottle</span>
+              <span>40</span>
+            </li>
+            <li className="drink-01">
+              <span>Takara</span>
+              <span className="xsmall">5oz.&nbsp;Glass</span>
+              <span>10</span>
+              <span className="xsmall">1/2&nbsp;L</span>
+              <span>25</span>
+              <span className="xsmall">Bottle</span>
+              <span>40</span>
             </li>
           </ul>
+
           <h3>Beer</h3>
           <ul className="menu drinks">
             <li className="drink-02">
               <span>Sapporo</span>
               <span className="xsmall">341ml</span>
-              <span>7</span>
+              <span>8</span>
             </li>
             <li className="drink-02">
-              <span>Sapporo(Can)</span>
+              <span>Sapporo (Can)</span>
               <span className="xsmall">500 ml</span>
               <span>10</span>
             </li>
             <li className="drink-02">
               <span>Asahi</span>
               <span className="xsmall">330 ml</span>
-              <span>7</span>
+              <span>8</span>
             </li>
             <li className="drink-02">
               <span>Asahi(Can)</span>
@@ -3766,14 +3790,14 @@ const Menu = () => {
             <li className="drink-02">
               <span>Asahi Black</span>
               <span className="xsmall">334 ml</span>
-              <span>9</span>
+              <span>10</span>
             </li>
             {/* <li className="drink-02">
               <span>Kirin</span>
               <span className="xsmall">500 ml</span>
               <span>9</span>
             </li> */}
-            <li className="drink-02">
+            {/* <li className="drink-02">
               <span>Stella</span>
               <span className="xsmall">330 ml</span>
               <span>7</span>{" "}
@@ -3782,16 +3806,16 @@ const Menu = () => {
               <span>Corona</span>
               <span className="xsmall">330 ml</span>
               <span>7</span>{" "}
-            </li>
+            </li> */}
             <li className="drink-02">
               <span>Canadian</span>
               <span className="xsmall">341 ml</span>
-              <span>6</span>{" "}
+              <span>7</span>{" "}
             </li>
             <li className="drink-02">
               <span>Coors Light</span>
               <span className="xsmall">341 ml</span>
-              <span>6</span>
+              <span>7</span>
             </li>
           </ul>
 
@@ -3801,37 +3825,37 @@ const Menu = () => {
               <span>Hakutsuru</span>
               <span>Junmai, Draft</span>
               <span className="xsmall">300 ml bottle</span>
-              <span>17</span>
+              <span>19</span>
             </li>
             <li className="drink-03">
               <span>Sayuri</span>
               <span>Nigori</span>
               <span className="xsmall">300 ml bottle</span>
-              <span>20</span>
+              <span>22</span>
             </li>
             <li className="drink-03">
               <span>Sho Chiku Bai</span>
               <span>Ginjo</span>
               <span className="xsmall">300 ml bottle</span>
-              <span>35</span>
+              <span>37</span>
             </li>
             <li className="drink-03">
               <span>Tamanohikari</span>
               <span>Junmai Dai Ginjo</span>
               <span className="xsmall">300 ml bottle</span>
-              <span>46</span>
+              <span>50</span>
             </li>
-            <li className="drink-03">
+            {/* <li className="drink-03">
               <span>Otokoyama</span>
               <span>Tokubetsu Junmai</span>
               <span className="xsmall">500 ml bottle</span>
               <span>70</span>
-            </li>
+            </li> */}
             <li className="drink-03">
               <span>Soju</span>
-              <span></span>
+              <span>Korean Soju</span>
               <span className="xsmall">375 ml bottle</span>
-              <span>18 </span>
+              <span>20 </span>
             </li>
           </ul>
           <h3>Hot Sake</h3>
@@ -3856,9 +3880,9 @@ const Menu = () => {
 
             <li className="drink-04">
               <span>Sho Chiku Bai</span>
-              <span>6</span>
-              <span>12</span>
-              <span>28</span>
+              <span>8</span>
+              <span>15</span>
+              <span>30</span>
             </li>
           </ul>
 
@@ -3866,35 +3890,35 @@ const Menu = () => {
           <ul className="menu drinks">
             <li className="drink-05">
               <span>Evian Water</span>
-              <span>3.50</span>
+              <span>4</span>
             </li>
             <li className="drink-05">
               <span>Perrier Small</span>
-              <span>3.50</span>
+              <span>4</span>
             </li>
             <li className="drink-05">
-              <span>Coke, Diet Coke </span>
-              <span>2</span>
-            </li>
-            <li className="drink-05">
-              <span>Ginger Ale, Sprite </span>
-              <span>2</span>
-            </li>
-            <li className="drink-05">
-              <span>C+</span>
-              <span>2</span>
-            </li>
-            <li className="drink-05">
-              <span>Nestea</span>
+              <span>Coke,  Coke Zero </span>
               <span>3</span>
             </li>
             <li className="drink-05">
-              <span>Orange Juice </span>
+              <span>Ginger Ale, Sprite </span>
+              <span>3</span>
+            </li>
+            {/* <li className="drink-05">
+              <span>C+</span>
+              <span>2</span>
+            </li> */}
+            <li className="drink-05">
+              <span>Nestea</span>
               <span>3.50</span>
             </li>
             <li className="drink-05">
+              <span>Orange Juice </span>
+              <span>4</span>
+            </li>
+            <li className="drink-05">
               <span>Apple Juice</span>
-              <span>3.50</span>
+              <span>4</span>
             </li>
           </ul>
         </div>
@@ -3908,10 +3932,10 @@ const Menu = () => {
               <span>Green Tea, Mango, Vanilla Ice Cream </span>
               <span>3</span>
             </li>
-            <li className="drink-05">
+            {/* <li className="drink-05">
               <span>Mochi Ice Cream (2 pcs) </span>
               <span>5</span>
-            </li>
+            </li> */}
             <li className="drink-05">
               <span>Tempura Ice Cream </span>
               <span>5</span>

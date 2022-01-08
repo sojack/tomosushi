@@ -645,7 +645,7 @@ const Menu = () => {
                 5 pcs sashimi, 4 pcs sushi, salmon roll, salmon hand roll,
                 salmon avocado roll
               </span>
-              <span className="optionQuant">23 pcs</span>
+              <span className="optionQuant">22 pcs</span>
               <span className="optionPrice">$37</span>
             </div>
           </div>
@@ -1159,8 +1159,7 @@ const Menu = () => {
             <div className="menuTitle">Black Cod Miso Yaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                Grilled black cod marinated with miso base sauce with unagi
-                sauce on top
+                Grilled black cod marinated with miso base sauce
               </span>
               <span className="optionPrice">$24</span>
             </div>
@@ -1519,7 +1518,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/lunchSashSush/001-SushiregulaA.jpg"
+                src="../images/menu/lunchCombo/235-Sushi-lunch-regular-A.jpg"
                 alt="Sushi Lunch Regular A"
               />
             </div>
@@ -1534,7 +1533,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/lunchSashSush/002-SushiregulaB.jpg"
+                src="../images/menu/lunchCombo/236-Sushi-lunch-regular-B.jpg"
                 alt="Sushi Lunch Regular B"
               />
             </div>
@@ -3023,7 +3022,7 @@ const Menu = () => {
                 alt="Chirashi Regular"
               />
             </div>
-            <div className="menuTitle">Chirashi Regular</div>
+            <div className="menuTitle">Chirashi Regular (18 pcs)</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 Assorted raw fish on sushi rice
@@ -3038,7 +3037,7 @@ const Menu = () => {
                 alt="Chirashi Deluxe"
               />
             </div>
-            <div className="menuTitle">Chirashi Deluxe</div>
+            <div className="menuTitle">Chirashi Deluxe (20 pcs)</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 Chef’s selection assorted raw fish on sushi rice
@@ -3221,7 +3220,8 @@ const Menu = () => {
             <div className="menuTitle">Shrimp Tempura Moriawase</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                4 pcs of deep-fried shrimps &amp; vegetable
+                4 pcs of deep-fried shrimp &amp; 10 pcs vegetables
+
               </span>
               <span className="optionPrice">$24</span>
             </div>
@@ -3236,7 +3236,7 @@ const Menu = () => {
             <div className="menuTitle">Lobster Tempura Moriawase</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                Deep fried lobster tail, vegetables
+              4 pcs deep-fried lobster tail, 10 pcs vegetables
               </span>
               <span className="optionPrice">$34</span>
             </div>
@@ -3296,7 +3296,7 @@ const Menu = () => {
             <div className="menuTitle">Unagi Kabayaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                B.B.Q fresh water eel with onion
+                B.B.Q fresh water eel with vegetables
               </span>
               <span className="optionPrice">$33</span>
             </div>

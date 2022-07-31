@@ -1206,6 +1206,19 @@ const MenuMg = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
+                src="../images/menu/soup/008-CrunchNoodle.jpg"
+                alt="Crunch Noodle Soup"
+              />
+            </div>
+            <div className="menuTitle">Crunch Noodle Soup</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Crunch noodle soup (medium) * Dine in only</span>
+              <span className="optionPrice">$3</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
                 src="../images/menu/soup/002-WontonSoup.jpg"
                 alt="Wonton Soup"
               />

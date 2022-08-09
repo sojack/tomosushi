@@ -820,7 +820,7 @@ const MenuMg = () => {
             <div className="menuTitle">Beef Sashimi</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Sliced raw beef, ponzu sauce</span>
-              <span className="optionPrice">$15</span>
+              <span className="optionPrice">$16</span>
             </div>
           </div>
           <div className="menuItem">
@@ -835,7 +835,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 6 pcs Chef choice assorted sashimi
               </span>
-              <span className="optionPrice">$12</span>
+              <span className="optionPrice">$13</span>
             </div>
           </div>
           <div className="menuItem">
@@ -848,7 +848,7 @@ const MenuMg = () => {
             <div className="menuTitle">Salmon Sashimi Appetizer</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs Salmon sashimi</span>
-              <span className="optionPrice">$13</span>
+              <span className="optionPrice">$14</span>
             </div>
           </div>
           <div className="menuItem">
@@ -863,7 +863,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 4 pcs Chef choice assorted sushi
               </span>
-              <span className="optionPrice">$9</span>
+              <span className="optionPrice">$10</span>
             </div>
           </div>
           <div className="menuItem">
@@ -877,16 +877,16 @@ const MenuMg = () => {
             <div className="menuOption menuOptionThree">
               <span className="optionDesc"></span>
               <span className="optionPrice">Salmon</span>
-              <span className="optionPrice">$11</span>
-              <span></span>
-              <span className="optionPrice">Avocado</span>
-              <span className="optionPrice">$10</span>
-              <span></span>
-              <span className="optionPrice">Tuna</span>
               <span className="optionPrice">$12</span>
               <span></span>
-              <span className="optionPrice">Crab Salad</span>
+              <span className="optionPrice">Avocado</span>
               <span className="optionPrice">$11</span>
+              <span></span>
+              <span className="optionPrice">Tuna</span>
+              <span className="optionPrice">$13</span>
+              <span></span>
+              <span className="optionPrice">Crab Salad</span>
+              <span className="optionPrice">$12</span>
               <span>* spicy pizza add $1</span>
             </div>
           </div>
@@ -1039,7 +1039,7 @@ const MenuMg = () => {
             <div className="menuTitle">Vegetable Tempura</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">7 pieces assorted vegetable</span>
-              <span className="optionPrice">$10</span>
+              <span className="optionPrice">$11</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1054,7 +1054,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 2 pieces shrimp, 5 pieces vegetable
               </span>
-              <span className="optionPrice">$13</span>
+              <span className="optionPrice">$14</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1067,7 +1067,7 @@ const MenuMg = () => {
             <div className="menuTitle">Shrimp Tempura</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs shrimp</span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1082,7 +1082,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 2 pcs 4oz lobster, 5 pieces vegetable
               </span>
-              <span className="optionPrice">$20</span>
+              <span className="optionPrice">$22</span>
             </div>
           </div>
 
@@ -1096,7 +1096,7 @@ const MenuMg = () => {
             <div className="menuTitle">Fried Calamari</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Deep-fried squid-rings</span>
-              <span className="optionPrice">$13</span>
+              <span className="optionPrice">$14</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1140,7 +1140,7 @@ const MenuMg = () => {
             <div className="menuTitle">L.A. Kalbi</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Marinated beef short ribs</span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$20</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1155,7 +1155,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Grilled black cod marinated with miso base sauce 
               </span>
-              <span className="optionPrice">$24</span>
+              <span className="optionPrice">$25</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1168,7 +1168,7 @@ const MenuMg = () => {
             <div className="menuTitle">Salmon Kama</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Grilled salmon neck</span>
-              <span className="optionPrice">$10</span>
+              <span className="optionPrice">$11</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1181,7 +1181,7 @@ const MenuMg = () => {
             <div className="menuTitle">Hamachi Kama</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Grilled hamachi neck</span>
-              <span className="optionPrice">$15</span>
+              <span className="optionPrice">$16</span>
             </div>
           </div>
         </div>
@@ -1200,6 +1200,19 @@ const MenuMg = () => {
             <div className="menuTitle">Miso Soup</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Healthy soy bean paste soup</span>
+              <span className="optionPrice">$3</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/soup/008-CrunchNoodle.jpg"
+                alt="Crunch Noodle Soup"
+              />
+            </div>
+            <div className="menuTitle">Crunch Noodle Soup</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Crunch noodle soup (medium) * Dine in only</span>
               <span className="optionPrice">$3</span>
             </div>
           </div>
@@ -1414,7 +1427,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Chicken, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$17</span>
+              <span className="optionPrice">$18</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1429,7 +1442,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Deep fried chicken, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$20</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1444,7 +1457,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Beef, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$20</span>
+              <span className="optionPrice">$21</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1459,7 +1472,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 B.B.Q fresh water eel on a bowl of rice
               </span>
-              <span className="optionPrice">$23</span>
+              <span className="optionPrice">$24</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1474,7 +1487,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Assorted chopped raw fish &amp; vegetables, chojang
               </span>
-              <span className="optionPrice">$20</span>
+              <span className="optionPrice">$21</span>
             </div>
           </div>
           <h3>Sashimi &amp; Sushi Lunch</h3>
@@ -1677,7 +1690,7 @@ const MenuMg = () => {
             <div className="menuTitle">Tofu Teriyaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Fried tofu, teriyaki sauce</span>
-              <span className="optionPrice">$13</span>
+              <span className="optionPrice">$14</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1692,7 +1705,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Deep-fried shrimps and vegetables
               </span>
-              <span className="optionPrice">$15</span>
+              <span className="optionPrice">$16</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1707,7 +1720,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Grilled chicken breast, teriyaki sauce
               </span>
-              <span className="optionPrice">$15</span>
+              <span className="optionPrice">$16</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1722,7 +1735,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Breaded chicken white meat, katsu sauce
               </span>
-              <span className="optionPrice">$17</span>
+              <span className="optionPrice">$18</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1735,7 +1748,7 @@ const MenuMg = () => {
             <div className="menuTitle">Salmon Teriyaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Grilled salmon, teriyaki sauce</span>
-              <span className="optionPrice">$17</span>
+              <span className="optionPrice">$18</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1750,7 +1763,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Stir fried sliced beef marinated in Tomo special sauce
               </span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1763,7 +1776,7 @@ const MenuMg = () => {
             <div className="menuTitle">Beef Teriyaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Grilled beef, teriyaki sauce</span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$20</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1776,7 +1789,7 @@ const MenuMg = () => {
             <div className="menuTitle">Kal-Bi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">B.B.Q beef short-ribs</span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$23</span>
             </div>
           </div>
           {/* ––––––– Lunch Combo  ––––––––– */}
@@ -1794,7 +1807,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 No rice Tofu teriyaki, 6 pcs Kappa roll, 6 pcs veggie tempura
               </span>
-              <span className="optionPrice">$17</span>
+              <span className="optionPrice">$19</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1810,13 +1823,13 @@ const MenuMg = () => {
                 3 pcs California roll with shrimp &amp; veggie tempura
               </span>
               <span className="optionQuant">Chicken</span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$21</span>
               <span></span>
               <span className="optionQuant">Salmon</span>
-              <span className="optionPrice">$20</span>
+              <span className="optionPrice">$23</span>
               <span></span>
               <span className="optionQuant">Beef</span>
-              <span className="optionPrice">$23</span>
+              <span className="optionPrice">$25</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1832,10 +1845,10 @@ const MenuMg = () => {
                 3 pcs California roll with shrimp &amp; veggie tempura
               </span>
               <span className="optionQuant">Bul-go-gi</span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$22</span>
               <span></span>
               <span className="optionQuant">Kalbi</span>
-              <span className="optionPrice">$25</span>
+              <span className="optionPrice">$28</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1851,7 +1864,7 @@ const MenuMg = () => {
                 No rice 5 pcs salmon sashimi, 4 pcs sushi, 6cps California,
                 shrimp &amp; veggie tempura
               </span>
-              <span className="optionPrice">$24</span>
+              <span className="optionPrice">$25</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2846,7 +2859,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Vegetable noodle soup, shrimp &amp; vegetable tempura
               </span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$19</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3044,7 +3057,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Chicken, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$19</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3059,7 +3072,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Deep fried chicken, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$20</span>
+              <span className="optionPrice">$21</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3074,7 +3087,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Beef, egg &amp; vegetables on a bowl of rice
               </span>
-              <span className="optionPrice">$23</span>
+              <span className="optionPrice">$24</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3089,7 +3102,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 B.B.Q fresh water eel on a bowl of rice
               </span>
-              <span className="optionPrice">$26</span>
+              <span className="optionPrice">$28</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3104,7 +3117,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Assorted chopped raw fish &amp; vegetables, chojang
               </span>
-              <span className="optionPrice">$21</span>
+              <span className="optionPrice">$23</span>
             </div>
           </div>
           {/* ––––––– Dinner  ––––––––– */}
@@ -3120,7 +3133,7 @@ const MenuMg = () => {
             <div className="menuTitle">Tofu Teriyaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Fried tofu with teriyaki sauce</span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$20</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3135,7 +3148,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Grilled chicken breast, teriyaki sauce
               </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$24</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3148,7 +3161,7 @@ const MenuMg = () => {
             <div className="menuTitle">Salmon Teriyaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Grilled salmon, teriyaki sauce</span>
-              <span className="optionPrice">$24</span>
+              <span className="optionPrice">$26</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3161,7 +3174,7 @@ const MenuMg = () => {
             <div className="menuTitle">Beef Teriyaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Grilled beef, teriyaki sauce</span>
-              <span className="optionPrice">$27</span>
+              <span className="optionPrice">$29</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3176,7 +3189,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Your choice of two from chicken, salmon or beef
               </span>
-              <span className="optionPrice">$26</span>
+              <span className="optionPrice">$28</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3191,7 +3204,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 12 pieces of shrimp, vegetable, teriyaki sauce
               </span>
-              <span className="optionPrice">$25</span>
+              <span className="optionPrice">$27</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3206,7 +3219,7 @@ const MenuMg = () => {
               <span className="optionDesc">
               4 pcs of deep-fried shrimp &amp; 10 pcs vegetables
               </span>
-              <span className="optionPrice">$24</span>
+              <span className="optionPrice">$26</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3221,7 +3234,7 @@ const MenuMg = () => {
               <span className="optionDesc">
               4 pcs deep-fried lobster tail, 10 pcs vegetables
               </span>
-              <span className="optionPrice">$34</span>
+              <span className="optionPrice">$36</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3236,7 +3249,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Breaded chicken breast, katsu sauce
               </span>
-              <span className="optionPrice">$23</span>
+              <span className="optionPrice">$25</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3251,7 +3264,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Stir fried sliced beef marinated in Tomo special sauce
               </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$24</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3266,7 +3279,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 B.B.Q marinated short ribs of beef
               </span>
-              <span className="optionPrice">$33</span>
+              <span className="optionPrice">$34</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3281,7 +3294,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 B.B.Q fresh water eel with vegetables
               </span>
-              <span className="optionPrice">$33</span>
+              <span className="optionPrice">$35</span>
             </div>
           </div>
           {/* ––––––– Dinner Combo  ––––––––– */}
@@ -3299,7 +3312,7 @@ const MenuMg = () => {
               <span className="optionDesc">
                 Tofu teriyaki, avo kappa roll, veggie tempura
               </span>
-              <span className="optionPrice">$25</span>
+              <span className="optionPrice">$26</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3315,13 +3328,13 @@ const MenuMg = () => {
                 6 pcs California roll with shrimp &amp; veggie tempura
               </span>
               <span className="optionQuant">chicken</span>
-              <span className="optionPrice">$26</span>
-              <span></span>
-              <span className="optionQuant">salmon</span>
               <span className="optionPrice">$28</span>
               <span></span>
+              <span className="optionQuant">salmon</span>
+              <span className="optionPrice">$30</span>
+              <span></span>
               <span className="optionQuant">beef</span>
-              <span className="optionPrice">$32</span>
+              <span className="optionPrice">$33</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3337,10 +3350,10 @@ const MenuMg = () => {
                 6 pcs California roll with shrimp &amp; veggie tempura
               </span>
               <span className="optionQuant">bul-go-gi</span>
-              <span className="optionPrice">$26</span>
+              <span className="optionPrice">$28</span>
               <span></span>
               <span className="optionQuant">kalbi</span>
-              <span className="optionPrice">$34</span>
+              <span className="optionPrice">$38</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3356,7 +3369,7 @@ const MenuMg = () => {
                 (no rice) 6 pcs salmon sashimi, 5 pcs sushi, 6 pcs California
                 roll with shrimp &amp; veggie tempura
               </span>
-              <span className="optionPrice">$32</span>
+              <span className="optionPrice">$34</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3372,7 +3385,7 @@ const MenuMg = () => {
                 (no miso, no rice) 6 pcs California roll with shrimp &amp;
                 veggie tempura
               </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$23</span>
             </div>
           </div>
         </div>

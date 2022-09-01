@@ -2786,7 +2786,7 @@ const MenuMg = () => {
           <h2 className="sectionTitle" id="noodle">
             Noodle
           </h2>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/noodle/HouseCrunchNoodleSoup.jpg"
@@ -2798,7 +2798,7 @@ const MenuMg = () => {
               <span className="optionDesc">(Take-Out Only)</span>
               <span className="optionPrice">$9</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage

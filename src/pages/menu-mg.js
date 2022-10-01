@@ -1218,7 +1218,7 @@ const MenuMg = () => {
               <span className="optionPrice">$5</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/soup/003-ShiitakeMushroomSoup.jpg"
@@ -1232,7 +1232,7 @@ const MenuMg = () => {
               </span>
               <span className="optionPrice">$7</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage

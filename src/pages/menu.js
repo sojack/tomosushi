@@ -1237,21 +1237,21 @@ const Menu = () => {
               <span className="optionPrice">$5</span>
             </div>
           </div>
-          {/* <div className="menuItem">
+          <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/soup/003-ShiitakeMushroomSoup.jpg"
-                alt="Shiitake Mushroom Soup"
+                alt="Mushroom Soup"
               />
             </div>
-            <div className="menuTitle">Shiitake Mushroom Soup</div>
+            <div className="menuTitle">Mushroom Soup</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 Assorted mushroom, vegetable in miso base soup
               </span>
               <span className="optionPrice">$7</span>
             </div>
-          </div> */}
+          </div>
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage

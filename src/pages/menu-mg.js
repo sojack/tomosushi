@@ -1252,10 +1252,10 @@ const MenuMg = () => {
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/soup/003-ShiitakeMushroomSoup.jpg"
-                alt="Shiitake Mushroom Soup"
+                alt="Mushroom Soup"
               />
             </div>
-            <div className="menuTitle">Shiitake Mushroom Soup</div>
+            <div className="menuTitle">Mushroom Soup</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 Assorted mushroom, vegetable in miso base soup

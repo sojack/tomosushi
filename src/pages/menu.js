@@ -966,7 +966,7 @@ const Menu = () => {
             <div className="menuTitle">Tomo Carpaccio</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-              Thinly sliced fish with arugula, grape tomato, yuzu vinaigrette, mustard, wasabi mayo, ponzu sauce
+              Thinly sliced fish with spring mix, grape tomato, yuzu vinaigrette, mustard, wasabi mayo, ponzu sauce
               </span>
               <span></span>
               <span className="optionPrice">Salmon</span>
@@ -977,7 +977,7 @@ const Menu = () => {
               <span className="optionPrice">$18</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/app/2021-12-16-Tomo-004.jpg"
@@ -991,7 +991,7 @@ const Menu = () => {
               </span>
               <span className="optionPrice">$15</span>
             </div>
-          </div>
+          </div> */}
           {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage

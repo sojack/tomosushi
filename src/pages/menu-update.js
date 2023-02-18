@@ -3712,7 +3712,7 @@ spicy tuna with unagi sauce, and samba sauce
             <li className="drink-01">
               <span>Oyster Bay</span> <span>Sauvignon Blanc (New Zealand)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>10</span>
+              <span>11</span>
               <span className="xsmall">1∕2&nbsp;L</span>
               <span>25</span>
               <span className="xsmall">Bottle</span>
@@ -3722,7 +3722,7 @@ spicy tuna with unagi sauce, and samba sauce
               <span>Josh Cellars</span>{" "}
               <span>Chardonnay (USA)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>10</span>
+              <span>11</span>
               <span className="xsmall">1∕2&nbsp;L</span>
               <span>25</span>
               <span className="xsmall">Bottle</span>
@@ -3764,23 +3764,23 @@ spicy tuna with unagi sauce, and samba sauce
               <span>Robert Mondavi</span>
               <span>Cabernet Sauvignon (USA)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>11</span>
+              <span>12</span>
               <span className="xsmall">1/2&nbsp;L</span>
               <span>26</span>
               <span className="xsmall">Bottle</span>
-              <span>42</span>
+              <span>45</span>
             </li>
             <li className="drink-01">
               <span>Wakefield</span>
               <span>Shiraz (Austrailia)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>10</span>
+              <span>11</span>
               <span className="xsmall">1/2&nbsp;L</span>
               <span>25</span>
               <span className="xsmall">Bottle</span>
               <span>40</span>
             </li>
-            <li className="drink-01">
+            {/* <li className="drink-01">
               <span>Josh Cellars5</span>
               <span>Merlot (USA)</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
@@ -3789,7 +3789,7 @@ spicy tuna with unagi sauce, and samba sauce
               <span>25</span>
               <span className="xsmall">Bottle</span>
               <span>40</span>
-            </li>
+            </li> */}
             {/* <li className="drink-01">
               <span>Josh Cellars</span>
               <span>Merlot (USA)</span>
@@ -3814,7 +3814,7 @@ spicy tuna with unagi sauce, and samba sauce
 
           <h3>Plum Wine</h3>
           <ul className="menu drinks">
-            <li className="drink-01">
+            {/* <li className="drink-01">
               <span>Gekkeikan</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
               <span>10</span>
@@ -3822,45 +3822,45 @@ spicy tuna with unagi sauce, and samba sauce
               <span>25</span>
               <span className="xsmall">Bottle</span>
               <span>40</span>
-            </li>
+            </li> */}
             <li className="drink-01">
               <span>Takara</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
-              <span>10</span>
+              <span>11</span>
               <span className="xsmall">1/2&nbsp;L</span>
               <span>25</span>
               <span className="xsmall">Bottle</span>
-              <span>40</span>
+              <span>50</span>
             </li>
           </ul>
 
           <h3>Beer</h3>
           <ul className="menu drinks">
-            <li className="drink-02">
+            {/* <li className="drink-02">
               <span>Sapporo</span>
               <span className="xsmall">341ml</span>
               <span>8</span>
-            </li>
+            </li> */}
             <li className="drink-02">
               <span>Sapporo (Can)</span>
               <span className="xsmall">500 ml</span>
               <span>10</span>
             </li>
-            <li className="drink-02">
+            {/* <li className="drink-02">
               <span>Asahi</span>
               <span className="xsmall">330 ml</span>
               <span>8</span>
-            </li>
+            </li> */}
             <li className="drink-02">
               <span>Asahi(Can)</span>
               <span className="xsmall">500 ml</span>
               <span>10</span>
             </li>
-            <li className="drink-02">
+            {/* <li className="drink-02">
               <span>Asahi Black</span>
               <span className="xsmall">334 ml</span>
               <span>10</span>
-            </li>
+            </li> */}
             {/* <li className="drink-02">
               <span>Kirin</span>
               <span className="xsmall">500 ml</span>
@@ -3902,12 +3902,12 @@ spicy tuna with unagi sauce, and samba sauce
               <span className="xsmall">300 ml bottle</span>
               <span>22</span>
             </li>
-            <li className="drink-03">
+            {/* <li className="drink-03">
               <span>Sho Chiku Bai</span>
               <span>Ginjo</span>
               <span className="xsmall">300 ml bottle</span>
               <span>37</span>
-            </li>
+            </li> */}
             <li className="drink-03">
               <span>Tamanohikari</span>
               <span>Junmai Dai Ginjo</span>
@@ -3922,9 +3922,9 @@ spicy tuna with unagi sauce, and samba sauce
             </li> */}
             <li className="drink-03">
               <span>Soju</span>
-              <span>Korean Soju</span>
+              <span>Original, Peach, Yogurt, Grape</span>
               <span className="xsmall">375 ml bottle</span>
-              <span>20 </span>
+              <span>22 </span>
             </li>
           </ul>
           <h3>Hot Sake</h3>

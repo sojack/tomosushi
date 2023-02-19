@@ -953,7 +953,7 @@ const MenuMg = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/app/2021-12-16-Tomo-035.jpg"
+                src="../images/menu/app/Tomo-Carpaccio-seabass.jpg"
                 alt="Tomo Carpaccio"
               />
             </div>
@@ -3996,10 +3996,10 @@ spicy tuna with unagi sauce, and samba sauce
               <span>Mochi Ice Cream (2 pcs) </span>
               <span>5</span>
             </li> */}
-            <li className="drink-05">
+            {/* <li className="drink-05">
               <span>Tempura Ice Cream </span>
               <span>5</span>
-            </li>
+            </li> */}
           </ul>
         </div>
         {/* –––––––––––––––– Extras –––––––––––––––– */}

@@ -1827,7 +1827,7 @@ const Menu = () => {
             <div className="menuTitle">Tofu Combo</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                No rice Tofu teriyaki, 6 pcs Kappa roll, 6 pcs veggie tempura
+                No rice Tofu teriyaki, 6 pcs Kappa roll, 7 pcs veggie tempura
               </span>
               <span className="optionPrice">$20</span>
             </div>
@@ -2053,7 +2053,7 @@ const Menu = () => {
             <div className="menuTitle">Samba Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">(6 pcs) Salmon or Tuna, tempura bits, Samba sauce</span>
-              <span className="optionPrice">Salmon $9<br />Tuna $11</span>
+              <span className="optionPrice">Salmon $10<br />Tuna $11</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3828,7 +3828,7 @@ spicy tuna with unagi sauce, and samba sauce
               <span className="xsmall">5oz.&nbsp;Glass</span>
               <span>11</span>
               <span className="xsmall">1/2&nbsp;L</span>
-              <span>25</span>
+              <span>27</span>
               <span className="xsmall">Bottle</span>
               <span>50</span>
             </li>

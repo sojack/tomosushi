@@ -3420,7 +3420,7 @@ spicy tuna with unagi sauce, and samba sauce
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/combo/SashimiComboDinner.jpg"
+                src="../images/menu/combo/Sashimi-combo-dinner-new.jpg"
                 alt="Sashimi Combo"
               />
             </div>

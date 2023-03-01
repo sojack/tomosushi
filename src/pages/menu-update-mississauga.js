@@ -875,15 +875,15 @@ const MenuMg = () => {
             </div>
             <div className="menuTitle">Sushi Pizza</div>
             <div className="menuOption menuOptionThree">
-              <span className="optionDesc"></span>
+            <span className="optionDesc"></span>
               <span className="optionPrice">Salmon</span>
               <span className="optionPrice">$13</span>
               <span></span>
-              <span className="optionPrice">Avocado</span>
+              <span className="optionPrice">Tuna</span>
               <span className="optionPrice">$14</span>
               <span></span>
-              <span className="optionPrice">Tuna</span>
-              <span className="optionPrice">$13</span>
+              <span className="optionPrice">Avocado</span>
+              <span className="optionPrice">$11</span>
               <span></span>
               <span className="optionPrice">Crab Salad</span>
               <span className="optionPrice">$12</span>

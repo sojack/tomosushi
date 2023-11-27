@@ -296,7 +296,7 @@ const Menu = () => {
 
   return (
     <Layout>
-      <Seo title="menu" />
+      <Seo title="Working RH update" />
       <TomoMenu>
         <ul>
           <li>

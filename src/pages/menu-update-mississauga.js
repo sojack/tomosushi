@@ -3,7 +3,7 @@ import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import styled from "styled-components";
-// import MenuItem from "../components/menuItem";
+import Icon from "../components/icon";
 
 const MenuContainer = styled.div`
   .menuSection {
@@ -624,7 +624,7 @@ const MenuMg = () => {
                 alt="Veggie Combo"
               />
             </div>
-            <div className="menuTitle">Veggie Combo</div>
+            <div className="menuTitle"><Icon icon="veg" /> Veggie Combo</div>
             <div className="menuOption menuOptionThree">
               <span className="optionDesc">
                 Green field, yam tempura, avocado, kappa, avocado crunch roll
@@ -640,7 +640,7 @@ const MenuMg = () => {
                 alt="Love Salmon Set"
               />
             </div>
-            <div className="menuTitle">Love Salmon Set</div>
+            <div className="menuTitle"><Icon icon="gf" /> Salmon Lover Set</div>
             <div className="menuOption menuOptionThree">
               <span className="optionDesc">
                 5 pcs sashimi, 4 pcs sushi, salmon roll, salmon hand roll,

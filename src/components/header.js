@@ -266,6 +266,7 @@ const Header = () => {
         onKeyDown={clickHandler}
         role="button"
         tabIndex={0}
+       
       >
         <span className="bars"></span>
       </div>

@@ -1457,7 +1457,7 @@ const MenuMg = () => {
             <div className="menuTitle">Chicken Katsu Donburi</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                Deep fried chicken, egg &amp; vegetables on a bowl of rice
+                Deep-fried chicken, egg &amp; vegetables on a bowl of rice
               </span>
               <span className="optionPrice">$20</span>
             </div>
@@ -2191,7 +2191,7 @@ const MenuMg = () => {
                 alt="Avocado Roll"
               />
             </div>
-            <div className="menuTitle">Avocado Roll</div>
+            <div className="menuTitle"><Icon icon="veg" /><Icon icon="gf" />  Avocado Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs</span>
               <span className="optionPrice">$7</span>
@@ -2204,7 +2204,7 @@ const MenuMg = () => {
                 alt="Kappa Roll"
               />
             </div>
-            <div className="menuTitle">Kappa Roll</div>
+            <div className="menuTitle"><Icon icon="veg" /><Icon icon="gf" /> Kappa Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs Cucumber</span>
               <span className="optionPrice">$6</span>
@@ -2230,7 +2230,7 @@ const MenuMg = () => {
                 alt="Yam Tempura Roll"
               />
             </div>
-            <div className="menuTitle">Yam Tempura Roll</div>
+            <div className="menuTitle"><Icon icon="veg" /> Yam Tempura Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs</span>
               <span className="optionPrice">$8</span>
@@ -2243,7 +2243,7 @@ const MenuMg = () => {
                 alt="Avo Kappa Roll"
               />
             </div>
-            <div className="menuTitle">Avo Kappa Roll</div>
+            <div className="menuTitle"><Icon icon="veg" /> <Icon icon="gf" />Avo Kappa Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs Avocado, cucumber</span>
               <span className="optionPrice">$7</span>
@@ -2271,7 +2271,7 @@ const MenuMg = () => {
                 alt="Avocado Crunch Roll"
               />
             </div>
-            <div className="menuTitle">Avocado Crunch Roll</div>
+            <div className="menuTitle"><Icon icon="veg" /> Avocado Crunch Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 8 pcs Tempura bits, mayo, avocado
@@ -2286,7 +2286,7 @@ const MenuMg = () => {
                 alt="Green Field Roll"
               />
             </div>
-            <div className="menuTitle">Green Field Roll</div>
+            <div className="menuTitle"><Icon icon="veg" /> Green Field Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 8 pcs Lettuce, avocado, cucumber, shiitake mushroom, kampyo
@@ -2301,10 +2301,10 @@ const MenuMg = () => {
                 alt="Veggie Dragon Roll"
               />
             </div>
-            <div className="menuTitle">Veggie Dragon Roll</div>
+            <div className="menuTitle"><Icon icon="veg" /> Veggie Dragon Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                8 pcs Deep fried yam on avocado, cucumber, asparagus, deep fried
+                8 pcs deep-fried yam on avocado, cucumber, asparagus, deep-fried
                 butter squash
               </span>
               <span className="optionPrice">$13</span>
@@ -2322,7 +2322,7 @@ const MenuMg = () => {
             <div className="menuTitle">Fire Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                6 pcs Deep fried roll with crab meat, avocado, cucumber, masago,
+                6 pcs Deep-fried roll with crab meat, avocado, cucumber, masago,
                 ebi, cream cheese
               </span>
               <span className="optionPrice">$11</span>
@@ -2369,7 +2369,7 @@ const MenuMg = () => {
             <div className="menuTitle">Go Train Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                8 pcs Deep fried salmon-topped avocado roll, unagi sauce
+                8 pcs Deep-fried salmon-topped avocado roll, unagi sauce
               </span>
               <span className="optionPrice">$14</span>
             </div>
@@ -2400,7 +2400,7 @@ const MenuMg = () => {
             <div className="menuTitle">Angry Salmon Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                8 pcs Deep fried roll with spicy salmon, avocado and banana
+                8 pcs Deep-fried roll with spicy salmon, avocado and banana
                 pepper
               </span>
               <span className="optionPrice">$14</span>
@@ -3131,7 +3131,7 @@ spicy tuna with unagi sauce, and samba sauce
             <div className="menuTitle">Chicken Katsu Donburi</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                Deep fried chicken, egg &amp; vegetables on a bowl of rice
+                Deep-fried chicken, egg &amp; vegetables on a bowl of rice
               </span>
               <span className="optionPrice">$21</span>
             </div>

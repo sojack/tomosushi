@@ -1573,7 +1573,7 @@ const MenuMg = () => {
                 alt="Salmon Sushi Lunch"
               />
             </div>
-            <div className="menuTitle">Salmon Sushi Lunch</div>
+            <div className="menuTitle"><Icon icon="gf" />Salmon Sushi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 9 pcs salmon sushi &amp; 6 pcs salmon roll
@@ -1589,7 +1589,7 @@ const MenuMg = () => {
               />
             </div>
             <div className="menuTitle">
-              Salmon Sashimi, Sushi &amp; Roll Lunch
+            <Icon icon="gf" />Salmon Sashimi, Sushi &amp; Roll Lunch
             </div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
@@ -1933,7 +1933,7 @@ const MenuMg = () => {
                 alt="California Roll"
               />
             </div>
-            <div className="menuTitle"><Icon icon="gf" />California Roll</div>
+            <div className="menuTitle">California Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 (6 pcs) Avocado, crab meat, cucumber, masago
@@ -1948,7 +1948,7 @@ const MenuMg = () => {
                 alt="Salmon Roll"
               />
             </div>
-            <div className="menuTitle">Salmon Roll</div>
+            <div className="menuTitle"><Icon icon="gf" />Salmon Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">(6 pcs)</span>
               <span className="optionPrice">$8</span>

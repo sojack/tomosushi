@@ -3,6 +3,7 @@ import Seo from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import styled from "styled-components";
+import Icon from "../components/icon";
 
 const MenuContainer = styled.div`
   .menuSection {
@@ -296,7 +297,7 @@ const Menu = () => {
 
   return (
     <Layout>
-      <Seo title="Working RH update" />
+      <Seo title="menu" />
       <TomoMenu>
         <ul>
           <li>
@@ -745,7 +746,7 @@ const Menu = () => {
                 alt="Agedashi Tofu"
               />
             </div>
-            <div className="menuTitle">Agedashi Tofu</div>
+            <div className="menuTitle"><Icon icon="veg" />Agedashi Tofu</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 4 pcs Deep-fried tofu, teriyaki sauce
@@ -760,7 +761,7 @@ const Menu = () => {
                 alt="Edamame"
               />
             </div>
-            <div className="menuTitle">Edamame</div>
+            <div className="menuTitle"><Icon icon="veg" />Edamame</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Japanese soy bean</span>
               <span className="optionPrice">$8</span>
@@ -788,7 +789,7 @@ const Menu = () => {
                 alt="Harumaki"
               />
             </div>
-            <div className="menuTitle">Harumaki</div>
+            <div className="menuTitle"><Icon icon="veg" /><Icon icon="gf" />Harumaki</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 5 pcs Deep-fried vegetable spring roll
@@ -844,7 +845,7 @@ const Menu = () => {
                 alt="Salmon Sashimi Appetizer"
               />
             </div>
-            <div className="menuTitle">Salmon Sashimi Appetizer</div>
+            <div className="menuTitle"><Icon icon="gf" />Salmon Sashimi Appetizer</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs Salmon sashimi</span>
               <span className="optionPrice">$14</span>
@@ -1007,7 +1008,7 @@ const Menu = () => {
               <span className="optionPrice">$13</span>
             </div>
           </div> */}
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/app/Shime-saba-app-BIMG3664.jpg"
@@ -1019,7 +1020,7 @@ const Menu = () => {
               <span className="optionDesc">7 pcs Seared mackerel, tataki sauce</span>
               <span className="optionPrice">$12</span>
             </div>
-          </div>
+          </div> */}
           {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -1076,7 +1077,7 @@ const Menu = () => {
               <span className="optionPrice">$17</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/app/009-LobsterTempuraAppetizer.jpg"
@@ -1090,7 +1091,7 @@ const Menu = () => {
               </span>
               <span className="optionPrice">$22</span>
             </div>
-          </div>
+          </div> */}
 
           <div className="menuItem">
             <div className="menuImage">
@@ -1161,7 +1162,7 @@ const Menu = () => {
               <span className="optionDesc">
                 Grilled black cod marinated with miso base sauce
               </span>
-              <span className="optionPrice">$26</span>
+              <span className="optionPrice">$28</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -1184,7 +1185,7 @@ const Menu = () => {
                 alt="Hamachi Kama"
               />
             </div>
-            <div className="menuTitle">Hamachi Kama</div>
+            <div className="menuTitle"><Icon icon="gf" />Hamachi Kama</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Grilled hamachi neck</span>
               <span className="optionPrice">$16</span>
@@ -1267,7 +1268,7 @@ const Menu = () => {
               <span className="optionPrice">$8</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/soup/004-LobsterSoup.jpg"
@@ -1279,7 +1280,7 @@ const Menu = () => {
               <span className="optionDesc">2oz lobster in miso base soup</span>
               <span className="optionPrice">$11</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -1287,7 +1288,7 @@ const Menu = () => {
                 alt="Steamed Rice"
               />
             </div>
-            <div className="menuTitle">Steamed Rice</div>
+            <div className="menuTitle"><Icon icon="gf" />Steamed Rice</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc"></span>
               <span className="optionPrice">$2</span>
@@ -1300,7 +1301,7 @@ const Menu = () => {
                 alt="Brown Rice"
               />
             </div>
-            <div className="menuTitle">Brown Rice</div>
+            <div className="menuTitle"><Icon icon="gf" />Brown Rice</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc"></span>
               <span className="optionPrice">$3</span>
@@ -1319,7 +1320,7 @@ const Menu = () => {
                 alt="Garden Salad"
               />
             </div>
-            <div className="menuTitle">Garden Salad</div>
+            <div className="menuTitle"><Icon icon="veg" /><Icon icon="gf" />Garden Salad</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">House green salad</span>
               <span className="optionPrice">$5</span>
@@ -1332,7 +1333,7 @@ const Menu = () => {
                 alt="Kaiso Salad"
               />
             </div>
-            <div className="menuTitle">Kaiso Salad</div>
+            <div className="menuTitle"><Icon icon="veg" />Kaiso Salad</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Seasoned seaweed salad</span>
               <span className="optionPrice">$7</span>
@@ -1345,7 +1346,7 @@ const Menu = () => {
                 alt="Avocado Salad"
               />
             </div>
-            <div className="menuTitle">Avocado Salad</div>
+            <div className="menuTitle"><Icon icon="veg" /><Icon icon="gf" />Avocado Salad</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Avocado slices on garden salad</span>
               <span className="optionPrice">$7</span>
@@ -2932,7 +2933,7 @@ spicy tuna with unagi sauce, and samba sauce
             <div className="menuTitle">Yaki Soba</div>
             <div className="menuOption menuOptionThree">
               <span className="optionDesc">Pan-fried egg noodle</span>
-              <span className="optionQuant">Veggie</span>
+              <span className="optionQuant"><Icon icon="veg" />Veggie</span>
               <span className="optionPrice">$14</span>
               <span></span>
               <span className="optionQuant">chicken or beef</span>
@@ -2953,7 +2954,7 @@ spicy tuna with unagi sauce, and samba sauce
             <div className="menuTitle">Yaki U-Don</div>
             <div className="menuOption menuOptionThree">
               <span className="optionDesc">Pan-fried udon noodle</span>
-              <span className="optionQuant">Veggie</span>
+              <span className="optionQuant"><Icon icon="veg" />Veggie</span>
               <span className="optionPrice">$15</span>
               <span></span>
               <span className="optionQuant">chicken or beef</span>

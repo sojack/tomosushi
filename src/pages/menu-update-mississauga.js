@@ -3934,7 +3934,7 @@ const MenuMg = () => {
               <span>8</span>
             </li> */}
             <li className="drink-02">
-              <span>Asahi(Can)</span>
+              <span>Asahi (Can)</span>
               <span className="xsmall">500 ml</span>
               <span>10</span>
             </li>
@@ -4101,14 +4101,15 @@ const MenuMg = () => {
           <ul className="menu drinks">
           <li className="drink-03">
               <span>Extra Sauce  (2oz)</span>
-              <span>Spicy Mayo, Teriyaki Sauce, Tempura Sauce, Soy Sauce</span>
-              <span>0.50</span>
+              <span><Icon icon="veg" />Soy&nbsp;Sauce, Tempura&nbsp;Sauce, Unagi&nbsp;Sauce, Teriyaki&nbsp;Sauce, Hot&nbsp;Sauce, Chojang, Dragon&nbsp;Sauce, Spicy&nbsp;Mayo
+              </span>
+              <span>1</span>
             </li>
-            <li className="drink-03">
+            {/* <li className="drink-03">
               <span></span>
               <span>Dragon Sauce, Hot Sauce, Unagi Sauce, Samba Sauce, Chojang</span>
               <span>1</span>
-            </li>
+            </li> */}
             <li className="drink-03">
               <span>Ginger  (2oz)</span>
               <span></span>

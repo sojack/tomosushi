@@ -3111,7 +3111,7 @@ const MenuMg = () => {
                 alt="Sushi Regular C"
               />
             </div>
-            <div className="menuTitle">NEW Sushi Regular C (14 pcs)</div>
+            <div className="menuTitle">Sushi Regular C (14 pcs)</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
               8 pcs assorted vegetables and tamago sushi, 6 pcs Avo kappa
@@ -4105,11 +4105,6 @@ const MenuMg = () => {
               </span>
               <span>1</span>
             </li>
-            {/* <li className="drink-03">
-              <span></span>
-              <span>Dragon Sauce, Hot Sauce, Unagi Sauce, Samba Sauce, Chojang</span>
-              <span>1</span>
-            </li> */}
             <li className="drink-03">
               <span>Ginger  (2oz)</span>
               <span></span>
@@ -4132,17 +4127,3 @@ const MenuMg = () => {
 };
 
 export default MenuMg;
-
-// export const pageQuery = graphql`
-//   query MyQuery {
-//     allImageSharp {
-//       edges {
-//         node {
-//           fluid {
-//             src
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;

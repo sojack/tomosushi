@@ -2671,6 +2671,7 @@ const Menu = () => {
               <span className="optionPrice">$19</span>
             </div>
           </div>
+          
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -2690,6 +2691,26 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
+                src="../images/menu/rollSig/MississaugaSalmonRoll.jpg"
+                alt="Mississauga Roll"
+              />
+            </div>
+            <div className="menuTitle">Mississauga Roll</div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+                8 pcs (no rice) Rice paper with salmon or tuna, avocado,
+                cucumber, spring mix, crab meat, tataki sauce on top
+              </span>
+              <span className="optionQuant">Salmon</span>
+              <span className="optionPrice">$14</span>
+              <span />
+              <span className="optionQuant">Tuna</span>
+              <span className="optionPrice">$15</span>
+            </div>
+          </div>
+          {/* <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
                 src="../images/menu/rollSig/Red-bull-roll-tuna.jpg"
                 alt="Redbull roll"
               />
@@ -2701,7 +2722,7 @@ const Menu = () => {
               </span>
               <span className="optionPrice">Salmon $19<br/> Tuna $20</span>
             </div>
-          </div>
+          </div> */}
                     {/* ––––––– Contemporary Rolls  ––––––––– */}
                     {/* <h3>Contemporary Rolls</h3> */}
 

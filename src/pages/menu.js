@@ -2379,7 +2379,7 @@ const Menu = () => {
             <div className="menuTitle">Red Devil Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-              8 pcs Lettuce, kappa, radish, assorted fish, crabmeat, pickled radish, sesame oil with jalapeño and Chojang sauce on top
+              8 pcs Lettuce, kappa, radish, assorted fish, crabmeat, pickled radish, shiitake mushroom, sesame oil with jalapeño and Chojang sauce on top
               </span>
               <span className="optionPrice">$16</span>
             </div>

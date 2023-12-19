@@ -2448,7 +2448,7 @@ const MenuMg = () => {
             <div className="menuTitle">Red Devil Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-              8 pcs Lettuce, kappa, radish, assorted fish, crabmeat, pickled radish, sesame oil with jalapeño and Chojang sauce on top
+              8 pcs Lettuce, kappa, radish, assorted fish, crabmeat, pickled radish, shiitake mushroom, sesame oil with jalapeño and Chojang sauce on top
               </span>
               <span className="optionPrice">$16</span>
             </div>
@@ -2758,7 +2758,7 @@ const MenuMg = () => {
               <span className="optionQuant">Tuna</span>
               <span className="optionPrice">$15</span>
             </div>
-          </div>{" "}
+          </div>
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage

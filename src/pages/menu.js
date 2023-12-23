@@ -2183,7 +2183,7 @@ const Menu = () => {
             <div className="menuTitle">Spider Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                (8 pcs) Soft-shell crab tempura, avocado, cucumber,
+                (8 pcs) Soft-shell crab tempura, avocado, cucumber, kani,
                 unagi sauce
               </span>
               <span className="optionPrice">$15</span>

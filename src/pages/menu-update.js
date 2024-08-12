@@ -1581,10 +1581,25 @@ const Menu = () => {
                 alt="Sashimi Lunch Regular"
               />
             </div>
-            <div className="menuTitle">Sashimi Lunch Regular</div>
+            <div className="menuTitle">Sashimi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">15 pcs assorted raw fish</span>
               <span className="optionPrice">$21</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/001-Chirashi-LunchReg.jpg"
+                alt="Chirashi Lunch Regular"
+              />
+            </div>
+            <div className="menuTitle">Chirashi Lunch Regular</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                15 pcs assorted raw fish on sushi rice
+              </span>
+              <span className="optionPrice">$22</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -1606,13 +1621,13 @@ const Menu = () => {
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/lunchCombo/235-Sushi-lunch-regular-A.jpg"
-                alt="Sushi Lunch Regular A"
+                alt="Sushi Lunch A"
               />
             </div>
-            <div className="menuTitle">Sushi Lunch Regular A</div>
+            <div className="menuTitle">Sushi Lunch A</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                8 pcs sushi, 6 pcs California roll
+              8 pcs assorted nigiri sushi, 6 pcs California roll 
               </span>
               <span className="optionPrice">$20</span>
             </div>
@@ -1621,15 +1636,28 @@ const Menu = () => {
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/lunchCombo/236-Sushi-lunch-regular-B.jpg"
-                alt="Sushi Lunch Regular B"
+                alt="Sushi Lunch B"
               />
             </div>
-            <div className="menuTitle">Sushi Lunch Regular B</div>
+            <div className="menuTitle">Sushi Lunch B</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                10 pcs sushi, 8 pcs shrimp kappa roll
+              10 pcs assorted nigiri sushi, 8 pcs shrimp kappa roll 
               </span>
               <span className="optionPrice">$25</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchSashSush/004-SashimiSushilunchregular.jpg"
+                alt="Sashimi &amp; Sushi & Sushi Lunch"
+              />
+            </div>
+            <div className="menuTitle">Sashimi &amp; Sushi Lunch</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">8 pcs assorted raw fish, 6 pcs assorted nigiri sushi </span>
+              <span className="optionPrice">$22</span>
             </div>
           </div>
           
@@ -1643,7 +1671,7 @@ const Menu = () => {
             <div className="menuTitle"><Icon icon="veg" />Salmon Sushi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                9 pcs salmon sushi &amp; 6 pcs salmon roll
+              9 pcs salmon nigiri sushi, 6 pcs salmon roll
               </span>
               <span className="optionPrice">$22</span>
             </div>
@@ -1660,45 +1688,23 @@ const Menu = () => {
             </div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                5 pcs sashimi, 7 pcs sushi, 6 pcs salmon roll
+              5 pcs salmon sashimi, 7 pcs salmon nigiri sushi, 6 pcs salmon roll 
               </span>
               <span className="optionPrice">$25</span>
             </div>
           </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/lunchSashSush/004-SashimiSushilunchregular.jpg"
-                alt="Sashimi &amp; Sushi Lunch Regular"
-              />
-            </div>
-            <div className="menuTitle">Sashimi &amp; Sushi Lunch Regular</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">8 pcs sashimi, 6 pcs sushi</span>
-              <span className="optionPrice">$22</span>
-            </div>
-          </div>
+
           
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/lunchSashSush/001-Chirashi-LunchReg.jpg"
-                alt="Chirashi Lunch Regular"
-              />
-            </div>
-            <div className="menuTitle">Chirashi Lunch Regular</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                15 pcs assorted raw fish on sushi rice
-              </span>
-              <span className="optionPrice">$22</span>
-            </div>
-          </div>
           
           {/* ––––––– Roll Set  ––––––––– */}
-          {/* <h3>Roll Set Lunch</h3>
+          <h3>Roll Set Lunch</h3>
           <p>Served with miso soup and salad</p>
-          <div className="menuItem">
+          <p>&nbsp;</p>
+          <p>
+            <strong>Any 2 rolls of your choice for $3 off </strong><br />
+            *Including Basic rolls, Veggie rolls, Signature rolls 
+          </p>
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/rollSet/005-MakisetlunchVeggie.jpg"
@@ -1773,6 +1779,47 @@ const Menu = () => {
               <span className="optionPrice">$21</span>
             </div>
           </div> */}
+
+          {/* ––––––– UDON   ––––––––– */}
+          <h3>UDON</h3>
+          <p>Served with salad</p>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/noodle/VegetableUdon.jpg"
+                alt="Udon"
+              />
+            </div>
+            <div className="menuTitle">Udon</div>
+            <div className="menuOption menuOptionThree">
+                    
+              <span className="optionDesc">
+                <h4>Sides:<br/></h4>
+                <ul>
+                  <li>
+                    Mini Dynamite (5 pcs dynamite roll) $5 
+                  </li>
+                  <li>
+                    Tempura (2 pcs shrimp, yam, squash, broccoli tempura) $7 
+                  </li>
+                  <li>
+                    Mini Chirashi (5 pcs salmon sashimi on sushi rice) $9 
+                  </li>
+                </ul>
+              </span>
+              <span className="optionQuant"></span>
+              <span className="optionPrice"></span>
+              <span className="optionQuant">Vegetable Udon</span>
+              <span className="optionPrice">$13</span>
+              <span></span>
+              <span className="optionQuant">Chicken Udon</span>
+              <span className="optionPrice">$16</span>
+              <span></span>
+              <span className="optionQuant">Beef Udon</span>
+              <span className="optionPrice">$17</span>
+            </div>
+          </div>
+
           {/* ––––––– Bento  ––––––––– */}
           <h3>Tomo Lunch</h3>
           <p>Served with miso soup, salad and rice</p>
@@ -1785,23 +1832,8 @@ const Menu = () => {
             </div>
             <div className="menuTitle"><Icon icon="veg" />Tofu Teriyaki</div>
             <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">Fried tofu, teriyaki sauce</span>
+              <span className="optionDesc">Deep-fried tofu topped with teriyaki sauce </span>
               <span className="optionPrice">$14</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/bentoLunch/001-TempuraLunch.jpg"
-                alt="Tempura Lunch"
-              />
-            </div>
-            <div className="menuTitle">Tempura Lunch</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                Deep-fried shrimps and vegetables
-              </span>
-              <span className="optionPrice">$16</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1811,30 +1843,23 @@ const Menu = () => {
                 alt="Chicken Teriyaki"
               />
             </div>
-            <div className="menuTitle">Chicken Teriyaki</div>
-            <div className="menuOption menuOptionTwo">
+            <div className="menuTitle"> Teriyaki Lunch</div>
+            <div className="menuOption menuOptionThree">
               <span className="optionDesc">
-                Grilled chicken breast, teriyaki sauce
+              Selection of meat topped with teriyaki sauce 
               </span>
+              <span className="optionQuant">Chicken</span>
               <span className="optionPrice">$17</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/bentoLunch/003-ChickenKatsuLunch.jpg"
-                alt="Chicken Katsu"
-              />
-            </div>
-            <div className="menuTitle">Chicken Katsu</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">
-                Breaded chicken white meat, katsu sauce
-              </span>
+              <span></span>
+              <span className="optionQuant">Salmon</span>
               <span className="optionPrice">$19</span>
+              <span></span>
+              <span className="optionQuant">Beef </span>
+              <span className="optionPrice">$21</span>
             </div>
           </div>
-          <div className="menuItem">
+
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/bentoLunch/007-SalmonTeriyakiLunch.jpg"
@@ -1846,7 +1871,7 @@ const Menu = () => {
               <span className="optionDesc">Grilled salmon, teriyaki sauce</span>
               <span className="optionPrice">$19</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -1857,22 +1882,9 @@ const Menu = () => {
             <div className="menuTitle">Bul-Go-Gi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                Stir fried sliced beef marinated in Tomo special sauce
+              Stir-fried, sliced ribeye beef marinated in Tomo special sauce 
               </span>
               <span className="optionPrice">$18</span>
-            </div>
-          </div>
-          <div className="menuItem">
-            <div className="menuImage">
-              <StaticImage
-                src="../images/menu/bentoLunch/006-BeefTeriyakiLunch.jpg"
-                alt="Beef Teriyaki"
-              />
-            </div>
-            <div className="menuTitle">Beef Teriyaki</div>
-            <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">Grilled beef, teriyaki sauce</span>
-              <span className="optionPrice">$21</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1884,24 +1896,70 @@ const Menu = () => {
             </div>
             <div className="menuTitle">Kal-Bi Lunch</div>
             <div className="menuOption menuOptionTwo">
-              <span className="optionDesc">B.B.Q beef short-ribs</span>
+              <span className="optionDesc">6 pcs grilled beef short ribs marinated in Tomo special sauce</span>
               <span className="optionPrice">$24</span>
             </div>
           </div>
+
+          {/* <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/bentoLunch/006-BeefTeriyakiLunch.jpg"
+                alt="Beef Teriyaki"
+              />
+            </div>
+            <div className="menuTitle">Beef Teriyaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Grilled beef, teriyaki sauce</span>
+              <span className="optionPrice">$21</span>
+            </div>
+          </div> */}
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/bentoLunch/001-TempuraLunch.jpg"
+                alt="Tempura Lunch"
+              />
+            </div>
+            <div className="menuTitle">Tempura Lunch</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+              2 pcs deep-fried shrimp, 5 pcs deep-fried assorted vegetables 
+              </span>
+              <span className="optionPrice">$17</span>
+            </div>
+          </div>
+
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/bentoLunch/003-ChickenKatsuLunch.jpg"
+                alt="Chicken Katsu"
+              />
+            </div>
+            <div className="menuTitle">Chicken Katsu</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+              Deep-fried breaded chicken breast, katsu sauce 
+              </span>
+              <span className="optionPrice">$19</span>
+            </div>
+          </div>
+
           {/* ––––––– Lunch Combo  ––––––––– */}
           <h3>Tomo Lunch Combo</h3>
-          <p>served with miso soup, garden salad &amp; rice</p>
+          <p>Served with miso soup &amp; salad </p>
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/lunchCombo/001-TofuTeriyakiComboLunch.jpg"
-                alt="Tofu Combo"
+                alt="Tofu Teriyaki Combo"
               />
             </div>
-            <div className="menuTitle"><Icon icon="veg" />Tofu Combo</div>
+            <div className="menuTitle"><Icon icon="veg" />Tofu Teriyaki Combo</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                No rice Tofu teriyaki, 6 pcs Kappa roll, 7 pcs veggie tempura
+              Tofu teriyaki, 7 pcs assorted vegetable tempura, 6 pcs kappa roll 
               </span>
               <span className="optionPrice">$21</span>
             </div>
@@ -1913,11 +1971,13 @@ const Menu = () => {
                 alt="Teriyaki Combo"
               />
             </div>
-            <div className="menuTitle">Teriyaki Combo</div>
+            <div className="menuTitle">Teriyaki Combo (with rice)</div>
             <div className="menuOption menuOptionThree">
               <span className="optionDesc">
-                3 pcs California roll with shrimp &amp; veggie tempura
+              Selection of meat topped with teriyaki sauce <br/> 2 pcs shrimp tempura, 3 pcs assorted vegetable tempura, 5 pcs dynamite roll 
               </span>
+              <span className="optionQuant"></span>
+              <span className="optionPrice"></span>
               <span className="optionQuant">Chicken</span>
               <span className="optionPrice">$24</span>
               <span></span>
@@ -1931,22 +1991,34 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/lunchCombo/001-KalbiLunchCombo.jpg"
+                src="../images/menu/lunchCombo/001-BulgogiLunchCombo.jpg"
                 alt="Bul-Go-Gi Or Kalbi Combo"
               />
             </div>
-            <div className="menuTitle">Bul-Go-Gi Or Kalbi Combo</div>
-            <div className="menuOption menuOptionThree">
+            <div className="menuTitle">Bul-Go-Gi Combo (with rice)</div>
+            <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                3 pcs California roll with shrimp &amp; veggie tempura
+              Stir-fried, sliced ribeye beef marinated in Tomo special sauce <br />2 pcs shrimp tempura, 3 pcs assorted vegetable tempura, 5 pcs dynamite roll 
               </span>
-              <span className="optionQuant">Bul-go-gi</span>
               <span className="optionPrice">$25</span>
-              <span></span>
-              <span className="optionQuant">Kalbi</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/lunchCombo/001-KalbiLunchCombo.jpg"
+                alt="Kalbi Combo"
+              />
+            </div>
+            <div className="menuTitle">Kalbi Combo (with rice)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+              6 pcs grilled beef short ribs marinated in Tomo special sauce <br />2 pcs shrimp tempura, 3 pcs assorted vegetable tempura, 5 pcs dynamite roll 
+              </span>
               <span className="optionPrice">$31</span>
             </div>
           </div>
+         
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -1957,8 +2029,8 @@ const Menu = () => {
             <div className="menuTitle">Sashimi Combo</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                No rice 5 pcs salmon sashimi, 4 pcs sushi, 6cps California,
-                shrimp &amp; veggie tempura
+              5 pcs salmon sashimi, 4 pcs assorted nigiri sushi, 5 pcs dynamite roll <br/>
+              2 pcs shrimp tempura, 3 pcs assorted vegetable tempura 
               </span>
               <span className="optionPrice">$28</span>
             </div>
@@ -2061,6 +2133,21 @@ const Menu = () => {
                 (6 pcs) Tuna, spicy mayo, tempura bits
               </span>
               <span className="optionPrice">$10</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/rollBasic/SpicyScallop.jpg"
+                alt="Spicy Scallop Roll"
+              />
+            </div>
+            <div className="menuTitle">Spicy Scallop Roll</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">
+                (6 pcs) Scallop, spicy mayo, tempura bits
+              </span>
+              <span className="optionPrice">$9</span>
             </div>
           </div>
           <div className="menuItem">

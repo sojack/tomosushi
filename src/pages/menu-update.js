@@ -328,7 +328,7 @@ const Menu = () => {
       <MenuNav id="top">
         <ul>
           <li>
-            <a href="#partyTray">PARTY TRAY</a>
+            <a href="#partyTray">TRAY</a>
           </li>
           <li>
             <a href="#rollCombo">ROLL COMBINATION</a>
@@ -377,7 +377,7 @@ const Menu = () => {
                 onKeyDown={clickHandler}
                 href="#partyTray"
               >
-                PARTY TRAY
+                TRAY
               </a>
             </li>
             <li>
@@ -773,7 +773,7 @@ const Menu = () => {
             <div className="menuTitle">Tomo Deluxe Combo</div>
             <div className="menuOption menuOptionThree">
               <span className="optionDesc">
-              Richmond Hill, tomo, russian roulette, veggie dragon, salmon avocado roll
+              Richmond Hill, Tomo, Russian roulette, veggie dragon, salmon avocado roll
               </span>
               <span className="optionQuant">38 pcs</span>
               <span className="optionPrice">$70</span>

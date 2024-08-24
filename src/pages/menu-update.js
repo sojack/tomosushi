@@ -143,6 +143,18 @@ const MenuContainer = styled.div`
     grid-row: 1/2;
     text-transform: capitalize;
   }
+  .textlarge{
+  font-size: 3em;
+  margin-bottom:1.5em;
+  }
+  .yellow{
+  background-color:yellow;
+  display:flex;
+  flex-direction:column;
+  max-width:50%;
+  margin:auto;
+  margin-top:1em;
+  }
   @media (max-width: 768px) {
     .menuSection {
       grid-template-columns: 1fr;
@@ -687,7 +699,7 @@ const Menu = () => {
                 alt="Love Salmon Set"
               />
             </div>
-            <div className="menuTitle"><Icon icon="gf" /> Love Salmon Set</div>
+            <div className="menuTitle"><Icon icon="gf" /> Salmon Lover Set</div>
             <div className="menuOption menuOptionThree">
               <span className="optionDesc">
                 5 pcs sashimi, 4 pcs sushi, salmon roll, salmon hand roll,
@@ -1747,9 +1759,10 @@ const Menu = () => {
           <h3>Roll Set Lunch</h3>
           <p>Served with miso soup and salad</p>
           <p>&nbsp;</p>
-          <p>
+          <p className="textlarge">
             <strong>Any 2 rolls of your choice for $3 off </strong><br />
-            *Including Basic rolls, Veggie rolls, Signature rolls 
+            *Including Basic rolls, Veggie rolls, Signature rolls <br/>
+            <span className="yellow">New</span>
           </p>
           {/* <div className="menuItem">
             <div className="menuImage">
@@ -1828,7 +1841,7 @@ const Menu = () => {
           </div> */}
 
           {/* ––––––– UDON   ––––––––– */}
-          <h3>UDON</h3>
+          {/* <h3>UDON</h3>
           <p>Served with salad</p>
           <div className="menuItem">
             <div className="menuImage">
@@ -1865,7 +1878,7 @@ const Menu = () => {
               <span className="optionQuant">Beef Udon</span>
               <span className="optionPrice">$17</span>
             </div>
-          </div>
+          </div> */}
 
           {/* ––––––– Bento  ––––––––– */}
           <h3>Tomo Lunch</h3>

@@ -3211,7 +3211,7 @@ const Menu = () => {
               <span className="optionPrice">$19</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/noodle/Yakisoba.jpg"
@@ -3230,7 +3230,7 @@ const Menu = () => {
               <span className="optionQuant">shrimp</span>
               <span className="optionPrice">$20</span>
             </div>
-          </div>
+          </div> */}
 
           <div className="menuItem">
             <div className="menuImage">

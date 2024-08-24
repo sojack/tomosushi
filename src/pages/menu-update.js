@@ -1264,7 +1264,7 @@ const Menu = () => {
                 alt="L.A. Kalbi"
               />
             </div>
-            <div className="menuTitle">Kalbi Lunch</div>
+            <div className="menuTitle">Kalbi Appetizer</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs grilled beef short ribs marinated in Tomo special sauce </span>
               <span className="optionPrice">$21</span>
@@ -1320,7 +1320,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/soup/001-MisoSoup.jpg"
+                src="../images/menu/soup/001-MisoSoup-r1.jpg"
                 alt="Miso Soup"
               />
             </div>
@@ -2069,7 +2069,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/lunchCombo/005-SashimiComboLunch.jpg"
+                src="../images/menu/lunchCombo/005-SashimiComboLunch-r1.jpg"
                 alt="Sashimi Combo"
               />
             </div>
@@ -3756,15 +3756,6 @@ const Menu = () => {
               <span className="description">The fattiest bluefin tuna</span>
             </li>
             <li>
-              <span className="item-title">Hon maguro</span>
-              <span className="price">
-                <em>sushi</em> $14
-                <br />
-                <em>sashimi</em> $17
-              </span>
-              <span className="description">bluefin tuna</span>
-            </li>
-            <li>
               <span className="item-title">Chutoro</span>
               <span className="price">
                 <em>sushi</em> $16
@@ -3772,6 +3763,15 @@ const Menu = () => {
                 <em>sashimi</em> $20
               </span>
               <span className="description">medium fatty blue fin tuna</span>
+            </li>
+            <li>
+              <span className="item-title">Hon maguro</span>
+              <span className="price">
+                <em>sushi</em> $14
+                <br />
+                <em>sashimi</em> $17
+              </span>
+              <span className="description">bluefin tuna</span>
             </li>
             <li>
               <span className="item-title">Maguro</span>
@@ -4110,9 +4110,9 @@ const Menu = () => {
             </li> */}
           </ul>
 
-          <h3>Plum Wine</h3>
+          {/* <h3>Plum Wine</h3>
           <ul className="menu drinks">
-            {/* <li className="drink-01">
+            <li className="drink-01">
               <span>Gekkeikan</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
               <span>10</span>
@@ -4120,7 +4120,7 @@ const Menu = () => {
               <span>25</span>
               <span className="xsmall">Bottle</span>
               <span>40</span>
-            </li> */}
+            </li>
             <li className="drink-01">
               <span>Takara</span>
               <span className="xsmall">5oz.&nbsp;Glass</span>
@@ -4130,7 +4130,7 @@ const Menu = () => {
               <span className="xsmall">Bottle</span>
               <span>50</span>
             </li>
-          </ul>
+          </ul> */}
 
           <h3>Beer</h3>
           <ul className="menu drinks">
@@ -4206,12 +4206,12 @@ const Menu = () => {
               <span className="xsmall">300 ml bottle</span>
               <span>37</span>
             </li> */}
-            <li className="drink-03">
+            {/* <li className="drink-03">
               <span>Tamanohikari</span>
               <span>Junmai Dai Ginjo</span>
               <span className="xsmall">300 ml bottle</span>
               <span>50</span>
-            </li>
+            </li> */}
             {/* <li className="drink-03">
               <span>Otokoyama</span>
               <span>Tokubetsu Junmai</span>

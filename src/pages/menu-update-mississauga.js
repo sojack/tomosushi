@@ -143,6 +143,18 @@ const MenuContainer = styled.div`
     grid-row: 1/2;
     text-transform: capitalize;
   }
+  .textlarge{
+  font-size: 3em;
+  margin-bottom:1.5em;
+  }
+  .yellow{
+  background-color:yellow;
+  display:flex;
+  flex-direction:column;
+  max-width:50%;
+  margin:auto;
+  margin-top:1em;
+  }
   @media (max-width: 768px) {
     .menuSection {
       grid-template-columns: 1fr;

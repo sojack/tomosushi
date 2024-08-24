@@ -501,13 +501,13 @@ const Menu = () => {
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Small</span>
               <span className="optionDesc">15 pcs</span>
-              <span className="optionQuant">42 pcs</span>
+              <span className="optionQuant"></span>
               <span className="optionPrice">$90</span>
             </div>
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Large</span>
               <span className="optionDesc">28 pcs</span>
-              <span className="optionQuant">82 pcs</span>
+              <span className="optionQuant"></span>
               <span className="optionPrice">$168</span>
             </div>
           </div>
@@ -3711,7 +3711,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/combo/Sashimi-combo-dinner-new.jpg"
+                src="../images/menu/combo/Sashimi-combo-dinner-r1.jpg"
                 alt="Sashimi Combo"
               />
             </div>
@@ -3870,7 +3870,7 @@ const Menu = () => {
                 <br />
                 <em>sashimi</em> $17
               </span>
-              <span className="description">flying fish roe</span>
+              <span className="description">Striped Jack</span>
             </li>
             {/* <li>
               <span className="item-title">Shime saba</span>
@@ -4224,6 +4224,26 @@ const Menu = () => {
               <span className="xsmall">375 ml bottle</span>
               <span>22 </span>
             </li>
+
+            <li className="drink-03">
+              <span>Mio</span>
+              <span>Sparkling sake (5%)</span>
+              <span className="xsmall">300 ml </span>
+              <span>23 </span>
+            </li>
+            <li className="drink-03">
+              <span>Kubota Senju </span>
+              <span>(1000 Long Lives) 15.5%</span>
+              <span className="xsmall">300 ml </span>
+              <span>25 </span>
+            </li>
+            <li className="drink-03">
+              <span>Kamikokoro Momo </span>
+              <span>(Peach sake) 8%</span>
+              <span className="xsmall">5 oz<br />500 ml</span>
+              <span>22<br/>40 </span>
+            </li>
+
           </ul>
           <h3>Hot Sake</h3>
           <ul className="menu drinks">

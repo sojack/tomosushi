@@ -308,7 +308,7 @@ const MenuMg = () => {
 
   return (
     <Layout>
-      <Seo title="working Miss Update" />
+      <Seo title="Menu - Mississauga" />
       <TomoMenu>
         <ul>
           <li>

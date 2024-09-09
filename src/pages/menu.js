@@ -309,7 +309,7 @@ const Menu = () => {
 
   return (
     <Layout>
-      <Seo title="menu" />
+      <Seo title="Menu - Richmond Hill" />
       <TomoMenu>
         <ul>
           <li>

@@ -4266,7 +4266,7 @@ const MenuMg = () => {
               <span>Kamikokoro Momo </span>
               <span>(Peach sake) 8%</span>
               <span className="xsmall">5 oz<br />500 ml</span>
-              <span>22<br/>40 </span>
+              <span>14<br/>40 </span>
             </li>
 
           </ul>

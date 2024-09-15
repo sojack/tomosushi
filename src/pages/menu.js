@@ -1245,11 +1245,11 @@ const Menu = () => {
               <span className="optionDesc">Selection of meats topped with teriyaki sauce </span>
               <span></span>
               <span className="optionPrice">Chicken</span>
-              <span className="optionPrice">$14</span>
+              <span className="optionPrice">$15</span>
               <span className="optionPrice">Salmon</span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
               <span className="optionPrice">Beef</span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$19</span>
 
             </div>
           </div>
@@ -3107,7 +3107,7 @@ const Menu = () => {
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 (No Rice) 8 pcs Rice paper roll with spicy tuna, unagi, avocado,
-                cucumber, masago, radish
+                cucumber, tobiko, radish
               </span>
               <span className="optionPrice">$17</span>
             </div>

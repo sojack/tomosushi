@@ -1314,8 +1314,8 @@ const MenuMg = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
-                alt="Hamachi Kama"
+                src="../images/menu/SabaShioyaki.jpg"
+                alt="Saba Shio Yaki"
               />
             </div>
             <div className="menuTitle"><Icon icon="gf" /> Saba Shio Yaki</div>

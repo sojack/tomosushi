@@ -647,7 +647,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/Combo/Torched-combo.jpg"
+                src="../images/menu/combo/Torched-combo.jpg"
                 alt="Moments Set"
               />
             </div>
@@ -662,7 +662,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/Combo/Signature-combo.jpg"
+                src="../images/menu/combo/Signature-combo.jpg"
                 alt="Moments Set"
               />
             </div>

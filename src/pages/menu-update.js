@@ -309,7 +309,7 @@ const Menu = () => {
 
   return (
     <Layout>
-      <Seo title="menu" />
+      <Seo title="Menu - Richmond Hill" />
       <TomoMenu>
         <ul>
           <li>
@@ -644,6 +644,37 @@ const Menu = () => {
           <h2 className="sectionTitle" id="rollCombo">
             Roll Combination
           </h2>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/Combo/Torched-combo.jpg"
+                alt="Moments Set"
+              />
+            </div>
+            <div className="menuTitle">Torched Combo</div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+              Holy Moly, Richmond Hill, White Dragon 
+              </span>
+              <span className="optionPrice">$49</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/Combo/Signature-combo.jpg"
+                alt="Moments Set"
+              />
+            </div>
+            <div className="menuTitle">Signature Combo</div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+              Mega Crunch, Dumb & Dumber, Russian Roulette, Red Dragon, Kamikaze
+              </span>
+              <span className="optionPrice">$78</span>
+            </div>
+          </div>
+
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -1245,11 +1276,11 @@ const Menu = () => {
               <span className="optionDesc">Selection of meats topped with teriyaki sauce </span>
               <span></span>
               <span className="optionPrice">Chicken</span>
-              <span className="optionPrice">$14</span>
+              <span className="optionPrice">$15</span>
               <span className="optionPrice">Salmon</span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
               <span className="optionPrice">Beef</span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$19</span>
 
             </div>
           </div>
@@ -3107,7 +3138,7 @@ const Menu = () => {
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
                 (No Rice) 8 pcs Rice paper roll with spicy tuna, unagi, avocado,
-                cucumber, masago, radish
+                cucumber, tobiko, radish
               </span>
               <span className="optionPrice">$17</span>
             </div>
@@ -4254,7 +4285,7 @@ const Menu = () => {
               <span>Kamikokoro Momo </span>
               <span>(Peach sake) 8%</span>
               <span className="xsmall">5 oz<br />500 ml</span>
-              <span>22<br/>40 </span>
+              <span>14<br/>40 </span>
             </li>
 
           </ul>

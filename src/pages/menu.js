@@ -647,6 +647,37 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
+                src="../images/menu/combo/Torched-combo.jpg"
+                alt="Moments Set"
+              />
+            </div>
+            <div className="menuTitle">Torched Combo</div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+              Holy Moly, Richmond Hill, White Dragon 
+              </span>
+              <span className="optionPrice">$49</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/combo/Signature-combo.jpg"
+                alt="Moments Set"
+              />
+            </div>
+            <div className="menuTitle">Signature Combo</div>
+            <div className="menuOption menuOptionThree">
+              <span className="optionDesc">
+              Mega Crunch, Dumb & Dumber, Russian Roulette, Red Dragon, Kamikaze
+              </span>
+              <span className="optionPrice">$78</span>
+            </div>
+          </div>
+
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
                 src="../images/menu/rCombo/MomentSet.jpg"
                 alt="Moments Set"
               />

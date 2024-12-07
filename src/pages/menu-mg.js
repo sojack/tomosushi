@@ -6,6 +6,9 @@ import styled from "styled-components";
 import Icon from "../components/icon";
 
 const MenuContainer = styled.div`
+  .promo{
+    margin: 3em;
+  }
   .menuSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -474,6 +477,14 @@ const MenuMg = () => {
             </li>
           </ul>
         </FlyingMenuContainer>
+
+        <StaticImage
+                className="promo"
+                src="../images/NewItem-banner-1.jpg"
+                alt="New Items"
+              />
+
+
         {/* –––––––––––––––– Party Tray –––––––––––––––– */}
         <div className="menuSection">
           <h2 className="sectionTitle" id="partyTray">

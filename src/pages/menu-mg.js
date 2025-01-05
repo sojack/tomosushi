@@ -2692,7 +2692,7 @@ const MenuMg = () => {
               Torch-seared salmon, scallop on California roll topped with spicy mayo, scallion, tobiko 
 
               </span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -2722,7 +2722,7 @@ const MenuMg = () => {
               <span className="optionDesc">
               Torch-seared albacore tuna, butter fish on crab salad, cucumber roll topped with spicy mayo, scallion, tobiko 
               </span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>  
 

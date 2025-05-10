@@ -6,6 +6,9 @@ import styled from "styled-components";
 import Icon from "../components/icon";
 
 const MenuContainer = styled.div`
+  .promo{
+    margin: 3em;
+  }
   .menuSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -338,6 +341,7 @@ const Menu = () => {
         </ul>
       </TomoMenu>
       <MenuNav id="top">
+        <p>update May 10</p>
         <ul>
           <li>
             <a href="#partyTray">TRAY</a>
@@ -474,6 +478,12 @@ const Menu = () => {
             </li>
           </ul>
         </FlyingMenuContainer>
+        <StaticImage
+                className="promo"
+                src="../images/NewItem-banner-1.jpg"
+                alt="New Items"
+              />
+
         {/* –––––––––––––––– Party Tray –––––––––––––––– */}
         <div className="menuSection">
           <h2 className="sectionTitle" id="partyTray">
@@ -2669,7 +2679,7 @@ const Menu = () => {
               Torch-seared salmon, scallop on California roll topped with spicy mayo, scallion, tobiko 
 
               </span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -2699,7 +2709,7 @@ const Menu = () => {
               <span className="optionDesc">
               Torch-seared albacore tuna, butter fish on crab salad, cucumber roll topped with spicy mayo, scallion, tobiko 
               </span>
-              <span className="optionPrice">$16</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>  
 

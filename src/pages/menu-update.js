@@ -346,7 +346,7 @@ const Menu = () => {
         </ul>
       </TomoMenu>
       <MenuNav id="top">
-        <p>update May 10</p>
+        <p>update May 11</p>
         <ul>
           <li>
             <a href="#partyTray">TRAY</a>
@@ -1824,7 +1824,7 @@ const Menu = () => {
             <div className="menuTitle">Sashimi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">15 pcs assorted raw fish</span>
-              <span className="optionPrice">$21</span>
+              <span className="optionPrice">$23</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1839,7 +1839,7 @@ const Menu = () => {
               <span className="optionDesc">
                 15 pcs assorted raw fish on sushi rice
               </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$24</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -1869,7 +1869,7 @@ const Menu = () => {
               <span className="optionDesc">
               8 pcs assorted nigiri sushi, 6 pcs California roll 
               </span>
-              <span className="optionPrice">$20</span>
+              <span className="optionPrice">$21</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1884,7 +1884,7 @@ const Menu = () => {
               <span className="optionDesc">
               10 pcs assorted nigiri sushi, 8 pcs shrimp kappa roll 
               </span>
-              <span className="optionPrice">$25</span>
+              <span className="optionPrice">$26</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1897,7 +1897,7 @@ const Menu = () => {
             <div className="menuTitle">Sashimi &amp; Sushi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">8 pcs assorted raw fish, 6 pcs assorted nigiri sushi </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$23</span>
             </div>
           </div>
           
@@ -1913,7 +1913,7 @@ const Menu = () => {
               <span className="optionDesc">
               9 pcs salmon nigiri sushi, 6 pcs salmon roll
               </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$23</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1930,7 +1930,7 @@ const Menu = () => {
               <span className="optionDesc">
               5 pcs salmon sashimi, 7 pcs salmon nigiri sushi, 6 pcs salmon roll 
               </span>
-              <span className="optionPrice">$25</span>
+              <span className="optionPrice">$26</span>
             </div>
           </div>
 
@@ -2096,7 +2096,7 @@ const Menu = () => {
               <span className="optionPrice">$19</span>
               <span></span>
               <span className="optionQuant">Beef </span>
-              <span className="optionPrice">$21</span>
+              <span className="optionPrice">$22</span>
             </div>
           </div>
 
@@ -2125,7 +2125,7 @@ const Menu = () => {
               <span className="optionDesc">
               Stir-fried, sliced ribeye beef marinated in Tomo special sauce 
               </span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$19</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2138,7 +2138,7 @@ const Menu = () => {
             <div className="menuTitle">Kal-Bi Lunch</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">6 pcs grilled beef short ribs marinated in Tomo special sauce</span>
-              <span className="optionPrice">$24</span>
+              <span className="optionPrice">$26</span>
             </div>
           </div>
 
@@ -2167,7 +2167,7 @@ const Menu = () => {
               <span className="optionDesc">
               2 pcs deep-fried shrimp, 5 pcs deep-fried assorted vegetables 
               </span>
-              <span className="optionPrice">$17</span>
+              <span className="optionPrice">$18</span>
             </div>
           </div>
 
@@ -2183,7 +2183,7 @@ const Menu = () => {
               <span className="optionDesc">
               Deep-fried, breaded chicken breast, katsu sauce 
               </span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$20</span>
             </div>
           </div>
 
@@ -2200,7 +2200,7 @@ const Menu = () => {
             <div className="menuTitle"><Icon icon="veg" />Tofu Teriyaki Combo</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-              Tofu teriyaki, 7 pcs assorted vegetable tempura, 6 pcs kappa roll 
+              Tofu teriyaki, 5 pcs assorted vegetable tempura, 6 pcs kappa roll 
               </span>
               <span className="optionPrice">$21</span>
             </div>
@@ -2226,7 +2226,7 @@ const Menu = () => {
               <span className="optionPrice">$26</span>
               <span></span>
               <span className="optionQuant">Beef</span>
-              <span className="optionPrice">$28</span>
+              <span className="optionPrice">$29</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2241,7 +2241,7 @@ const Menu = () => {
               <span className="optionDesc">
               Stir-fried, sliced ribeye beef marinated in Tomo special sauce <br />2 pcs shrimp tempura, 3 pcs assorted vegetable tempura, 5 pcs dynamite roll 
               </span>
-              <span className="optionPrice">$25</span>
+              <span className="optionPrice">$26</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2256,7 +2256,7 @@ const Menu = () => {
               <span className="optionDesc">
               6 pcs grilled beef short ribs marinated in Tomo special sauce <br />2 pcs shrimp tempura, 3 pcs assorted vegetable tempura, 5 pcs dynamite roll 
               </span>
-              <span className="optionPrice">$31</span>
+              <span className="optionPrice">$33</span>
             </div>
           </div>
          
@@ -2273,7 +2273,7 @@ const Menu = () => {
               5 pcs salmon sashimi, 4 pcs assorted nigiri sushi, 5 pcs dynamite roll <br/>
               2 pcs shrimp tempura, 3 pcs assorted vegetable tempura 
               </span>
-              <span className="optionPrice">$28</span>
+              <span className="optionPrice">$29</span>
             </div>
           </div>
           {/* <div className="menuItem">

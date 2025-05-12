@@ -1180,8 +1180,8 @@ const MenuMg = () => {
               <span className="optionPrice">$15</span>
               <span className="optionPrice">Tuna</span>
               <span className="optionPrice">$19</span>
-              <span className="optionPrice">Bluefin tuna</span>
-              <span className="optionPrice">$25</span>
+              {/* <span className="optionPrice">Bluefin tuna</span>
+              <span className="optionPrice">$25</span> */}
             </div>
           </div>
           {/* <div className="menuItem">
@@ -1477,7 +1477,7 @@ const MenuMg = () => {
               <span className="optionPrice">$11</span>
             </div>
           </div> */}
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/app/016-HamachiKama.jpg"
@@ -1489,7 +1489,35 @@ const MenuMg = () => {
               <span className="optionDesc">Oven-baked hamachi (yellow tail) neck </span>
               <span className="optionPrice">$18</span>
             </div>
+          </div> */}
+
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/SabaShioyaki.jpg"
+                alt="Saba Shio Yaki"
+              />
+            </div>
+            <div className="menuTitle"><Icon icon="gf" /> Saba Shio Yaki</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Grilled mackerel </span>
+              <span className="optionPrice">$14</span>
+            </div>
           </div>
+
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/app/016-HamachiKama.jpg"
+                alt="Salmon Kama"
+              />
+            </div>
+            <div className="menuTitle"><Icon icon="gf" /> Salmon Kama</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Oven-baked salmon fish neck</span>
+            </div>
+          </div>
+
         </div>
         {/* –––––––––––––––– Soup –––––––––––––––– */}
         <div className="menuSection">
@@ -1509,7 +1537,7 @@ const MenuMg = () => {
               <span className="optionPrice">$3</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/soup/008-CrunchNoodle.jpg"
@@ -1521,7 +1549,7 @@ const MenuMg = () => {
               <span className="optionDesc">Crunch noodle soup (medium) * Dine in only</span>
               <span className="optionPrice">$3</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -1717,10 +1745,7 @@ const MenuMg = () => {
           <h2 className="sectionTitle" id="lunch">
             Lunch Menu
           </h2>
-          <p>Not available on holidays<br />
-            Weekday: 11:30 am to 3 pm
-            <br />
-            Weekend: 12 pm to 3 pm
+          <p>11:30 am to 3 pm
           </p>
           {/* <h3>Donburi Lunch</h3> 
             <div className="menuItem">
@@ -3439,7 +3464,7 @@ const MenuMg = () => {
           <h2 className="sectionTitle" id="noodle">
             Noodle
           </h2>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/noodle/HouseCrunchNoodleSoup.jpg"
@@ -3451,7 +3476,7 @@ const MenuMg = () => {
               <span className="optionDesc">(Take-Out Only)</span>
               <span className="optionPrice">$10</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -3491,6 +3516,21 @@ const MenuMg = () => {
               <span className="optionPrice">$20</span>
             </div>
           </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/noodle/SpicySeafoodUdon.jpg"
+                alt="Spicy Seafood Udon"
+              />
+            </div>
+            <div className="menuTitle">Spicy Seafood Udon</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">Spicy seafood noodle soup</span>
+              <span className="optionPrice">$21</span>
+            </div>
+          </div>
+
+
           {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -4092,7 +4132,7 @@ const MenuMg = () => {
               </span>
               <span className="description">The fattiest bluefin tuna</span>
             </li>
-            <li>
+            {/* <li>
               <span className="item-title">Chutoro</span>
               <span className="price">
                 <em>sushi</em> $20
@@ -4109,7 +4149,7 @@ const MenuMg = () => {
                 <em>sashimi</em> $20
               </span>
               <span className="description">bluefin tuna</span>
-            </li>
+            </li> */}
             <li>
               <span className="item-title">Maguro</span>
               <span className="price">

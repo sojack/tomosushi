@@ -1193,8 +1193,8 @@ const Menu = () => {
               <span className="optionPrice">$15</span>
               <span className="optionPrice">Tuna</span>
               <span className="optionPrice">$19</span>
-              <span className="optionPrice">Bluefin tuna</span>
-              <span className="optionPrice">$25</span>
+              {/* <span className="optionPrice">Bluefin tuna</span>
+              <span className="optionPrice">$25</span> */}
             </div>
           </div>
           {/* <div className="menuItem">

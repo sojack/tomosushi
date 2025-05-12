@@ -346,7 +346,6 @@ const Menu = () => {
         </ul>
       </TomoMenu>
       <MenuNav id="top">
-        <p>update May 11</p>
         <ul>
           <li>
             <a href="#partyTray">TRAY</a>
@@ -2060,6 +2059,49 @@ const Menu = () => {
               <span className="optionPrice">$17</span>
             </div>
           </div> */}
+
+           {/* ––––––– Bento  ––––––––– */}
+           <h3>Udon Set Lunch</h3>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/tomo-placeholder.jpg"
+                alt="asdf"
+              />
+            </div>
+            <div className="menuTitle"><Icon icon="veg" />Vegetable Udon with Mini dynamite (5pcs)</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc"> </span>
+              <span className="optionPrice">$18</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/tomo-placeholder.jpg"
+                alt="asdf"
+              />
+            </div>
+            <div className="menuTitle"><Icon icon="veg" />Vegetable Udon with Tempura</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc"> 2 pcs shrimp, yam, squash, broccoli</span>
+              <span className="optionPrice">$20</span>
+            </div>
+          </div>
+          <div className="menuItem">
+            <div className="menuImage">
+              <StaticImage
+                src="../images/menu/tomo-placeholder.jpg"
+                alt="asdf"
+              />
+            </div>
+            <div className="menuTitle"><Icon icon="veg" />Vegetable Udon with Chirashi</div>
+            <div className="menuOption menuOptionTwo">
+              <span className="optionDesc">5pcs salmon Sashimi on Sushi Rice </span>
+              <span className="optionPrice">$22</span>
+            </div>
+          </div>
+
 
           {/* ––––––– Bento  ––––––––– */}
           <h3>Tomo Lunch</h3>

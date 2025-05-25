@@ -616,7 +616,7 @@ const Menu = () => {
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Medium</span>
               <span className="optionDesc">36 pcs assorted nigiri sushi, 28 pcs roll (Red dragon, spicy salmon, rocky, spicy tuna roll) </span>
-              <span className="optionQuant">642 pcs</span>
+              <span className="optionQuant">42 pcs</span>
               <span className="optionPrice">$100</span>
             </div>
             <div className="menuOption menuOptionFour">

@@ -36,6 +36,8 @@ const MenuContainer = styled.div`
     border-radius: 1rem;
     box-shadow: 2px 2px 5px gray;
     overflow: hidden;
+    font-size: 1.6rem;
+
   }
   .menuOption {
     display: grid;
@@ -56,7 +58,7 @@ const MenuContainer = styled.div`
   }
   .menuTitle {
     font-family: var(--titleFont);
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-align: center;
   }
   .optionSize {
@@ -616,7 +618,7 @@ const Menu = () => {
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Medium</span>
               <span className="optionDesc">36 pcs assorted nigiri sushi, 28 pcs roll (Red dragon, spicy salmon, rocky, spicy tuna roll) </span>
-              <span className="optionQuant">642 pcs</span>
+              <span className="optionQuant">42 pcs</span>
               <span className="optionPrice">$100</span>
             </div>
             <div className="menuOption menuOptionFour">
@@ -950,7 +952,7 @@ const Menu = () => {
             <div className="menuTitle"><Icon icon="veg" />Edamame</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Boiled, lightly salted Japanese soy beans</span>
-              <span className="optionPrice">$6</span>
+              <span className="optionPrice">$8</span>
             </div>
           </div>
           <div className="menuItem">
@@ -963,7 +965,7 @@ const Menu = () => {
             <div className="menuTitle"><Icon icon="veg" />Gyoza</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                6 pcs Deep-fried vegetable or beef dumpling
+                6 pcs Deep-fried vegetable dumpling
               </span>
               <span className="optionPrice">$8</span>
             </div>
@@ -1168,9 +1170,9 @@ const Menu = () => {
               <span className="optionPrice">Salmon</span>
               <span className="optionPrice">$15</span>
               <span className="optionPrice">Tuna</span>
-              <span className="optionPrice">$16</span>
-              <span className="optionPrice">Rainbow (Assorted fish)</span>
               <span className="optionPrice">$17</span>
+              <span className="optionPrice">Rainbow (Assorted fish)</span>
+              <span className="optionPrice">$16</span>
               {/* <span className="optionPrice">Bluefin tuna</span>
               <span className="optionPrice">$20</span> */}
 
@@ -2072,7 +2074,7 @@ const Menu = () => {
             <div className="menuTitle"><Icon icon="veg" />Vegetable Udon with Mini dynamite (5pcs)</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc"> </span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$18 <br /> chicken +$3<br /> beef +$4</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2085,7 +2087,7 @@ const Menu = () => {
             <div className="menuTitle"><Icon icon="veg" />Vegetable Udon with Tempura</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc"> 2 pcs shrimp, yam, squash, broccoli</span>
-              <span className="optionPrice">$20</span>
+              <span className="optionPrice">$20<br /> chicken +$3<br /> beef +$4</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2098,7 +2100,7 @@ const Menu = () => {
             <div className="menuTitle"><Icon icon="veg" />Vegetable Udon with Chirashi</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">5pcs salmon Sashimi on Sushi Rice </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$22<br /> chicken +$3<br /> beef +$4</span>
             </div>
           </div>
 

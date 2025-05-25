@@ -913,7 +913,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/tofu-zen.jpg"
                 alt="Tofu Zen"
               />
             </div>
@@ -1295,7 +1295,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/dragon.jpg"
                 alt="Dragon Ball"
               />
             </div>
@@ -1310,7 +1310,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/tempura-omakase.jpg"
                 alt="Tomo Tempura Omakase"
               />
             </div>
@@ -2669,7 +2669,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/zen-roll.jpg"
                 alt="Zen Roll"
               />
             </div>
@@ -2702,7 +2702,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/yam-osinko-avo-roll.jpg"
                 alt="Yam + Oshinko + Avocado Roll"
               />
             </div>
@@ -2865,7 +2865,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/apt.jpg"
                 alt="APT Roll "
               />
             </div>
@@ -2948,7 +2948,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/salmontikka.jpg"
                 alt="Salmon Tikka Roll"
               />
             </div>
@@ -3330,7 +3330,7 @@ const Menu = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/rollCont/001-Spicybeefroll.jpg"
+                src="../images/menu/new/beef-tikka.jpg"
                 alt="Beef Tikka Roll"
               />
             </div>

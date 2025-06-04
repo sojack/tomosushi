@@ -610,7 +610,7 @@ const MenuMg = () => {
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Medium</span>
               <span className="optionDesc">36 pcs assorted nigiri sushi, 28 pcs roll (Red dragon, spicy salmon, rocky, spicy tuna roll) </span>
-              <span className="optionQuant">42 pcs</span>
+              <span className="optionQuant">64 pcs</span>
               <span className="optionPrice">$100</span>
             </div>
             <div className="menuOption menuOptionFour">
@@ -679,13 +679,13 @@ const MenuMg = () => {
               <span className="optionDesc">
               8 pcs Shrimp kappa roll topped with rosé sauce, black tiger shrimp, garlic chips, green onion, spicy mayo, unagi sauce, basil powder.
               </span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/tomo-placeholder.jpg"
+                src="../images/menu/new/Forest-HILL.jpg"
                 alt="Forest hill"
               />
             </div>
@@ -762,7 +762,7 @@ const MenuMg = () => {
               <span className="optionDesc">
               8 pcs Shrimp kappa roll topped with special cream sauce, fully cooked salmon, garlic chips, dill, green onion, spicy mayo, unagi sauce
               </span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
 
@@ -1210,16 +1210,16 @@ const MenuMg = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/rollCont/BakeScalloproll.jpg"
+                src="../images/menu/new/baked-scallop.jpg"
                 alt="Baked Scallop Roll"
               />
             </div>
             <div className="menuTitle">Baked Scallop Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-              Special sauce with scallop, mushroom on California roll topped with spicy mayo, scallion, tobiko
+              Special sauce with scallop, mushroom on California roll topped with spicy mayo, scallion, tobiko, garlic chip
               </span>
-              <span className="optionPrice">$15</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -1571,16 +1571,17 @@ const MenuMg = () => {
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
-                src="../images/menu/rollBasic/001-Crabsaladroll.jpg"
+                src="../images/menu/new/crunch-spicy-crab.jpg"
                 alt="Crab Salad Roll"
               />
             </div>
-            <div className="menuTitle">Crab Salad Roll</div>
+            <div className="menuTitle">Crunch Crab Salad Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-                (6 pcs) Crab meat, mayo, tempura bits
+                (8 pcs) crab meat, spicy mayo, scallion, tempura bits coated roll
+
               </span>
-              <span className="optionPrice">$8</span>
+              <span className="optionPrice">$10</span>
             </div>
           </div>
           <div className="menuItem">

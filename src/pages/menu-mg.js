@@ -157,6 +157,13 @@ const MenuContainer = styled.div`
   margin-top:1em;
   }
   @media (max-width: 768px) {
+    .optionQuant {
+      margin: 0 5px;
+    }
+    .optionSize {
+    margin-right: 5px;
+    }
+
     .menuSection {
       grid-template-columns: 1fr;
     }

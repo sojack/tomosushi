@@ -166,6 +166,15 @@ const MenuContainer = styled.div`
   margin-top:1em;
   }
   @media (max-width: 768px) {
+    .menuItem {
+      font-size: 1rem;
+    }
+    .optionQuant {
+      margin: 0 5px;
+    }
+    .optionSize {
+    margin-right: 5px;
+    }
     .menuSection {
       grid-template-columns: 1fr;
     }
@@ -620,19 +629,19 @@ const Menu = () => {
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Small</span>
               <span className="optionDesc">22 pcs assorted nigiri sushi, 22 pcs roll (Red dragon, spicy salmon, rocky roll) </span>
-              <span className="optionQuant">44 pcs</span>
+              <span className="optionQuant pcs">44 pcs</span>
               <span className="optionPrice">$70</span>
             </div>
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Medium</span>
               <span className="optionDesc">36 pcs assorted nigiri sushi, 28 pcs roll (Red dragon, spicy salmon, rocky, spicy tuna roll) </span>
-              <span className="optionQuant">64 pcs</span>
+              <span className="optionQuant pcs">64 pcs</span>
               <span className="optionPrice">$100</span>
             </div>
             <div className="menuOption menuOptionFour">
               <span className="optionSize">Large</span>
               <span className="optionDesc">50 pcs assorted nigiri sushi, 34 pcs roll (Red Dragon, spicy salmon, rocky, spicy tuna, salmon Avocado roll)</span>
-              <span className="optionQuant">84 pcs</span>
+              <span className="optionQuant pcs">84 pcs</span>
               <span className="optionPrice">$131</span>
             </div>
           </div>
@@ -650,7 +659,7 @@ const Menu = () => {
               <span className="optionDesc">
               16 pcs assorted sashimi, 12 pcs assorted nigiri sushi, 14 pcs roll (Red dragon, spicy salmon roll)
               </span>
-              <span className="optionQuant">42 pcs</span>
+              <span className="optionQuant pcs">42 pcs</span>
               <span className="optionPrice">$67</span>
             </div>
             <div className="menuOption menuOptionFour">
@@ -658,7 +667,7 @@ const Menu = () => {
               <span className="optionDesc">
               32 pcs assorted sashimi, 20 pcs assorted nigiri sushi, 22 pcs roll (Red dragon, spicy salmon, rocky roll)
               </span>
-              <span className="optionQuant">74 pcs</span>
+              <span className="optionQuant pcs">74 pcs</span>
               <span className="optionPrice">$114</span>
             </div>
             <div className="menuOption menuOptionFour">
@@ -666,7 +675,7 @@ const Menu = () => {
               <span className="optionDesc">
               42 pcs assorted sashimi, 24 pcs assorted nigiri sushi, 28 pcs roll (Red dragon, spicy salmon, rocky, spicy tuna roll)
               </span>
-              <span className="optionQuant">94 pcs</span>
+              <span className="optionQuant pcs">94 pcs</span>
               <span className="optionPrice">$141</span>
             </div>
           </div>

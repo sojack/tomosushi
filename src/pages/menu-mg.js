@@ -307,6 +307,16 @@ const TopButton = styled.div`
   z-index: 100;
   cursor: pointer;
 `;
+const Notice = styled.div`
+padding:1em;
+display:flex;
+flex-direction:row;
+.icon{
+  width:150px;
+  height:auto;}
+p{padding-left:1em;
+`;
+
 const MenuMg = () => {
   const [menuState, setMenuState] = useState(false);
 
@@ -344,7 +354,17 @@ const MenuMg = () => {
           </li>
         </ul>
       </TomoMenu>
-
+      <Notice>
+        <StaticImage
+          className="icon"
+          objectFit="contain"
+          src="../images/Halal_logo.png"
+          alt="Halal Certified"
+        />
+        <p><strong>All the chicken served at Tomo Sushi is halal, and almost all of our beef menu items are halal as well.</strong> Exception: Kalbi (Short Ribs) is not halal.<br/>
+        Our unagi sauce contains a very small amount of alcohol. If you follow a halal diet and would prefer to avoid it, please let us know so we can remove the sauce for you.
+Also, please rest assured that our sushi rice is made with <strong>non-alcohol mirin</strong>, so it is completely safe for you to enjoy.</p>
+      </Notice>
       <MenuNav id="top">
         <ul>
           <li>

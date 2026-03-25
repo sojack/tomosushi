@@ -742,7 +742,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               (6pcs) - Tuna, pickled radish, sesame oil, wasabi, scallion
 
               </span>
-              <span className="optionPrice">$13</span>
+              <span className="optionPrice">$12</span>
             </div>
           </div>
 
@@ -1216,7 +1216,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
               Special sauce with scallop, mushroom on California roll topped with spicy mayo, scallion, tobiko, garlic chip
               </span>
-              <span className="optionPrice">$18</span>
+              <span className="optionPrice">$17</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -1438,7 +1438,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle"><Icon icon="gf"/>Salmon Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">(6 pcs)</span>
-              <span className="optionPrice">$8</span>
+              <span className="optionPrice">$9</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1466,7 +1466,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle"><Icon icon="gf"/>Tuna Roll</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">(6 pcs)</span>
-              <span className="optionPrice">$9</span>
+              <span className="optionPrice">$10</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1524,7 +1524,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
                 (8 pcs) crab meat, spicy mayo, scallion, tempura bits coated roll
               </span>
-              <span className="optionPrice">$10</span>
+              <span className="optionPrice">$12</span>
             </div>
           </div>
           <div className="menuItem">
@@ -1696,7 +1696,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
                 6 pcs Deep-fried California roll with cream cheese, ebi
               </span>
-              <span className="optionPrice">$11</span>
+              <span className="optionPrice">$12</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -2031,9 +2031,9 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <li>
               <span className="item-title">Madai</span>
               <span className="price">
-                <em>sushi</em> $16
+                <em>sushi</em> $17
                 <br />
-                <em>sashimi</em> $19
+                <em>sashimi</em> $20
               </span>
               <span className="description">red sea-bream</span>
             </li>
@@ -2103,9 +2103,9 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <li>
               <span className="item-title">Hotategai</span>
               <span className="price">
-                <em>sushi</em> $11
+                <em>sushi</em> $12
                 <br />
-                <em>sashimi</em> $13
+                <em>sashimi</em> $14
               </span>
               <span className="description">scallop</span>
             </li>
@@ -2130,11 +2130,11 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <li>
               <span className="item-title">Ebi</span>
               <span className="price">
-                <em>sushi</em> $13
+                <em>sushi</em> $11
                 <br />
-                <em>sashimi</em> $15
+                <em>sashimi</em> $13
               </span>
-              <span className="description">boiled black tiger shrimp</span>
+              <span className="description">boiled shrimp</span>
             </li>
             <li>
               <span className="item-title">Ama ebi</span>
@@ -2207,7 +2207,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             Appetizers
           </h2>
 
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/new/tofu-zen.jpg"
@@ -2221,7 +2221,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               </span>
               <span className="optionPrice">$6</span>
             </div>
-          </div>
+          </div> */}
 
 
           <div className="menuItem">
@@ -2297,7 +2297,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
               6 pcs deep-fried octopus dumpling topped with mayo, unagi sauce
               </span>
-              <span className="optionPrice">$8</span>
+              <span className="optionPrice">$9</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -2557,7 +2557,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle">Shime Saba</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">7 pcs torch-seared mackerel dressed in special ponzu sauce </span>
-              <span className="optionPrice">$12</span>
+              <span className="optionPrice">$13</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -2589,7 +2589,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             </div>
           </div>
 
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/new/dragon.jpg"
@@ -2603,7 +2603,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               </span>
               <span className="optionPrice">$10</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -2676,7 +2676,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle">Fried Calamari</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">8 pcs deep-fried jumbo size calamari, tartar sauce</span>
-              <span className="optionPrice">$15</span>
+              <span className="optionPrice">$16</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2689,9 +2689,9 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle">Beef Enoki Mushroom</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">
-              6 pcs deep-fried enoki mushroom wrapped in ribeye beef topped with teriyaki sauce 
+              6 pcs deep-fried enoki mushroom wrapped in ribeye beef topped with teriyaki sauce
               </span>
-              <span className="optionPrice">$17</span>
+              <span className="optionPrice">$18</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2799,7 +2799,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle"><Icon icon="gf" />Hamachi Kama</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Oven-baked hamachi (yellow tail) neck </span>
-              <span className="optionPrice">$19</span>
+              <span className="optionPrice">$18</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2814,7 +2814,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
               A premium baked fish selection featuring Salmon Kama (collar), Hamachi Kama (yellowtail collar), and Saba Shioyaki (salt-seasoned mackerel)
               </span>
-              <span className="optionPrice">$41</span>
+              <span className="optionPrice">$42</span>
             </div>
           </div>
         </div>
@@ -2924,7 +2924,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             </div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">10 pcs assorted raw fish, 6 pcs assorted nigiri sushi </span>
-              <span className="optionPrice">$28</span>
+              <span className="optionPrice">$29</span>
             </div>
           </div>
           <div className="menuItem">
@@ -2939,7 +2939,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
               10 pcs Chef’s selection raw fish, 8 pcs Chef’s selection nigiri sushi
               </span>
-              <span className="optionPrice">$49</span>
+              <span className="optionPrice">$51</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3226,13 +3226,13 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               Selection of teriyaki, 5 pcs dynamite roll, 2 pcs shrimp tempura, 3 pcs assorted vegetable tempura
               </span>
               <span className="optionQuant">chicken</span>
-              <span className="optionPrice">$34</span>
+              <span className="optionPrice">$33</span>
               <span></span>
               <span className="optionQuant">salmon</span>
-              <span className="optionPrice">$36</span>
+              <span className="optionPrice">$35</span>
               <span></span>
               <span className="optionQuant">beef</span>
-              <span className="optionPrice">$40</span>
+              <span className="optionPrice">$39</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3248,10 +3248,10 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               Selection of meats, 5 pcs dynamite roll, 5 pcs shrimp & vegetable tempura
               </span>
               <span className="optionQuant">bul-go-gi</span>
-              <span className="optionPrice">$35</span>
+              <span className="optionPrice">$34</span>
               <span></span>
               <span className="optionQuant">kalbi</span>
-              <span className="optionPrice">$45</span>
+              <span className="optionPrice">$44</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3266,7 +3266,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
               6 pcs salmon sashimi, 5 pcs assorted nigiri sushi, 5 pcs dynamite roll, 5 pcs shrimp & vegetable tempura
               </span>
-              <span className="optionPrice">$41</span>
+              <span className="optionPrice">$40</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3281,7 +3281,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
                 (no miso, no rice) Udon noodle soup, 5 pcs assorted tempura, 5 pcs dynamite roll
               </span>
-              <span className="optionPrice">$28</span>
+              <span className="optionPrice">$27</span>
             </div>
           </div>
         </div>
@@ -3290,7 +3290,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
           <h2 className="sectionTitle" id="noodle">
             Noodle
           </h2>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/noodle/HouseCrunchNoodleSoup.jpg"
@@ -3302,7 +3302,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">(Take-Out Only)</span>
               <span className="optionPrice">$10</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -3342,7 +3342,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionPrice">$22</span>
             </div>
           </div>
-          {/* <div className="menuItem">
+          <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/noodle/SpicySeafoodUdon.jpg"
@@ -3352,9 +3352,9 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle">Spicy Seafood Udon</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Spicy seafood noodle soup</span>
-              <span className="optionPrice">$17</span>
+              <span className="optionPrice">$23</span>
             </div>
-          </div> */}
+          </div>
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -3380,7 +3380,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
               Udon noodle soup, 2 pcs shrimp and 3 pcs vegetable tempura
               </span>
-              <span className="optionPrice">$22</span>
+              <span className="optionPrice">$20</span>
             </div>
           </div>
           {/* <div className="menuItem">
@@ -3446,7 +3446,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionPrice">$3</span>
             </div>
           </div>
-          <div className="menuItem">
+          {/* <div className="menuItem">
             <div className="menuImage">
               <StaticImage
                 src="../images/menu/soup/008-CrunchNoodle.jpg"
@@ -3458,7 +3458,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">Crunch noodle soup (medium) * Dine in only</span>
               <span className="optionPrice">$3</span>
             </div>
-          </div>
+          </div> */}
           <div className="menuItem">
             <div className="menuImage">
               <StaticImage
@@ -3471,7 +3471,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
                 Vegetable dumpling soup with egg
               </span>
-              <span className="optionPrice">$6</span>
+              <span className="optionPrice">$7</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3486,7 +3486,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
                 Assorted mushroom, vegetable in miso base soup
               </span>
-              <span className="optionPrice">$8</span>
+              <span className="optionPrice">$9</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3572,7 +3572,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
             <div className="menuTitle"><Icon icon="veg" />Wakame Seaweed Salad</div>
             <div className="menuOption menuOptionTwo">
               <span className="optionDesc">Seasoned seaweed salad</span>
-              <span className="optionPrice">$7</span>
+              <span className="optionPrice">$8</span>
             </div>
           </div>
           <div className="menuItem">
@@ -3615,7 +3615,7 @@ Also, please rest assured that our sushi rice is made with <strong>non-alcohol m
               <span className="optionDesc">
               Crab meat, cucumber, mayo topped with tobiko
               </span>
-              <span className="optionPrice">$8</span>
+              <span className="optionPrice">$9</span>
             </div>
           </div>
           <div className="menuItem">
